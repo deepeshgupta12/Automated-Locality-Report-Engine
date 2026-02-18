@@ -1,0 +1,16 @@
+from __future__ import annotations
+
+import json
+from pathlib import Path
+from typing import Any, Dict
+
+
+def load_json(path: str) -> Dict[str, Any]:
+    p = Path(path)
+    if not p.exists():
+        raise FileNotFoundError(f"JSON file not found: {path}")
+    with p.open("r", encoding="utf-8") as f:
+        data = json.load(f)
+    if not isinstance(data, dict):
+        raise ValueError(f"Top-level JSON must be an object/dict. Got: {type(data)}")
+    return data

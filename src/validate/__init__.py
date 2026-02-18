@@ -1,0 +1,1 @@
+# locality-report-product/src/validate/__init__.py

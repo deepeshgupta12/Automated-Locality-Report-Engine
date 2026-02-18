@@ -1,0 +1,4883 @@
+{
+  "meta": {
+    "generated_at": "2026-02-18T11:07:18.613179Z",
+    "locality": "Malad East",
+    "city": "Mumbai",
+    "micromarket": "Mumbai Western Suburbs",
+    "version": "step1_merge_validate"
+  },
+  "assets": {
+    "polygon_thumbnail_url": "https://static.squareyards.com/localitymap-thumnail/malad-east-mumbai-v3.png"
+  },
+  "sources": {
+    "json1_locality": {
+      "localityOverviewData": {
+        "url": "/malad-east-in-mumbai-overview-892",
+        "dotcomLocalityId": 892,
+        "category": "SUB_LOCATION",
+        "totalprojects": 609,
+        "dotcomParentId": 271,
+        "beatsLocalityId": 65169,
+        "name": "Malad East",
+        "cityName": "Mumbai",
+        "dotcomCityId": 13,
+        "beatsCityId": 3,
+        "rank": 27,
+        "isMicroMarket": 0,
+        "dotcomLocalityDesc": null,
+        "dotcomLocationId": 271,
+        "dotcomLocationName": "Mumbai Western Suburbs",
+        "latitude": 19.181329,
+        "longitude": 72.862664,
+        "pincode": "400097",
+        "isProminent": 1,
+        "dotcomParentType": "Micromarket",
+        "uatesid": 0,
+        "liveesid": 835,
+        "totallistings": 5799,
+        "total": 6408,
+        "saleCount": 2496,
+        "rentCount": 3303,
+        "ratingReviewData": {
+          "AvgRating": 5,
+          "RatingCount": 3,
+          "ReviewCount": 3,
+          "RefferenceId": 65169
+        },
+        "beatsLocationId": 129,
+        "localityImages": [
+          {
+            "allimages": [],
+            "allvideos": [],
+            "category": "Locality",
+            "allvideoswiththumb": []
+          }
+        ],
+        "localityAttributes": [
+          {
+            "attributeId": 1556,
+            "attributeTypeId": 1,
+            "sequence": 1,
+            "attributeDesc": "Connectivity to Airport & railway network ",
+            "attributeType": "Positive"
+          },
+          {
+            "attributeId": 1557,
+            "attributeTypeId": 1,
+            "sequence": 2,
+            "attributeDesc": "Western Express Highway, Marve Road, SV Road and others ",
+            "attributeType": "Positive"
+          },
+          {
+            "attributeId": 1558,
+            "attributeTypeId": 1,
+            "sequence": 3,
+            "attributeDesc": "Good transport network ",
+            "attributeType": "Positive"
+          },
+          {
+            "attributeId": 1559,
+            "attributeTypeId": 1,
+            "sequence": 4,
+            "attributeDesc": "Decent social infrastructure ",
+            "attributeType": "Positive"
+          },
+          {
+            "attributeId": 1560,
+            "attributeTypeId": 1,
+            "sequence": 5,
+            "attributeDesc": "Multiple infra projects ",
+            "attributeType": "Positive"
+          },
+          {
+            "attributeId": 1561,
+            "attributeTypeId": 2,
+            "sequence": 1,
+            "attributeDesc": "Traffic congestion is still a problem in some stretches ",
+            "attributeType": "Negative"
+          },
+          {
+            "attributeId": 1562,
+            "attributeTypeId": 2,
+            "sequence": 2,
+            "attributeDesc": "Densely populated zone",
+            "attributeType": "Negative"
+          }
+        ],
+        "insightRates": {
+          "id": "65169",
+          "name": "Malad East",
+          "avgRate": 29400,
+          "rentalRate": 72,
+          "rentalDistribution": [
+            {
+              "unitType": "1 BHK",
+              "avgRate": "₹ 40 K"
+            },
+            {
+              "unitType": "2 BHK",
+              "avgRate": "₹ 66.3 K"
+            },
+            {
+              "unitType": "3 BHK",
+              "avgRate": "₹ 1 L"
+            },
+            {
+              "unitType": "4 BHK",
+              "avgRate": "₹ 1.7 L"
+            },
+            {
+              "unitType": "5 BHK",
+              "avgRate": "₹ 2.6 L"
+            },
+            {
+              "unitType": "Studio",
+              "avgRate": "₹ 24.1 K"
+            }
+          ]
+        },
+        "index_dttm": "2026-02-16T09:24:38.297Z",
+        "created_date": "2026-02-03T04:40:23.063Z",
+        "rent": {
+          "unitType": [
+            {
+              "doc_count": 1286,
+              "key": "2 BHK"
+            },
+            {
+              "doc_count": 1002,
+              "key": "1 BHK"
+            },
+            {
+              "doc_count": 577,
+              "key": "3 BHK"
+            },
+            {
+              "doc_count": 51,
+              "key": "4 BHK"
+            },
+            {
+              "doc_count": 19,
+              "key": "1 RK"
+            },
+            {
+              "doc_count": 18,
+              "key": "5 BHK"
+            }
+          ],
+          "avgPricePerSqFt": 98.77885783718105,
+          "propertyType": [
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "doc_count": 1285,
+                    "key": "2 BHK"
+                  },
+                  {
+                    "doc_count": 1002,
+                    "key": "1 BHK"
+                  },
+                  {
+                    "doc_count": 576,
+                    "key": "3 BHK"
+                  },
+                  {
+                    "doc_count": 50,
+                    "key": "4 BHK"
+                  },
+                  {
+                    "doc_count": 18,
+                    "key": "5 BHK"
+                  }
+                ]
+              },
+              "doc_count": 2994,
+              "key": "Apartment"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 203,
+              "key": "Office Space"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 76,
+              "key": "Pg"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 13,
+              "key": "Shop"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 6,
+              "key": "Warehouse"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "doc_count": 1,
+                    "key": "2 BHK"
+                  },
+                  {
+                    "doc_count": 1,
+                    "key": "3 BHK"
+                  }
+                ]
+              },
+              "doc_count": 3,
+              "key": "Builder Floor"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 2,
+              "key": "Co-working Space"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 2,
+              "key": "Showroom"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "doc_count": 1,
+                    "key": "4 BHK"
+                  }
+                ]
+              },
+              "doc_count": 1,
+              "key": "Villa"
+            }
+          ],
+          "count": 3303,
+          "microMarketListingCount": 0,
+          "available": 3303
+        },
+        "totalFocusProjects": 0,
+        "sale": {
+          "unitType": [
+            {
+              "doc_count": 1150,
+              "key": "2 BHK"
+            },
+            {
+              "doc_count": 545,
+              "key": "1 BHK"
+            },
+            {
+              "doc_count": 490,
+              "key": "3 BHK"
+            },
+            {
+              "doc_count": 94,
+              "key": "4 BHK"
+            },
+            {
+              "doc_count": 30,
+              "key": "5 BHK"
+            },
+            {
+              "doc_count": 9,
+              "key": "6 BHK"
+            },
+            {
+              "doc_count": 5,
+              "key": "1 RK"
+            }
+          ],
+          "avgPricePerSqFt": 28507.23993144816,
+          "propertyType": [
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "doc_count": 1005,
+                    "key": "2 BHK"
+                  },
+                  {
+                    "doc_count": 544,
+                    "key": "1 BHK"
+                  },
+                  {
+                    "doc_count": 490,
+                    "key": "3 BHK"
+                  },
+                  {
+                    "doc_count": 91,
+                    "key": "4 BHK"
+                  },
+                  {
+                    "doc_count": 27,
+                    "key": "5 BHK"
+                  },
+                  {
+                    "doc_count": 9,
+                    "key": "6 BHK"
+                  }
+                ]
+              },
+              "doc_count": 2216,
+              "key": "Apartment"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "doc_count": 145,
+                    "key": "2 BHK"
+                  },
+                  {
+                    "doc_count": 1,
+                    "key": "1 BHK"
+                  }
+                ]
+              },
+              "doc_count": 146,
+              "key": "Builder Floor"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 84,
+              "key": "Office Space"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 21,
+              "key": "Co-working Space"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 18,
+              "key": "Shop"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "doc_count": 3,
+                    "key": "5 BHK"
+                  }
+                ]
+              },
+              "doc_count": 4,
+              "key": "Penthouse"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "doc_count": 3,
+                    "key": "4 BHK"
+                  }
+                ]
+              },
+              "doc_count": 3,
+              "key": "Villa"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 2,
+              "key": "Showroom"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 1,
+              "key": "Plot"
+            }
+          ],
+          "count": 2496,
+          "microMarketListingCount": 0,
+          "available": 2496
+        },
+        "metrics": {
+          "sale": {
+            "supplyCount": 2492,
+            "visitCount": 138,
+            "rank": 7,
+            "enquiredCount": 45
+          },
+          "rent": {
+            "supplyCount": 3287,
+            "visitCount": 312,
+            "rank": 9,
+            "enquiredCount": 112
+          }
+        }
+      },
+      "ratingReviewData": {
+        "AvgRating": 5,
+        "RatingCount": 3,
+        "ReviewCount": 3,
+        "RefferenceId": 65169
+      },
+      "demandSupply": {
+        "sale": {
+          "unitType": [
+            {
+              "name": "1 BHK",
+              "listing": 545,
+              "demandPercent": 33,
+              "supplyPercent": 24
+            },
+            {
+              "name": "1 RK",
+              "listing": 5,
+              "demandPercent": 1,
+              "supplyPercent": 1
+            },
+            {
+              "name": "1.5 BHK",
+              "listing": 15,
+              "demandPercent": 0,
+              "supplyPercent": 1
+            },
+            {
+              "name": "2 BHK",
+              "listing": 1148,
+              "demandPercent": 36,
+              "supplyPercent": 49
+            },
+            {
+              "name": "2.5 BHK",
+              "listing": 14,
+              "demandPercent": 0,
+              "supplyPercent": 1
+            },
+            {
+              "name": "3 BHK",
+              "listing": 489,
+              "demandPercent": 15,
+              "supplyPercent": 21
+            },
+            {
+              "name": "3.5 BHK",
+              "listing": 17,
+              "demandPercent": 0,
+              "supplyPercent": 1
+            },
+            {
+              "name": "4 BHK",
+              "listing": 94,
+              "demandPercent": 2,
+              "supplyPercent": 4
+            },
+            {
+              "name": "5 BHK",
+              "listing": 30,
+              "demandPercent": 1,
+              "supplyPercent": 2
+            },
+            {
+              "name": "6 BHK",
+              "listing": 9,
+              "demandPercent": 0,
+              "supplyPercent": 1
+            }
+          ],
+          "propertyType": [
+            {
+              "name": "Apartment",
+              "listing": 2213,
+              "demandPercent": 90,
+              "supplyPercent": 89
+            },
+            {
+              "name": "Builder Floor",
+              "listing": 146,
+              "demandPercent": 0,
+              "supplyPercent": 6
+            },
+            {
+              "name": "Co-working Space",
+              "listing": 21,
+              "demandPercent": 0,
+              "supplyPercent": 1
+            },
+            {
+              "name": "Office Space",
+              "listing": 84,
+              "demandPercent": 4,
+              "supplyPercent": 4
+            },
+            {
+              "name": "Office Space in IT/SEZ",
+              "listing": 1,
+              "demandPercent": 0,
+              "supplyPercent": 1
+            },
+            {
+              "name": "Penthouse",
+              "listing": 4,
+              "demandPercent": 0,
+              "supplyPercent": 1
+            },
+            {
+              "name": "Plot",
+              "listing": 1,
+              "demandPercent": 0,
+              "supplyPercent": 1
+            },
+            {
+              "name": "Shop",
+              "listing": 18,
+              "demandPercent": 1,
+              "supplyPercent": 1
+            },
+            {
+              "name": "Showroom",
+              "listing": 2,
+              "demandPercent": 0,
+              "supplyPercent": 1
+            },
+            {
+              "name": "Villa",
+              "listing": 3,
+              "demandPercent": 0,
+              "supplyPercent": 1
+            }
+          ],
+          "totalPrice_range": [
+            {
+              "name": "Below 50 L",
+              "listing": 174,
+              "demandPercent": 4,
+              "supplyPercent": 7
+            },
+            {
+              "name": "50 L - 2 Cr.",
+              "listing": 1102,
+              "demandPercent": 62,
+              "supplyPercent": 45
+            },
+            {
+              "name": "2 Cr. - 5 Cr.",
+              "listing": 1070,
+              "demandPercent": 28,
+              "supplyPercent": 43
+            },
+            {
+              "name": "Above 5 Cr.",
+              "listing": 147,
+              "demandPercent": 4,
+              "supplyPercent": 6
+            }
+          ]
+        },
+        "rent": {
+          "unitType": [
+            {
+              "name": "1 BHK",
+              "listing": 1008,
+              "demandPercent": 53,
+              "supplyPercent": 34
+            },
+            {
+              "name": "1 RK",
+              "listing": 19,
+              "demandPercent": 7,
+              "supplyPercent": 1
+            },
+            {
+              "name": "1.5 BHK",
+              "listing": 8,
+              "demandPercent": 0,
+              "supplyPercent": 1
+            },
+            {
+              "name": "2 BHK",
+              "listing": 1282,
+              "demandPercent": 19,
+              "supplyPercent": 43
+            },
+            {
+              "name": "2.5 BHK",
+              "listing": 9,
+              "demandPercent": 0,
+              "supplyPercent": 1
+            },
+            {
+              "name": "3 BHK",
+              "listing": 576,
+              "demandPercent": 8,
+              "supplyPercent": 20
+            },
+            {
+              "name": "3.5 BHK",
+              "listing": 28,
+              "demandPercent": 0,
+              "supplyPercent": 1
+            },
+            {
+              "name": "4 BHK",
+              "listing": 51,
+              "demandPercent": 0,
+              "supplyPercent": 2
+            },
+            {
+              "name": "5 BHK",
+              "listing": 18,
+              "demandPercent": 0,
+              "supplyPercent": 1
+            }
+          ],
+          "propertyType": [
+            {
+              "name": "Apartment",
+              "listing": 2996,
+              "demandPercent": 90,
+              "supplyPercent": 91
+            },
+            {
+              "name": "Builder Floor",
+              "listing": 3,
+              "demandPercent": 0,
+              "supplyPercent": 1
+            },
+            {
+              "name": "Co-working Space",
+              "listing": 2,
+              "demandPercent": 0,
+              "supplyPercent": 1
+            },
+            {
+              "name": "Office Space",
+              "listing": 201,
+              "demandPercent": 2,
+              "supplyPercent": 7
+            },
+            {
+              "name": "Office Space in IT/SEZ",
+              "listing": 3,
+              "demandPercent": 0,
+              "supplyPercent": 1
+            },
+            {
+              "name": "Pg",
+              "listing": 73,
+              "demandPercent": 3,
+              "supplyPercent": 3
+            },
+            {
+              "name": "Shop",
+              "listing": 13,
+              "demandPercent": 1,
+              "supplyPercent": 1
+            },
+            {
+              "name": "Showroom",
+              "listing": 2,
+              "demandPercent": 0,
+              "supplyPercent": 1
+            },
+            {
+              "name": "Villa",
+              "listing": 1,
+              "demandPercent": 0,
+              "supplyPercent": 1
+            },
+            {
+              "name": "Warehouse",
+              "listing": 6,
+              "demandPercent": 0,
+              "supplyPercent": 1
+            }
+          ],
+          "totalPrice_range": [
+            {
+              "name": "Below 15000",
+              "listing": 56,
+              "demandPercent": 5,
+              "supplyPercent": 2
+            },
+            {
+              "name": "15000 - 30000",
+              "listing": 239,
+              "demandPercent": 33,
+              "supplyPercent": 8
+            },
+            {
+              "name": "30000 - 50000",
+              "listing": 992,
+              "demandPercent": 36,
+              "supplyPercent": 31
+            },
+            {
+              "name": "Above 50000",
+              "listing": 2013,
+              "demandPercent": 25,
+              "supplyPercent": 61
+            }
+          ]
+        },
+        "type": "LOCATION"
+      },
+      "govtRegistration": {
+        "transactionCount": 2033,
+        "grossValue": "₹ 2,128 Cr",
+        "dateRange": "Mar 25 to Feb 26",
+        "registeredRate": 17750,
+        "description": "2,033 Sales Transactions Registered in Malad East From Mar 25 to Feb 26 at Avg. Price ₹ 17.8 K/Sq.Ft."
+      },
+      "marketSupply": {
+        "listingsCount": 1207,
+        "listingRate": 29400,
+        "description": "Malad East has 1,207 Listings on Marketplaces with Median Price of ₹ 29.4 K/Sq.Ft.",
+        "graphData": [
+          {
+            "bucketOrder": 1,
+            "saleCount": 91,
+            "bucketRange": "24K - 25.5K"
+          },
+          {
+            "bucketOrder": 2,
+            "saleCount": 185,
+            "bucketRange": "25.5K - 27.5K"
+          },
+          {
+            "bucketOrder": 3,
+            "saleCount": 290,
+            "bucketRange": "27.5K - 29.5K"
+          },
+          {
+            "bucketOrder": 4,
+            "saleCount": 333,
+            "bucketRange": "29.5K - 31K"
+          },
+          {
+            "bucketOrder": 5,
+            "saleCount": 211,
+            "bucketRange": "31K - 33K"
+          },
+          {
+            "bucketOrder": 6,
+            "saleCount": 97,
+            "bucketRange": "33K - 34.5K"
+          }
+        ]
+      },
+      "rentalStats": {
+        "description": "Monthly Rent in Malad East ranges from ₹ 24.1 K to ₹ 2.6 L with options available for STUDIO,1,2,3,4,5 BHK units",
+        "rentalBHKStats": [
+          {
+            "unitType": "STUDIO",
+            "avgRate": "₹ 24.1 K",
+            "locationAvgRate": null,
+            "buildingType": "Residential",
+            "propertyType": "Apartment"
+          },
+          {
+            "unitType": "1 BHK",
+            "avgRate": "₹ 40 K",
+            "locationAvgRate": null,
+            "buildingType": "Residential",
+            "propertyType": "Apartment"
+          },
+          {
+            "unitType": "2 BHK",
+            "avgRate": "₹ 66.3 K",
+            "locationAvgRate": null,
+            "buildingType": "Residential",
+            "propertyType": "Apartment"
+          },
+          {
+            "unitType": "3 BHK",
+            "avgRate": "₹ 1 L",
+            "locationAvgRate": null,
+            "buildingType": "Residential",
+            "propertyType": "Apartment"
+          },
+          {
+            "unitType": "4 BHK",
+            "avgRate": "₹ 1.7 L",
+            "locationAvgRate": null,
+            "buildingType": "Residential",
+            "propertyType": "Apartment"
+          },
+          {
+            "unitType": "5 BHK",
+            "avgRate": "₹ 2.6 L",
+            "locationAvgRate": null,
+            "buildingType": "Residential",
+            "propertyType": "Apartment"
+          }
+        ]
+      },
+      "recentTransactions": [
+        {
+          "area": "407",
+          "wingNumber": "",
+          "sellerDetails": "",
+          "locality": "",
+          "unitNumber": "801",
+          "assetType": "Residential",
+          "buildingId": "",
+          "transactionType": "Sale",
+          "recordId": "IGRMLY15FK",
+          "propertyName": "Sukoon CHS",
+          "ratePerSqft": "🔒",
+          "lenderName": "",
+          "registrationDate": "2026-02-11",
+          "floorNumber": "8",
+          "location": "Malad East",
+          "towerName": "",
+          "saleRentValue": "🔒"
+        },
+        {
+          "area": "269",
+          "wingNumber": "",
+          "sellerDetails": "",
+          "locality": "",
+          "unitNumber": "502",
+          "assetType": "Residential",
+          "buildingId": "",
+          "transactionType": "Sale",
+          "recordId": "IGRMMUZV26",
+          "propertyName": "Ganesh Prasad CHS",
+          "ratePerSqft": "🔒",
+          "lenderName": "",
+          "registrationDate": "2026-02-11",
+          "floorNumber": "5",
+          "location": "Malad East",
+          "towerName": "1",
+          "saleRentValue": "🔒"
+        },
+        {
+          "area": "441",
+          "wingNumber": "",
+          "sellerDetails": "",
+          "locality": "",
+          "unitNumber": "1903",
+          "assetType": "Residential",
+          "buildingId": "",
+          "transactionType": "Sale",
+          "recordId": "IGRMFGCRMG",
+          "propertyName": "Orchid Heights",
+          "ratePerSqft": "🔒",
+          "lenderName": "",
+          "registrationDate": "2026-02-10",
+          "floorNumber": "19",
+          "location": "Malad East",
+          "towerName": "",
+          "saleRentValue": "🔒"
+        },
+        {
+          "area": "468",
+          "wingNumber": "B",
+          "sellerDetails": "",
+          "locality": "",
+          "unitNumber": "106",
+          "assetType": "Residential",
+          "buildingId": "",
+          "transactionType": "Sale",
+          "recordId": "IGRMMIJH3G",
+          "propertyName": "Ritu Park Building",
+          "ratePerSqft": "🔒",
+          "lenderName": "",
+          "registrationDate": "2026-02-10",
+          "floorNumber": "1",
+          "location": "Malad East",
+          "towerName": "1",
+          "saleRentValue": "🔒"
+        },
+        {
+          "area": "441",
+          "wingNumber": "",
+          "sellerDetails": "",
+          "locality": "",
+          "unitNumber": "1503",
+          "assetType": "Residential",
+          "buildingId": "",
+          "transactionType": "Sale",
+          "recordId": "IGRMZ7BQ5T",
+          "propertyName": "Orchid Heights",
+          "ratePerSqft": "🔒",
+          "lenderName": "",
+          "registrationDate": "2026-02-10",
+          "floorNumber": "15",
+          "location": "Malad East",
+          "towerName": "",
+          "saleRentValue": "🔒"
+        },
+        {
+          "area": "554",
+          "wingNumber": "",
+          "sellerDetails": "",
+          "locality": "",
+          "unitNumber": "91",
+          "assetType": "Residential",
+          "buildingId": "",
+          "transactionType": "Sale",
+          "recordId": "IGRM8C8S71",
+          "propertyName": "The Malad CHS",
+          "ratePerSqft": "🔒",
+          "lenderName": "",
+          "registrationDate": "2026-02-09",
+          "floorNumber": "G",
+          "location": "Malad East",
+          "towerName": "4",
+          "saleRentValue": "🔒"
+        },
+        {
+          "area": "323",
+          "wingNumber": "B",
+          "sellerDetails": "",
+          "locality": "",
+          "unitNumber": "1913",
+          "assetType": "Residential",
+          "buildingId": "",
+          "transactionType": "Sale",
+          "recordId": "IGRMGCLJ16",
+          "propertyName": "Omkareshwar CHS",
+          "ratePerSqft": "🔒",
+          "lenderName": "",
+          "registrationDate": "2026-02-09",
+          "floorNumber": "19",
+          "location": "Malad East",
+          "towerName": "1",
+          "saleRentValue": "🔒"
+        },
+        {
+          "area": "430",
+          "wingNumber": "",
+          "sellerDetails": "",
+          "locality": "",
+          "unitNumber": "1302",
+          "assetType": "Residential",
+          "buildingId": "",
+          "transactionType": "Sale",
+          "recordId": "IGRMZQN53E",
+          "propertyName": "Vastunemi Goodluck Apartment",
+          "ratePerSqft": "🔒",
+          "lenderName": "",
+          "registrationDate": "2026-02-07",
+          "floorNumber": "13",
+          "location": "Malad East",
+          "towerName": "",
+          "saleRentValue": "🔒"
+        },
+        {
+          "area": "323",
+          "wingNumber": "C",
+          "sellerDetails": "",
+          "locality": "",
+          "unitNumber": "410",
+          "assetType": "Residential",
+          "buildingId": "",
+          "transactionType": "Sale",
+          "recordId": "IGRMAXW6RI",
+          "propertyName": "Janu Bhoye Nagar CHS",
+          "ratePerSqft": "🔒",
+          "lenderName": "",
+          "registrationDate": "2026-02-07",
+          "floorNumber": "4",
+          "location": "Malad East",
+          "towerName": "1",
+          "saleRentValue": "🔒"
+        },
+        {
+          "area": "1633",
+          "wingNumber": "",
+          "sellerDetails": "",
+          "locality": "",
+          "unitNumber": "3602",
+          "assetType": "Residential",
+          "buildingId": "",
+          "transactionType": "Sale",
+          "recordId": "IGRMTAYC8L",
+          "propertyName": "Divam Building",
+          "ratePerSqft": "🔒",
+          "lenderName": "",
+          "registrationDate": "2026-02-06",
+          "floorNumber": "36",
+          "location": "Malad East",
+          "towerName": "",
+          "saleRentValue": "🔒"
+        }
+      ],
+      "indices": {
+        "SubLocationId": 892,
+        "connectivity_index": 4.18,
+        "connectivity_text": "<ul>  <li>Transportation options: 3 bus stops enhancing connectivity.</li>  <li>Nearby bus stops support easy local access.</li>  <li>Well-placed stops ensure seamless neighborhood travel.</li></ul>",
+        "lifestyle_index": 4.3,
+        "lifestyle_text": "<ul>  <li>Diverse shopping options with notable brands and boutiques.</li>  <li>Multiple gyms promoting fitness and active lifestyles.</li>  <li>Variety of dining spots for every taste and occasion.</li></ul>",
+        "educationhealth_index": 4.78,
+        "educationhealth_text": "<ul>  <li>Three accessible hospitals ensuring robust healthcare options.</li>  <li>Diverse schools support educational growth and development.</li>  <li>Proximity of healthcare and schools benefits community wellness.</li></ul>",
+        "livability_index": 4.38,
+        "livability_text": "<ul>  <li>Three hospitals provide essential healthcare services nearby.</li>  <li>Multiple restaurants and cafes enhance dining options locally.</li>  <li>Three schools ensure accessible education for families.</li></ul>"
+      },
+      "ratingReview": {
+        "ratingOverview": [
+          {
+            "RefferenceId": 65169,
+            "AvgRating": 4.22222,
+            "RatingCount": 54,
+            "ReviewCount": 54,
+            "MinimumRating": 3,
+            "MaximimRating": 5
+          }
+        ],
+        "ratingStarCount": [
+          {
+            "Rating": 5,
+            "Count": 21
+          },
+          {
+            "Rating": 4,
+            "Count": 24
+          },
+          {
+            "Rating": 3,
+            "Count": 9
+          }
+        ],
+        "Image": {
+          "page": 0,
+          "size": 0,
+          "count": 0,
+          "data": []
+        },
+        "Video": {
+          "page": 0,
+          "size": 0,
+          "count": 0,
+          "data": []
+        },
+        "topReviews": [
+          {
+            "Name": "Nitish",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "Malad East is my residence; I find great pleasure here. My daily life seems cozy since I lately relocated. Walking about feels safe and everyone is amicable. Local train and Metro make my simplest travel path, hence heading to work in Goregaon or Andheri seems easy. Knowing that Sai Kripa Hospital and Suchak Hospital are nearby eases my mind. Around for families, too, are excellent institutions like VIBGYOR High. I often wander around Sanctuary and park areas or head to Inorbit, Oberoi, and Infinity Mall for amusement. For improved neighborhood living, I think pedestrian walkways need attention and more calm parks should soon be incorporated.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-12-15T20:00:16.000Z",
+            "rating_user_persona": {
+              "Name": "tenant"
+            }
+          },
+          {
+            "Name": "Mushkan",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "Malad East strikes me as among the busiest and most connected areas in Mumbai. From my personal observation as an agent, people from all walks of life are picking this area for its excellent transit choices. Daily travel is simple thanks to Malad Railway Station and the Western Express Highway; the Metro Line 2A and Line 7 provide even more flexibility. I observe good rental yield as tenants remain long owing to the presence of offices in Goregaon, Andheri, and Mindspace nearby. I also like the nearby schools, hospitals, and shopping centers like Inorbit and Infinity. One truthful thing I tell clients is peak hour traffic; some small interior roads might soon have maintenance requirements.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-12-15T19:59:18.000Z",
+            "rating_user_persona": {
+              "Name": "real estate agent"
+            }
+          },
+          {
+            "Name": "Digvijay",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "Living in Malad East as a renter, I am quite happy here since I value the ambiance and simplicity. Walking about this area makes me feel secure, and I believe rents here are reasonable in relation to other communities nearby Mumbai. Thanks to the train and the newly finished metro routes, my favourite aspect is how simple my daily travel is to work and school. For weekend plans, I like close malls like Infinity Mall. With additional green areas and parks available for strolling, I believe there is great room for future development. More tranquil outdoor locations and improved traffic control on major highways are what I believe are really lacking here.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-12-13T15:15:24.000Z",
+            "rating_user_persona": {
+              "Name": "tenant"
+            }
+          },
+          {
+            "Name": "Rajeev",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "I am rather glad to live in Malad East and believe this area has an excellent future for long-term residency. Easy transportation appeals to me since local trains, buses, and the subway make it easy for me to reach my job anytime, day or evening. I believe the security here is great, and I feel confident walking in the evening. The green around Sanjay Gandhi National Park appeals to me; the nearby hospitals and schools like Sharada Gyan Peeth and Suchak Hospital provide comfort to my day. Given that property demand is always growing, I believe my investment here is totally justified. I believe, meanwhile, that quick repairs on drainage issues and road congestion are required. Soon, I also want better public lighting on some roads.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-12-13T15:13:32.000Z",
+            "rating_user_persona": {
+              "Name": "owner"
+            }
+          },
+          {
+            "Name": "Abhinav",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "Malad East appeals to my clients since I find it to be a quiet place with excellent amenities for a better quality of life. I enjoy how secure I feel walking about here; therefore, I frequently advise customers about the large stores nearby, such as Infiniti Mall and Growel's 101 Mall, for pleasure and shopping. For me and my customers in all regions of Mumbai, the Malad Railway Station and the future Metro Lines 2/7 make travel simple. Real benefits are provided by hospitals like Lifeline Hospital and schools like VIBGYOR High. Here, too, I see good rental yields as opposed to those in many suburban areas. In my view, this area requires more public parks.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-12-13T15:10:56.000Z",
+            "rating_user_persona": {
+              "Name": "real estate agent"
+            }
+          },
+          {
+            "Name": "Raj",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "Malad East is among Mumbai's most unusual areas in my view. The metro Dindoshi and other future connections, the Western Express Highway, and the Western Railway via Malad station all link it. Good schools like St. Francis English High School abound. Also, dependable hospitals such Sai Kripa Hospital and large shopping malls such as Inorbit Mall and Infinity Mall abound. For many consumers, this makes Malad East a cost-effective but value-rich alternative to more core areas. Because of this infrastructure, demand and rental returns are constant. From where I stand, the neighbourhood works both for working professionals and for families. I support improved upkeep of internal roads and sidewalks and more committed green public parks or open-space features for inhabitants to rest. All in all, this place is strongly recommended.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-12-01T12:40:51.000Z",
+            "rating_user_persona": {
+              "Name": "real estate agent"
+            }
+          },
+          {
+            "Name": "Sai",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "I believe the area is rather central and not too far from several parts of the city. I think connectivity is beneficial. Daily commuting calls for the metro, local train, or road via the Western Express Highway. What fascinates me most is the number of everyday needs that are met, includes respectable hospitals like Sai Kripa Hospital, kind school choices, and large malls nearby for entertainment or shopping, like Inorbit Mall. The green fields and some quiet also make life simpler than they would be in densely populated urban districts. For friends seeking cozy city living, I advise Malad East. I can see better drainage and sewage, and more open public parks would have a great effect.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-12-01T12:39:59.000Z",
+            "rating_user_persona": {
+              "Name": "tenant"
+            }
+          },
+          {
+            "Name": "Karthik",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "I am glad I invest money into Malad East. I think the region is very well linked. From Malad railway station, I may readily take the local train or catch the metro in close proximity at Dindoshi Metro Station. Furthermore, near is the Western Express Highway, which makes travel easy for my family and me. Daily necessities are close by, with notable schools such as St. Francis English High School and respectable hospitals such as Sai Kripa Hospital. I appreciate the small green pockets and peaceful setting surrounding my house. Weekend planning is kept simple thanks to shopping and leisure choices in malls like Inorbit Mall. I am nevertheless concerned about traffic congestion during peak hours. For all inhabitants like us, it is still a worry.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-12-01T12:37:56.000Z",
+            "rating_user_persona": {
+              "Name": "owner"
+            }
+          },
+          {
+            "Name": "Tabbu",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "I really loved my Malad East life. It felt like the ideal, safe suburban corner just beside the pulse of the city. The setting really appealed to me for its refined, upscale feel. The Malad railway station on the Western Line and the new metro line that provided quick access made getting around really simple. We had great schools like St. Francis English High School and essential medical care from hospitals like Sai Kripa nearby; the area abounded in amenities. Thanks to Inorbit Mall and Infinity Mall, entertainment was also limitless. The traffic was my one regret. As the region became so sought after, the primary roadways became extremely clogged.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-11-24T08:14:15.000Z",
+            "rating_user_persona": {
+              "Name": "former resident"
+            }
+          },
+          {
+            "Name": "Zoya",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "I selected Malad East for its affordability but also good connections. My Mindspace IT Park office is only a quick drive away. One can travel easily by train, road, or subway. The area appears to be balanced: a number of shopping centers like Inorbit and Infinity right around as well as excellent schools and large hospitals. The local market feels friendly and practical, and I like the little parks and green. Especially for daily travels, having Metro Line 7 close by aids greatly. Though that's more of a city-wide problem, traffic during peak times and infrequent road noise late at night both cause me a bit of concern. All things taken together, living here is really great. It is cozy, convenient, and simply feels like home.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-11-23T08:53:31.000Z",
+            "rating_user_persona": {
+              "Name": "tenant"
+            }
+          },
+          {
+            "Name": "Pavan",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "Living in this area really suits me. I feel as though I belong in a lively but tranquil suburban existence. Because I have great transportation choices, like the Western Express Highway, Malad railway station, and the adjacent Metro Line 7, commuting is really simple, and my daily schedule is smooth. For my family's needs, there are top schools like St. Francis English High School and Sharada Gyan Peeth, and great hospitals such as Suchak and Sai Kripa nearby. Infinity and Inorbit stores are where we relax on weekends. Good social infrastructure and green pockets help the site feel hospitable. Should I choose something to improve, I would state the interior roads require more frequent maintenance. I still consider myself fortunate to reside in Malad East.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-11-23T08:52:44.000Z",
+            "rating_user_persona": {
+              "Name": "owner"
+            }
+          },
+          {
+            "Name": "Ankush",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "I strongly advise Malad East as a place of residency. Western Express Highway, local train, and adjacent subway provide great connectivity, therefore simplifying travel. Oberoi Mall and other retail centers abound in the area, which also features large shopping. Good institutions of medicine and clinics are accessible; schools and colleges are well used by families. Retail, healthcare, and nearby corporate parks have consistent local employment. Prices are more reasonable than those in central Mumbai, hence making it ideal for investors and consumers. There are restaurants and some green portions around here. Traffic flow during peak hours and speedier conclusion of civic projects are two areas needing improvement. I often suggest it daily to customers.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-11-18T16:15:06.000Z",
+            "rating_user_persona": {
+              "Name": "real estate agent"
+            }
+          },
+          {
+            "Name": "Neel",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "Malad East was a great investment option Due of its fast growth and remarkable safety record. It helps property values to rise. A strong foundation underpins a lovely residential and commercial mix. The Malad Railway Station and the newly operational Dahisar-Gundavali Metro Line 7 are simple to access, which was absolutely vital for my investment choice. Connectivity is perfect. Right here are respectable establishments like Nanavati Hospital and top schools like St. Francis D'Assisi High School. Given its good location and amenities, the region is really inexpensive. The only recommendation I have for enhancement is the upkeep regularity of older public playgrounds. This energetic area provides an almost total Mumbai living experience.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-11-13T11:32:59.000Z",
+            "rating_user_persona": {
+              "Name": "owner"
+            }
+          },
+          {
+            "Name": "Pragya",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "I felt I had arrived in a well-connected, energetic suburban area when I moved into Malad East last. For employment, I easily reach the metro at Dindoshi. The train station is only a quick travel from home. Modern stores, schools, and hospitals are all around me. The access to greater open terrain and adjacent parks, along with the hint of green, also appeals me. For a renter, living here has felt easy and sensible. Compared to more expensive neighborhoods, the flat rental market is more sensible. That is an advantage. More dedicated waterfront or big park spaces right in the neighborhood for weekend relaxation is one thing I would like to see enhanced.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-11-11T20:37:00.000Z",
+            "rating_user_persona": {
+              "Name": "tenant"
+            }
+          },
+          {
+            "Name": "Kriti",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "Among the many Mumbai sites I have seen, Malad East stands out as a wise pick. Strong connection between the neighbourhood and the Western Railway line at Malad station and the close Dindoshi metro station on Line 7 provides additional comfort. Access by the Western Express Highway is great. Near are local hospitals including Sai Kripa Hospital &amp; ICU as well as others. Shopping malls, schools, and business centers are all reachable. Along with the expansion of IT parks and planned infrastructure including the metro and link roads. Further green open areas in line with new construction is one aspect requiring development. This area is worthy of your consideration if you are searching for a solid home or investment opportunity.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-11-11T20:36:11.000Z",
+            "rating_user_persona": {
+              "Name": "real estate agent"
+            }
+          }
+        ],
+        "good": [
+          {
+            "Id": 30,
+            "Name": "Reputed Schools or Hospitals in the Vicinity",
+            "Percentage": 98.14814814814815
+          },
+          {
+            "Id": 29,
+            "Name": "Near Metro or Good Public Transport",
+            "Percentage": 88.88888888888889
+          },
+          {
+            "Id": 31,
+            "Name": "Plenty of Shopping & Entertainment Options Nearby",
+            "Percentage": 77.77777777777779
+          },
+          {
+            "Id": 36,
+            "Name": "Affordable Location with Good Upside Potential",
+            "Percentage": 48.148148148148145
+          }
+        ],
+        "bad": [
+          {
+            "Id": 45,
+            "Name": "Decaying or Broken Roads",
+            "Percentage": 55.55555555555556
+          },
+          {
+            "Id": 39,
+            "Name": "Remote or Far Flung from City Centre",
+            "Percentage": 35.18518518518518
+          },
+          {
+            "Id": 47,
+            "Name": "Water Logging & Sewage Disposal Problems",
+            "Percentage": 27.77777777777778
+          },
+          {
+            "Id": 44,
+            "Name": "Limited or no Green Areas & Parks",
+            "Percentage": 16.666666666666664
+          }
+        ]
+      }
+    },
+    "json2_rates": {
+      "details": {
+        "id": "65169",
+        "name": "Malad East",
+        "locationId": null,
+        "microMarketId": "129",
+        "microMarketName": "Mumbai Western Suburbs",
+        "cityId": "3",
+        "cityName": "Mumbai",
+        "diUrl": "/property-rates/malad-east-mumbai",
+        "type": "LOCALITY"
+      },
+      "marketOverview": {
+        "askingPrice": 29396,
+        "registrationRate": 17732,
+        "avgRentalRate": null
+      },
+      "priceTrend": [
+        {
+          "quarterName": "Dec 2025",
+          "locationRate": 29396,
+          "micromarketRate": 21180
+        },
+        {
+          "quarterName": "Sep 2025",
+          "locationRate": 29227,
+          "micromarketRate": 21139
+        },
+        {
+          "quarterName": "Jun 2025",
+          "locationRate": 27503,
+          "micromarketRate": 21028
+        },
+        {
+          "quarterName": "Mar 2025",
+          "locationRate": 29037,
+          "micromarketRate": 19695
+        }
+      ],
+      "locationRates": [
+        {
+          "name": "Kandivali East",
+          "avgRate": 30294,
+          "changePercentage": 4.96
+        },
+        {
+          "name": "Lokhandwala",
+          "avgRate": 28638,
+          "changePercentage": -9.45
+        },
+        {
+          "name": "Malad West",
+          "avgRate": 28366,
+          "changePercentage": 2.55
+        },
+        {
+          "name": "Goregaon East",
+          "avgRate": 36103,
+          "changePercentage": 18.34
+        },
+        {
+          "name": "Goregaon West",
+          "avgRate": 33246,
+          "changePercentage": 1.94
+        },
+        {
+          "name": "Aarey Colony",
+          "avgRate": 8569,
+          "changePercentage": 0.0
+        },
+        {
+          "name": "Kandivali West",
+          "avgRate": 25537,
+          "changePercentage": -4.35
+        }
+      ],
+      "propertyTypes": [
+        {
+          "propertyType": "shop",
+          "avgPrice": 74344,
+          "changePercent": 31.99
+        },
+        {
+          "propertyType": "office space",
+          "avgPrice": 35208,
+          "changePercent": -7.25
+        },
+        {
+          "propertyType": "apartment",
+          "avgPrice": 29396,
+          "changePercent": 0.58
+        },
+        {
+          "propertyType": "co-working space",
+          "avgPrice": 30250,
+          "changePercent": -0.32
+        }
+      ],
+      "propertyStatus": [
+        {
+          "status": "Ready To Move",
+          "units": 347,
+          "avgPrice": 24625,
+          "changePercent": -2.65
+        },
+        {
+          "status": "Well Occupied",
+          "units": 131,
+          "avgPrice": 23843,
+          "changePercent": -2.39
+        },
+        {
+          "status": "Advanced Stage",
+          "units": 2,
+          "avgPrice": 23420,
+          "changePercent": 0.84
+        },
+        {
+          "status": "Partially Ready To Move",
+          "units": 1,
+          "avgPrice": 20000,
+          "changePercent": -10.45
+        },
+        {
+          "status": "Mid Stage",
+          "units": 2,
+          "avgPrice": 23036,
+          "changePercent": -0.25
+        },
+        {
+          "status": "Under Construction",
+          "units": 54,
+          "avgPrice": 25205,
+          "changePercent": 0.66
+        },
+        {
+          "status": "New Launch",
+          "units": 13,
+          "avgPrice": 23495,
+          "changePercent": -3.36
+        }
+      ],
+      "topProjects": {
+        "byTransactions": {
+          "projects": [
+            {
+              "changePercentage": 0.0,
+              "changeValue": 0.0,
+              "currentRate": 29760,
+              "location": "Malad East",
+              "locality": "Laxman Nagar",
+              "noOfTransactions": 16,
+              "productUrl": "https://www.squareyards.com/property-rates/omkar-alta-monte-laxman-nagar-malad-east-mumbai",
+              "projectName": "Omkar Alta Monte",
+              "priority": 1,
+              "saleRentValue": 538100000.0
+            },
+            {
+              "changePercentage": 17.865516495557454,
+              "changeValue": 5377.290000000001,
+              "currentRate": 35476,
+              "location": "Malad East",
+              "locality": "Pushpa Park",
+              "noOfTransactions": 8,
+              "productUrl": "https://www.squareyards.com/property-rates/ajanta-chs-pushpa-park-malad-east-mumbai",
+              "projectName": "Ajanta CHS",
+              "priority": 2,
+              "saleRentValue": 78500000.0
+            },
+            {
+              "changePercentage": -3.593967768042309,
+              "changeValue": -1217.6600000000035,
+              "currentRate": 32663,
+              "location": "Malad East",
+              "locality": "Sankalp Colony",
+              "noOfTransactions": 6,
+              "productUrl": "https://www.squareyards.com/property-rates/k-raheja-heights-sankalp-colony-malad-east-mumbai",
+              "projectName": "K Raheja Heights",
+              "priority": 3,
+              "saleRentValue": 106900000.0
+            },
+            {
+              "changePercentage": 0.0,
+              "changeValue": 0.0,
+              "currentRate": 29059,
+              "location": "Malad East",
+              "locality": "Kasam Baug",
+              "noOfTransactions": 6,
+              "productUrl": "https://www.squareyards.com/property-rates/raheja-tipco-heights-kasam-baug-malad-east-mumbai",
+              "projectName": "Raheja Tipco Heights",
+              "priority": 4,
+              "saleRentValue": 114490000.0
+            },
+            {
+              "changePercentage": null,
+              "changeValue": null,
+              "currentRate": 28565,
+              "location": "Malad East",
+              "locality": "Sankalp Colony",
+              "noOfTransactions": 6,
+              "productUrl": "https://www.squareyards.com/property-rates/k-raheja-residency-sankalp-colony-malad-east-mumbai",
+              "projectName": "K Raheja Residency",
+              "priority": 5,
+              "saleRentValue": 92500000.0
+            },
+            {
+              "changePercentage": -2.170573278385343,
+              "changeValue": -633.6699999999983,
+              "currentRate": 28560,
+              "location": "Malad East",
+              "locality": "Riddhi Gardens",
+              "noOfTransactions": 5,
+              "productUrl": "https://www.squareyards.com/property-rates/lalani-valentine-apartment-riddhi-gardens-malad-east-mumbai",
+              "projectName": "Lalani Valentine Apartment",
+              "priority": 6,
+              "saleRentValue": 57251001
+            },
+            {
+              "changePercentage": -5.381056348574536,
+              "changeValue": -1706.75,
+              "currentRate": 30011,
+              "location": "Malad East",
+              "locality": "Laxman Nagar",
+              "noOfTransactions": 4,
+              "productUrl": "https://www.squareyards.com/property-rates/omkar-signet-laxman-nagar-malad-east-mumbai",
+              "projectName": "Omkar Signet",
+              "priority": 7,
+              "saleRentValue": 42700000.0
+            },
+            {
+              "changePercentage": -13.464918738150262,
+              "changeValue": -4481.300000000003,
+              "currentRate": 28800,
+              "location": "Malad East",
+              "locality": "Dindoshi",
+              "noOfTransactions": 4,
+              "productUrl": "https://www.squareyards.com/property-rates/vasant-valley-complex-dindoshi-malad-east-mumbai",
+              "projectName": "Vasant Valley Complex",
+              "priority": 8,
+              "saleRentValue": 56000000.0
+            },
+            {
+              "changePercentage": 26.68110013242756,
+              "changeValue": 5153.779999999999,
+              "currentRate": 24470,
+              "location": "Malad East",
+              "locality": "Kasam Baug",
+              "noOfTransactions": 4,
+              "productUrl": "https://www.squareyards.com/property-rates/shah-arcade-ii-kasam-baug-malad-east-mumbai",
+              "projectName": "Shah Arcade II",
+              "priority": 9,
+              "saleRentValue": 62450000.0
+            },
+            {
+              "changePercentage": 5.826862906369334,
+              "changeValue": 1222.7799999999988,
+              "currentRate": 22208,
+              "location": "Malad East",
+              "locality": "Matanpur Nagar",
+              "noOfTransactions": 4,
+              "productUrl": "https://www.squareyards.com/property-rates/kaydee-solitaire-matanpur-nagar-malad-east-mumbai",
+              "projectName": "Kaydee Solitaire",
+              "priority": 10,
+              "saleRentValue": 26600000.0
+            }
+          ]
+        },
+        "byListingRates": {
+          "projects": [
+            {
+              "changePercentage": 5.58,
+              "changeValue": null,
+              "currentRate": 42788,
+              "location": "Mumbai Western Suburbs",
+              "locality": "Malad East",
+              "noOfTransactions": null,
+              "productUrl": null,
+              "projectName": "Ram Niwas",
+              "priority": null,
+              "saleRentValue": null
+            },
+            {
+              "changePercentage": -3.57,
+              "changeValue": null,
+              "currentRate": 40109,
+              "location": "Mumbai Western Suburbs",
+              "locality": "Malad East",
+              "noOfTransactions": null,
+              "productUrl": null,
+              "projectName": "kanakia spaces levels",
+              "priority": null,
+              "saleRentValue": null
+            },
+            {
+              "changePercentage": -3.57,
+              "changeValue": null,
+              "currentRate": 40109,
+              "location": "Mumbai Western Suburbs",
+              "locality": "Malad East",
+              "noOfTransactions": null,
+              "productUrl": null,
+              "projectName": "kanakia spaces platino",
+              "priority": null,
+              "saleRentValue": null
+            },
+            {
+              "changePercentage": -3.57,
+              "changeValue": null,
+              "currentRate": 40109,
+              "location": "Mumbai Western Suburbs",
+              "locality": "Malad East",
+              "noOfTransactions": null,
+              "productUrl": null,
+              "projectName": "kanakia levels",
+              "priority": null,
+              "saleRentValue": null
+            },
+            {
+              "changePercentage": 0.0,
+              "changeValue": null,
+              "currentRate": 37692,
+              "location": "Mumbai Western Suburbs",
+              "locality": "Malad East",
+              "noOfTransactions": null,
+              "productUrl": null,
+              "projectName": "ajanta shopping centre",
+              "priority": null,
+              "saleRentValue": null
+            },
+            {
+              "changePercentage": 16.16,
+              "changeValue": null,
+              "currentRate": 37500,
+              "location": "Mumbai Western Suburbs",
+              "locality": "Malad East",
+              "noOfTransactions": null,
+              "productUrl": null,
+              "projectName": "vasundhara paradise",
+              "priority": null,
+              "saleRentValue": null
+            },
+            {
+              "changePercentage": -9.98,
+              "changeValue": null,
+              "currentRate": 35634,
+              "location": "Mumbai Western Suburbs",
+              "locality": "Malad East",
+              "noOfTransactions": null,
+              "productUrl": null,
+              "projectName": "db sahyadri",
+              "priority": null,
+              "saleRentValue": null
+            },
+            {
+              "changePercentage": -9.98,
+              "changeValue": null,
+              "currentRate": 35634,
+              "location": "Mumbai Western Suburbs",
+              "locality": "Malad East",
+              "noOfTransactions": null,
+              "productUrl": null,
+              "projectName": "ashish sahyadri",
+              "priority": null,
+              "saleRentValue": null
+            },
+            {
+              "changePercentage": 6.09,
+              "changeValue": null,
+              "currentRate": 35526,
+              "location": "Mumbai Western Suburbs",
+              "locality": "Malad East",
+              "noOfTransactions": null,
+              "productUrl": null,
+              "projectName": "dynamix astrum",
+              "priority": null,
+              "saleRentValue": null
+            },
+            {
+              "changePercentage": -0.18,
+              "changeValue": null,
+              "currentRate": 35476,
+              "location": "Mumbai Western Suburbs",
+              "locality": "Malad East",
+              "noOfTransactions": null,
+              "productUrl": null,
+              "projectName": "ajanta chs",
+              "priority": null,
+              "saleRentValue": null
+            }
+          ]
+        },
+        "byValue": {
+          "projects": [
+            {
+              "changePercentage": 0.0,
+              "changeValue": 0.0,
+              "currentRate": 29760,
+              "location": "Malad East",
+              "locality": "Laxman Nagar",
+              "noOfTransactions": 16,
+              "productUrl": "https://www.squareyards.com/property-rates/omkar-alta-monte-laxman-nagar-malad-east-mumbai",
+              "projectName": "Omkar Alta Monte",
+              "priority": 1,
+              "saleRentValue": 538100000.0
+            },
+            {
+              "changePercentage": 0.0,
+              "changeValue": 0.0,
+              "currentRate": 29059,
+              "location": "Malad East",
+              "locality": "Kasam Baug",
+              "noOfTransactions": 6,
+              "productUrl": "https://www.squareyards.com/property-rates/raheja-tipco-heights-kasam-baug-malad-east-mumbai",
+              "projectName": "Raheja Tipco Heights",
+              "priority": 2,
+              "saleRentValue": 114490000.0
+            },
+            {
+              "changePercentage": -3.593967768042309,
+              "changeValue": -1217.6600000000035,
+              "currentRate": 32663,
+              "location": "Malad East",
+              "locality": "Sankalp Colony",
+              "noOfTransactions": 6,
+              "productUrl": "https://www.squareyards.com/property-rates/k-raheja-heights-sankalp-colony-malad-east-mumbai",
+              "projectName": "K Raheja Heights",
+              "priority": 3,
+              "saleRentValue": 106900000.0
+            },
+            {
+              "changePercentage": null,
+              "changeValue": null,
+              "currentRate": 28565,
+              "location": "Malad East",
+              "locality": "Sankalp Colony",
+              "noOfTransactions": 6,
+              "productUrl": "https://www.squareyards.com/property-rates/k-raheja-residency-sankalp-colony-malad-east-mumbai",
+              "projectName": "K Raheja Residency",
+              "priority": 4,
+              "saleRentValue": 92500000.0
+            },
+            {
+              "changePercentage": 0.0,
+              "changeValue": 0.0,
+              "currentRate": 30623,
+              "location": "Malad East",
+              "locality": "Mira Nagar",
+              "noOfTransactions": 3,
+              "productUrl": "https://www.squareyards.com/property-rates/jp-decks-mira-nagar-malad-east-mumbai",
+              "projectName": "JP Decks",
+              "priority": 5,
+              "saleRentValue": 80500000.0
+            },
+            {
+              "changePercentage": 17.865516495557454,
+              "changeValue": 5377.290000000001,
+              "currentRate": 35476,
+              "location": "Malad East",
+              "locality": "Pushpa Park",
+              "noOfTransactions": 8,
+              "productUrl": "https://www.squareyards.com/property-rates/ajanta-chs-pushpa-park-malad-east-mumbai",
+              "projectName": "Ajanta CHS",
+              "priority": 6,
+              "saleRentValue": 78500000.0
+            },
+            {
+              "changePercentage": 26.68110013242756,
+              "changeValue": 5153.779999999999,
+              "currentRate": 24470,
+              "location": "Malad East",
+              "locality": "Kasam Baug",
+              "noOfTransactions": 4,
+              "productUrl": "https://www.squareyards.com/property-rates/shah-arcade-ii-kasam-baug-malad-east-mumbai",
+              "projectName": "Shah Arcade II",
+              "priority": 7,
+              "saleRentValue": 62450000.0
+            },
+            {
+              "changePercentage": -2.170573278385343,
+              "changeValue": -633.6699999999983,
+              "currentRate": 28560,
+              "location": "Malad East",
+              "locality": "Riddhi Gardens",
+              "noOfTransactions": 5,
+              "productUrl": "https://www.squareyards.com/property-rates/lalani-valentine-apartment-riddhi-gardens-malad-east-mumbai",
+              "projectName": "Lalani Valentine Apartment",
+              "priority": 8,
+              "saleRentValue": 57251001
+            },
+            {
+              "changePercentage": -13.464918738150262,
+              "changeValue": -4481.300000000003,
+              "currentRate": 28800,
+              "location": "Malad East",
+              "locality": "Dindoshi",
+              "noOfTransactions": 4,
+              "productUrl": "https://www.squareyards.com/property-rates/vasant-valley-complex-dindoshi-malad-east-mumbai",
+              "projectName": "Vasant Valley Complex",
+              "priority": 9,
+              "saleRentValue": 56000000.0
+            },
+            {
+              "changePercentage": -5.381056348574536,
+              "changeValue": -1706.75,
+              "currentRate": 30011,
+              "location": "Malad East",
+              "locality": "Laxman Nagar",
+              "noOfTransactions": 4,
+              "productUrl": "https://www.squareyards.com/property-rates/omkar-signet-laxman-nagar-malad-east-mumbai",
+              "projectName": "Omkar Signet",
+              "priority": 10,
+              "saleRentValue": 42700000.0
+            }
+          ]
+        }
+      },
+      "govtRegistration": {
+        "transactionCount": 2014,
+        "grossValue": "₹ 2,103 Cr",
+        "dateRange": "Mar 25 to Feb 26",
+        "registeredRate": 17750,
+        "description": ""
+      },
+      "topDevelopers": {
+        "byTransactions": {
+          "developers": [
+            {
+              "developerName": "Omkar",
+              "noOfTransactions": 20,
+              "priority": 2
+            },
+            {
+              "developerName": "DGS Group",
+              "noOfTransactions": 10,
+              "priority": 3
+            },
+            {
+              "developerName": "Raheja Universal",
+              "noOfTransactions": 8,
+              "priority": 4
+            },
+            {
+              "developerName": "Nareshbhai Vallabhbhai Patel",
+              "noOfTransactions": 8,
+              "priority": 5
+            },
+            {
+              "developerName": "K Raheja Realty",
+              "noOfTransactions": 6,
+              "priority": 6
+            },
+            {
+              "developerName": "K Raheja Constructions",
+              "noOfTransactions": 6,
+              "priority": 7
+            },
+            {
+              "developerName": "Lalani",
+              "noOfTransactions": 6,
+              "priority": 8
+            },
+            {
+              "developerName": "Shah Housecon Pvt Ltd",
+              "noOfTransactions": 4,
+              "priority": 9
+            },
+            {
+              "developerName": "Je and Vee Developer",
+              "noOfTransactions": 4,
+              "priority": 10
+            }
+          ]
+        }
+      }
+    }
+  },
+  "page1_cover": {
+    "data": {
+      "title": "Malad East Locality Report",
+      "city": "Mumbai",
+      "micromarket": "Mumbai Western Suburbs",
+      "polygon_thumbnail_url": "https://static.squareyards.com/localitymap-thumnail/malad-east-mumbai-v3.png"
+    },
+    "narrative_inputs": {
+      "locality": "Malad East",
+      "city": "Mumbai",
+      "micromarket": "Mumbai Western Suburbs"
+    }
+  },
+  "page2_exec_snapshot": {
+    "data": {
+      "marketOverview": {
+        "askingPrice": 29396,
+        "registrationRate": 17732,
+        "avgRentalRate": null
+      },
+      "ratingReviewData": {
+        "AvgRating": 5,
+        "RatingCount": 3,
+        "ReviewCount": 3,
+        "RefferenceId": 65169
+      },
+      "rentalStats": {
+        "description": "Monthly Rent in Malad East ranges from ₹ 24.1 K to ₹ 2.6 L with options available for STUDIO,1,2,3,4,5 BHK units",
+        "rentalBHKStats": [
+          {
+            "unitType": "STUDIO",
+            "avgRate": "₹ 24.1 K",
+            "locationAvgRate": null,
+            "buildingType": "Residential",
+            "propertyType": "Apartment"
+          },
+          {
+            "unitType": "1 BHK",
+            "avgRate": "₹ 40 K",
+            "locationAvgRate": null,
+            "buildingType": "Residential",
+            "propertyType": "Apartment"
+          },
+          {
+            "unitType": "2 BHK",
+            "avgRate": "₹ 66.3 K",
+            "locationAvgRate": null,
+            "buildingType": "Residential",
+            "propertyType": "Apartment"
+          },
+          {
+            "unitType": "3 BHK",
+            "avgRate": "₹ 1 L",
+            "locationAvgRate": null,
+            "buildingType": "Residential",
+            "propertyType": "Apartment"
+          },
+          {
+            "unitType": "4 BHK",
+            "avgRate": "₹ 1.7 L",
+            "locationAvgRate": null,
+            "buildingType": "Residential",
+            "propertyType": "Apartment"
+          },
+          {
+            "unitType": "5 BHK",
+            "avgRate": "₹ 2.6 L",
+            "locationAvgRate": null,
+            "buildingType": "Residential",
+            "propertyType": "Apartment"
+          }
+        ]
+      },
+      "demandSupply_sale": {
+        "unitType": [
+          {
+            "name": "1 BHK",
+            "listing": 545,
+            "demandPercent": 33,
+            "supplyPercent": 24
+          },
+          {
+            "name": "1 RK",
+            "listing": 5,
+            "demandPercent": 1,
+            "supplyPercent": 1
+          },
+          {
+            "name": "1.5 BHK",
+            "listing": 15,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "2 BHK",
+            "listing": 1148,
+            "demandPercent": 36,
+            "supplyPercent": 49
+          },
+          {
+            "name": "2.5 BHK",
+            "listing": 14,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "3 BHK",
+            "listing": 489,
+            "demandPercent": 15,
+            "supplyPercent": 21
+          },
+          {
+            "name": "3.5 BHK",
+            "listing": 17,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "4 BHK",
+            "listing": 94,
+            "demandPercent": 2,
+            "supplyPercent": 4
+          },
+          {
+            "name": "5 BHK",
+            "listing": 30,
+            "demandPercent": 1,
+            "supplyPercent": 2
+          },
+          {
+            "name": "6 BHK",
+            "listing": 9,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          }
+        ],
+        "propertyType": [
+          {
+            "name": "Apartment",
+            "listing": 2213,
+            "demandPercent": 90,
+            "supplyPercent": 89
+          },
+          {
+            "name": "Builder Floor",
+            "listing": 146,
+            "demandPercent": 0,
+            "supplyPercent": 6
+          },
+          {
+            "name": "Co-working Space",
+            "listing": 21,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Office Space",
+            "listing": 84,
+            "demandPercent": 4,
+            "supplyPercent": 4
+          },
+          {
+            "name": "Office Space in IT/SEZ",
+            "listing": 1,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Penthouse",
+            "listing": 4,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Plot",
+            "listing": 1,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Shop",
+            "listing": 18,
+            "demandPercent": 1,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Showroom",
+            "listing": 2,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Villa",
+            "listing": 3,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          }
+        ],
+        "totalPrice_range": [
+          {
+            "name": "Below 50 L",
+            "listing": 174,
+            "demandPercent": 4,
+            "supplyPercent": 7
+          },
+          {
+            "name": "50 L - 2 Cr.",
+            "listing": 1102,
+            "demandPercent": 62,
+            "supplyPercent": 45
+          },
+          {
+            "name": "2 Cr. - 5 Cr.",
+            "listing": 1070,
+            "demandPercent": 28,
+            "supplyPercent": 43
+          },
+          {
+            "name": "Above 5 Cr.",
+            "listing": 147,
+            "demandPercent": 4,
+            "supplyPercent": 6
+          }
+        ]
+      },
+      "demandSupply_rent": {
+        "unitType": [
+          {
+            "name": "1 BHK",
+            "listing": 1008,
+            "demandPercent": 53,
+            "supplyPercent": 34
+          },
+          {
+            "name": "1 RK",
+            "listing": 19,
+            "demandPercent": 7,
+            "supplyPercent": 1
+          },
+          {
+            "name": "1.5 BHK",
+            "listing": 8,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "2 BHK",
+            "listing": 1282,
+            "demandPercent": 19,
+            "supplyPercent": 43
+          },
+          {
+            "name": "2.5 BHK",
+            "listing": 9,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "3 BHK",
+            "listing": 576,
+            "demandPercent": 8,
+            "supplyPercent": 20
+          },
+          {
+            "name": "3.5 BHK",
+            "listing": 28,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "4 BHK",
+            "listing": 51,
+            "demandPercent": 0,
+            "supplyPercent": 2
+          },
+          {
+            "name": "5 BHK",
+            "listing": 18,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          }
+        ],
+        "propertyType": [
+          {
+            "name": "Apartment",
+            "listing": 2996,
+            "demandPercent": 90,
+            "supplyPercent": 91
+          },
+          {
+            "name": "Builder Floor",
+            "listing": 3,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Co-working Space",
+            "listing": 2,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Office Space",
+            "listing": 201,
+            "demandPercent": 2,
+            "supplyPercent": 7
+          },
+          {
+            "name": "Office Space in IT/SEZ",
+            "listing": 3,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Pg",
+            "listing": 73,
+            "demandPercent": 3,
+            "supplyPercent": 3
+          },
+          {
+            "name": "Shop",
+            "listing": 13,
+            "demandPercent": 1,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Showroom",
+            "listing": 2,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Villa",
+            "listing": 1,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Warehouse",
+            "listing": 6,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          }
+        ],
+        "totalPrice_range": [
+          {
+            "name": "Below 15000",
+            "listing": 56,
+            "demandPercent": 5,
+            "supplyPercent": 2
+          },
+          {
+            "name": "15000 - 30000",
+            "listing": 239,
+            "demandPercent": 33,
+            "supplyPercent": 8
+          },
+          {
+            "name": "30000 - 50000",
+            "listing": 992,
+            "demandPercent": 36,
+            "supplyPercent": 31
+          },
+          {
+            "name": "Above 50000",
+            "listing": 2013,
+            "demandPercent": 25,
+            "supplyPercent": 61
+          }
+        ]
+      },
+      "priceTrend": [
+        {
+          "quarterName": "Dec 2025",
+          "locationRate": 29396,
+          "micromarketRate": 21180
+        },
+        {
+          "quarterName": "Sep 2025",
+          "locationRate": 29227,
+          "micromarketRate": 21139
+        },
+        {
+          "quarterName": "Jun 2025",
+          "locationRate": 27503,
+          "micromarketRate": 21028
+        },
+        {
+          "quarterName": "Mar 2025",
+          "locationRate": 29037,
+          "micromarketRate": 19695
+        }
+      ],
+      "govtRegistration_json1": {
+        "transactionCount": 2033,
+        "grossValue": "₹ 2,128 Cr",
+        "dateRange": "Mar 25 to Feb 26",
+        "registeredRate": 17750,
+        "description": "2,033 Sales Transactions Registered in Malad East From Mar 25 to Feb 26 at Avg. Price ₹ 17.8 K/Sq.Ft."
+      },
+      "govtRegistration_json2": {
+        "transactionCount": 2014,
+        "grossValue": "₹ 2,103 Cr",
+        "dateRange": "Mar 25 to Feb 26",
+        "registeredRate": 17750,
+        "description": ""
+      }
+    },
+    "computed": {
+      "narratives": {
+        "takeaways": "<ul><li>Average asking price is ₹29,396 per sq.ft.</li><li>Over 2,000 sales transactions registered in the past year.</li><li>Rental options range from ₹24.1K for studio to ₹2.6L for 5 BHK apartments.</li><li>High demand for 1 BHK and 2 BHK units in sales listings.</li></ul>"
+      }
+    },
+    "narrative_inputs": {}
+  },
+  "page3_liveability": {
+    "data": {
+      "localityOverviewData": {
+        "url": "/malad-east-in-mumbai-overview-892",
+        "dotcomLocalityId": 892,
+        "category": "SUB_LOCATION",
+        "totalprojects": 609,
+        "dotcomParentId": 271,
+        "beatsLocalityId": 65169,
+        "name": "Malad East",
+        "cityName": "Mumbai",
+        "dotcomCityId": 13,
+        "beatsCityId": 3,
+        "rank": 27,
+        "isMicroMarket": 0,
+        "dotcomLocalityDesc": null,
+        "dotcomLocationId": 271,
+        "dotcomLocationName": "Mumbai Western Suburbs",
+        "latitude": 19.181329,
+        "longitude": 72.862664,
+        "pincode": "400097",
+        "isProminent": 1,
+        "dotcomParentType": "Micromarket",
+        "uatesid": 0,
+        "liveesid": 835,
+        "totallistings": 5799,
+        "total": 6408,
+        "saleCount": 2496,
+        "rentCount": 3303,
+        "ratingReviewData": {
+          "AvgRating": 5,
+          "RatingCount": 3,
+          "ReviewCount": 3,
+          "RefferenceId": 65169
+        },
+        "beatsLocationId": 129,
+        "localityImages": [
+          {
+            "allimages": [],
+            "allvideos": [],
+            "category": "Locality",
+            "allvideoswiththumb": []
+          }
+        ],
+        "localityAttributes": [
+          {
+            "attributeId": 1556,
+            "attributeTypeId": 1,
+            "sequence": 1,
+            "attributeDesc": "Connectivity to Airport & railway network ",
+            "attributeType": "Positive"
+          },
+          {
+            "attributeId": 1557,
+            "attributeTypeId": 1,
+            "sequence": 2,
+            "attributeDesc": "Western Express Highway, Marve Road, SV Road and others ",
+            "attributeType": "Positive"
+          },
+          {
+            "attributeId": 1558,
+            "attributeTypeId": 1,
+            "sequence": 3,
+            "attributeDesc": "Good transport network ",
+            "attributeType": "Positive"
+          },
+          {
+            "attributeId": 1559,
+            "attributeTypeId": 1,
+            "sequence": 4,
+            "attributeDesc": "Decent social infrastructure ",
+            "attributeType": "Positive"
+          },
+          {
+            "attributeId": 1560,
+            "attributeTypeId": 1,
+            "sequence": 5,
+            "attributeDesc": "Multiple infra projects ",
+            "attributeType": "Positive"
+          },
+          {
+            "attributeId": 1561,
+            "attributeTypeId": 2,
+            "sequence": 1,
+            "attributeDesc": "Traffic congestion is still a problem in some stretches ",
+            "attributeType": "Negative"
+          },
+          {
+            "attributeId": 1562,
+            "attributeTypeId": 2,
+            "sequence": 2,
+            "attributeDesc": "Densely populated zone",
+            "attributeType": "Negative"
+          }
+        ],
+        "insightRates": {
+          "id": "65169",
+          "name": "Malad East",
+          "avgRate": 29400,
+          "rentalRate": 72,
+          "rentalDistribution": [
+            {
+              "unitType": "1 BHK",
+              "avgRate": "₹ 40 K"
+            },
+            {
+              "unitType": "2 BHK",
+              "avgRate": "₹ 66.3 K"
+            },
+            {
+              "unitType": "3 BHK",
+              "avgRate": "₹ 1 L"
+            },
+            {
+              "unitType": "4 BHK",
+              "avgRate": "₹ 1.7 L"
+            },
+            {
+              "unitType": "5 BHK",
+              "avgRate": "₹ 2.6 L"
+            },
+            {
+              "unitType": "Studio",
+              "avgRate": "₹ 24.1 K"
+            }
+          ]
+        },
+        "index_dttm": "2026-02-16T09:24:38.297Z",
+        "created_date": "2026-02-03T04:40:23.063Z",
+        "rent": {
+          "unitType": [
+            {
+              "doc_count": 1286,
+              "key": "2 BHK"
+            },
+            {
+              "doc_count": 1002,
+              "key": "1 BHK"
+            },
+            {
+              "doc_count": 577,
+              "key": "3 BHK"
+            },
+            {
+              "doc_count": 51,
+              "key": "4 BHK"
+            },
+            {
+              "doc_count": 19,
+              "key": "1 RK"
+            },
+            {
+              "doc_count": 18,
+              "key": "5 BHK"
+            }
+          ],
+          "avgPricePerSqFt": 98.77885783718105,
+          "propertyType": [
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "doc_count": 1285,
+                    "key": "2 BHK"
+                  },
+                  {
+                    "doc_count": 1002,
+                    "key": "1 BHK"
+                  },
+                  {
+                    "doc_count": 576,
+                    "key": "3 BHK"
+                  },
+                  {
+                    "doc_count": 50,
+                    "key": "4 BHK"
+                  },
+                  {
+                    "doc_count": 18,
+                    "key": "5 BHK"
+                  }
+                ]
+              },
+              "doc_count": 2994,
+              "key": "Apartment"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 203,
+              "key": "Office Space"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 76,
+              "key": "Pg"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 13,
+              "key": "Shop"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 6,
+              "key": "Warehouse"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "doc_count": 1,
+                    "key": "2 BHK"
+                  },
+                  {
+                    "doc_count": 1,
+                    "key": "3 BHK"
+                  }
+                ]
+              },
+              "doc_count": 3,
+              "key": "Builder Floor"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 2,
+              "key": "Co-working Space"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 2,
+              "key": "Showroom"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "doc_count": 1,
+                    "key": "4 BHK"
+                  }
+                ]
+              },
+              "doc_count": 1,
+              "key": "Villa"
+            }
+          ],
+          "count": 3303,
+          "microMarketListingCount": 0,
+          "available": 3303
+        },
+        "totalFocusProjects": 0,
+        "sale": {
+          "unitType": [
+            {
+              "doc_count": 1150,
+              "key": "2 BHK"
+            },
+            {
+              "doc_count": 545,
+              "key": "1 BHK"
+            },
+            {
+              "doc_count": 490,
+              "key": "3 BHK"
+            },
+            {
+              "doc_count": 94,
+              "key": "4 BHK"
+            },
+            {
+              "doc_count": 30,
+              "key": "5 BHK"
+            },
+            {
+              "doc_count": 9,
+              "key": "6 BHK"
+            },
+            {
+              "doc_count": 5,
+              "key": "1 RK"
+            }
+          ],
+          "avgPricePerSqFt": 28507.23993144816,
+          "propertyType": [
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "doc_count": 1005,
+                    "key": "2 BHK"
+                  },
+                  {
+                    "doc_count": 544,
+                    "key": "1 BHK"
+                  },
+                  {
+                    "doc_count": 490,
+                    "key": "3 BHK"
+                  },
+                  {
+                    "doc_count": 91,
+                    "key": "4 BHK"
+                  },
+                  {
+                    "doc_count": 27,
+                    "key": "5 BHK"
+                  },
+                  {
+                    "doc_count": 9,
+                    "key": "6 BHK"
+                  }
+                ]
+              },
+              "doc_count": 2216,
+              "key": "Apartment"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "doc_count": 145,
+                    "key": "2 BHK"
+                  },
+                  {
+                    "doc_count": 1,
+                    "key": "1 BHK"
+                  }
+                ]
+              },
+              "doc_count": 146,
+              "key": "Builder Floor"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 84,
+              "key": "Office Space"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 21,
+              "key": "Co-working Space"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 18,
+              "key": "Shop"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "doc_count": 3,
+                    "key": "5 BHK"
+                  }
+                ]
+              },
+              "doc_count": 4,
+              "key": "Penthouse"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "doc_count": 3,
+                    "key": "4 BHK"
+                  }
+                ]
+              },
+              "doc_count": 3,
+              "key": "Villa"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 2,
+              "key": "Showroom"
+            },
+            {
+              "unitType": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+              },
+              "doc_count": 1,
+              "key": "Plot"
+            }
+          ],
+          "count": 2496,
+          "microMarketListingCount": 0,
+          "available": 2496
+        },
+        "metrics": {
+          "sale": {
+            "supplyCount": 2492,
+            "visitCount": 138,
+            "rank": 7,
+            "enquiredCount": 45
+          },
+          "rent": {
+            "supplyCount": 3287,
+            "visitCount": 312,
+            "rank": 9,
+            "enquiredCount": 112
+          }
+        }
+      },
+      "indices": {
+        "SubLocationId": 892,
+        "connectivity_index": 4.18,
+        "connectivity_text": "<ul>  <li>Transportation options: 3 bus stops enhancing connectivity.</li>  <li>Nearby bus stops support easy local access.</li>  <li>Well-placed stops ensure seamless neighborhood travel.</li></ul>",
+        "lifestyle_index": 4.3,
+        "lifestyle_text": "<ul>  <li>Diverse shopping options with notable brands and boutiques.</li>  <li>Multiple gyms promoting fitness and active lifestyles.</li>  <li>Variety of dining spots for every taste and occasion.</li></ul>",
+        "educationhealth_index": 4.78,
+        "educationhealth_text": "<ul>  <li>Three accessible hospitals ensuring robust healthcare options.</li>  <li>Diverse schools support educational growth and development.</li>  <li>Proximity of healthcare and schools benefits community wellness.</li></ul>",
+        "livability_index": 4.38,
+        "livability_text": "<ul>  <li>Three hospitals provide essential healthcare services nearby.</li>  <li>Multiple restaurants and cafes enhance dining options locally.</li>  <li>Three schools ensure accessible education for families.</li></ul>"
+      }
+    },
+    "narrative_inputs": {},
+    "computed": {
+      "narratives": {
+        "summary": "Malad East offers good connectivity with airport and railway networks, and proximity to major roads like Western Express Highway. The area has decent social infrastructure including hospitals, schools, and multiple ongoing infrastructure projects. It faces issues such as traffic congestion in some stretches and high population density. The locality ranks 27 in the city and has a strong presence of apartments with multiple rental and sale listings."
+      }
+    }
+  },
+  "page4_market_snapshot": {
+    "data": {
+      "marketSupply": {
+        "listingsCount": 1207,
+        "listingRate": 29400,
+        "description": "Malad East has 1,207 Listings on Marketplaces with Median Price of ₹ 29.4 K/Sq.Ft.",
+        "graphData": [
+          {
+            "bucketOrder": 1,
+            "saleCount": 91,
+            "bucketRange": "24K - 25.5K"
+          },
+          {
+            "bucketOrder": 2,
+            "saleCount": 185,
+            "bucketRange": "25.5K - 27.5K"
+          },
+          {
+            "bucketOrder": 3,
+            "saleCount": 290,
+            "bucketRange": "27.5K - 29.5K"
+          },
+          {
+            "bucketOrder": 4,
+            "saleCount": 333,
+            "bucketRange": "29.5K - 31K"
+          },
+          {
+            "bucketOrder": 5,
+            "saleCount": 211,
+            "bucketRange": "31K - 33K"
+          },
+          {
+            "bucketOrder": 6,
+            "saleCount": 97,
+            "bucketRange": "33K - 34.5K"
+          }
+        ]
+      },
+      "rentalStats": {
+        "description": "Monthly Rent in Malad East ranges from ₹ 24.1 K to ₹ 2.6 L with options available for STUDIO,1,2,3,4,5 BHK units",
+        "rentalBHKStats": [
+          {
+            "unitType": "STUDIO",
+            "avgRate": "₹ 24.1 K",
+            "locationAvgRate": null,
+            "buildingType": "Residential",
+            "propertyType": "Apartment"
+          },
+          {
+            "unitType": "1 BHK",
+            "avgRate": "₹ 40 K",
+            "locationAvgRate": null,
+            "buildingType": "Residential",
+            "propertyType": "Apartment"
+          },
+          {
+            "unitType": "2 BHK",
+            "avgRate": "₹ 66.3 K",
+            "locationAvgRate": null,
+            "buildingType": "Residential",
+            "propertyType": "Apartment"
+          },
+          {
+            "unitType": "3 BHK",
+            "avgRate": "₹ 1 L",
+            "locationAvgRate": null,
+            "buildingType": "Residential",
+            "propertyType": "Apartment"
+          },
+          {
+            "unitType": "4 BHK",
+            "avgRate": "₹ 1.7 L",
+            "locationAvgRate": null,
+            "buildingType": "Residential",
+            "propertyType": "Apartment"
+          },
+          {
+            "unitType": "5 BHK",
+            "avgRate": "₹ 2.6 L",
+            "locationAvgRate": null,
+            "buildingType": "Residential",
+            "propertyType": "Apartment"
+          }
+        ]
+      },
+      "marketOverview": {
+        "askingPrice": 29396,
+        "registrationRate": 17732,
+        "avgRentalRate": null
+      }
+    },
+    "narrative_inputs": {}
+  },
+  "page5_price_trend": {
+    "data": {
+      "priceTrend": [
+        {
+          "quarterName": "Dec 2025",
+          "locationRate": 29396,
+          "micromarketRate": 21180
+        },
+        {
+          "quarterName": "Sep 2025",
+          "locationRate": 29227,
+          "micromarketRate": 21139
+        },
+        {
+          "quarterName": "Jun 2025",
+          "locationRate": 27503,
+          "micromarketRate": 21028
+        },
+        {
+          "quarterName": "Mar 2025",
+          "locationRate": 29037,
+          "micromarketRate": 19695
+        }
+      ]
+    },
+    "narrative_inputs": {},
+    "computed": {
+      "narratives": {
+        "narrative": "Property prices in Malad East have shown a gradual increase from ₹27,503 per sq.ft. in June 2025 to ₹29,396 in December 2025. Prices have remained consistently above the Mumbai Western Suburbs micromarket average, which was ₹21,180 per sq.ft. in December 2025. The steady rise indicates a stable price trend over recent quarters."
+      }
+    }
+  },
+  "page6_nearby_comparison": {
+    "data": {
+      "locationRates": [
+        {
+          "name": "Kandivali East",
+          "avgRate": 30294,
+          "changePercentage": 4.96
+        },
+        {
+          "name": "Lokhandwala",
+          "avgRate": 28638,
+          "changePercentage": -9.45
+        },
+        {
+          "name": "Malad West",
+          "avgRate": 28366,
+          "changePercentage": 2.55
+        },
+        {
+          "name": "Goregaon East",
+          "avgRate": 36103,
+          "changePercentage": 18.34
+        },
+        {
+          "name": "Goregaon West",
+          "avgRate": 33246,
+          "changePercentage": 1.94
+        },
+        {
+          "name": "Aarey Colony",
+          "avgRate": 8569,
+          "changePercentage": 0.0
+        },
+        {
+          "name": "Kandivali West",
+          "avgRate": 25537,
+          "changePercentage": -4.35
+        }
+      ]
+    },
+    "narrative_inputs": {},
+    "computed": {
+      "narratives": {
+        "narrative": "Compared to nearby localities, Malad East's average price of ₹29,396 per sq.ft. in December 2025 is lower than Goregaon East (₹36,103) and Goregaon West (₹33,246) but higher than Kandivali West (₹25,537) and Aarey Colony (₹8,569). Kandivali East shows a slight price growth of 4.96% while Malad East maintains a relatively stable price. Lokhandwala and Kandivali West have experienced price declines in this period."
+      }
+    }
+  },
+  "page7_demand_supply_sale": {
+    "data": {
+      "sale": {
+        "unitType": [
+          {
+            "name": "1 BHK",
+            "listing": 545,
+            "demandPercent": 33,
+            "supplyPercent": 24
+          },
+          {
+            "name": "1 RK",
+            "listing": 5,
+            "demandPercent": 1,
+            "supplyPercent": 1
+          },
+          {
+            "name": "1.5 BHK",
+            "listing": 15,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "2 BHK",
+            "listing": 1148,
+            "demandPercent": 36,
+            "supplyPercent": 49
+          },
+          {
+            "name": "2.5 BHK",
+            "listing": 14,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "3 BHK",
+            "listing": 489,
+            "demandPercent": 15,
+            "supplyPercent": 21
+          },
+          {
+            "name": "3.5 BHK",
+            "listing": 17,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "4 BHK",
+            "listing": 94,
+            "demandPercent": 2,
+            "supplyPercent": 4
+          },
+          {
+            "name": "5 BHK",
+            "listing": 30,
+            "demandPercent": 1,
+            "supplyPercent": 2
+          },
+          {
+            "name": "6 BHK",
+            "listing": 9,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          }
+        ],
+        "propertyType": [
+          {
+            "name": "Apartment",
+            "listing": 2213,
+            "demandPercent": 90,
+            "supplyPercent": 89
+          },
+          {
+            "name": "Builder Floor",
+            "listing": 146,
+            "demandPercent": 0,
+            "supplyPercent": 6
+          },
+          {
+            "name": "Co-working Space",
+            "listing": 21,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Office Space",
+            "listing": 84,
+            "demandPercent": 4,
+            "supplyPercent": 4
+          },
+          {
+            "name": "Office Space in IT/SEZ",
+            "listing": 1,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Penthouse",
+            "listing": 4,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Plot",
+            "listing": 1,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Shop",
+            "listing": 18,
+            "demandPercent": 1,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Showroom",
+            "listing": 2,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Villa",
+            "listing": 3,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          }
+        ],
+        "totalPrice_range": [
+          {
+            "name": "Below 50 L",
+            "listing": 174,
+            "demandPercent": 4,
+            "supplyPercent": 7
+          },
+          {
+            "name": "50 L - 2 Cr.",
+            "listing": 1102,
+            "demandPercent": 62,
+            "supplyPercent": 45
+          },
+          {
+            "name": "2 Cr. - 5 Cr.",
+            "listing": 1070,
+            "demandPercent": 28,
+            "supplyPercent": 43
+          },
+          {
+            "name": "Above 5 Cr.",
+            "listing": 147,
+            "demandPercent": 4,
+            "supplyPercent": 6
+          }
+        ]
+      }
+    },
+    "computed": {
+      "narratives": {
+        "narrative": "In the sales market, 2 BHK units have the highest supply share at 49% but demand is lower at 36%. 1 BHK units show strong demand at 33% compared to 24% supply. Apartments dominate the sales listings with 89% supply and 90% demand. The majority of sales are in the price range of ₹50 L to ₹2 Cr, making up 45% of supply and 62% of demand. There is less demand for high-end units above ₹5 Cr."
+      }
+    },
+    "narrative_inputs": {}
+  },
+  "page8_demand_supply_rent": {
+    "data": {
+      "rent": {
+        "unitType": [
+          {
+            "name": "1 BHK",
+            "listing": 1008,
+            "demandPercent": 53,
+            "supplyPercent": 34
+          },
+          {
+            "name": "1 RK",
+            "listing": 19,
+            "demandPercent": 7,
+            "supplyPercent": 1
+          },
+          {
+            "name": "1.5 BHK",
+            "listing": 8,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "2 BHK",
+            "listing": 1282,
+            "demandPercent": 19,
+            "supplyPercent": 43
+          },
+          {
+            "name": "2.5 BHK",
+            "listing": 9,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "3 BHK",
+            "listing": 576,
+            "demandPercent": 8,
+            "supplyPercent": 20
+          },
+          {
+            "name": "3.5 BHK",
+            "listing": 28,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "4 BHK",
+            "listing": 51,
+            "demandPercent": 0,
+            "supplyPercent": 2
+          },
+          {
+            "name": "5 BHK",
+            "listing": 18,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          }
+        ],
+        "propertyType": [
+          {
+            "name": "Apartment",
+            "listing": 2996,
+            "demandPercent": 90,
+            "supplyPercent": 91
+          },
+          {
+            "name": "Builder Floor",
+            "listing": 3,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Co-working Space",
+            "listing": 2,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Office Space",
+            "listing": 201,
+            "demandPercent": 2,
+            "supplyPercent": 7
+          },
+          {
+            "name": "Office Space in IT/SEZ",
+            "listing": 3,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Pg",
+            "listing": 73,
+            "demandPercent": 3,
+            "supplyPercent": 3
+          },
+          {
+            "name": "Shop",
+            "listing": 13,
+            "demandPercent": 1,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Showroom",
+            "listing": 2,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Villa",
+            "listing": 1,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          },
+          {
+            "name": "Warehouse",
+            "listing": 6,
+            "demandPercent": 0,
+            "supplyPercent": 1
+          }
+        ],
+        "totalPrice_range": [
+          {
+            "name": "Below 15000",
+            "listing": 56,
+            "demandPercent": 5,
+            "supplyPercent": 2
+          },
+          {
+            "name": "15000 - 30000",
+            "listing": 239,
+            "demandPercent": 33,
+            "supplyPercent": 8
+          },
+          {
+            "name": "30000 - 50000",
+            "listing": 992,
+            "demandPercent": 36,
+            "supplyPercent": 31
+          },
+          {
+            "name": "Above 50000",
+            "listing": 2013,
+            "demandPercent": 25,
+            "supplyPercent": 61
+          }
+        ]
+      }
+    },
+    "computed": {
+      "narratives": {
+        "narrative": "For rentals, 1 BHK units are in high demand at 53% with supply at 34%. 2 BHK units have more supply (43%) than demand (19%). Apartments account for 91% of rental supply and 90% of demand. Rental listings above ₹50,000 make up 61% of supply but only 25% of demand. The ₹30,000 to ₹50,000 range shows balanced demand and supply."
+      }
+    },
+    "narrative_inputs": {}
+  },
+  "page9_propertytype_status": {
+    "data": {
+      "propertyTypes": [
+        {
+          "propertyType": "shop",
+          "avgPrice": 74344,
+          "changePercent": 31.99
+        },
+        {
+          "propertyType": "office space",
+          "avgPrice": 35208,
+          "changePercent": -7.25
+        },
+        {
+          "propertyType": "apartment",
+          "avgPrice": 29396,
+          "changePercent": 0.58
+        },
+        {
+          "propertyType": "co-working space",
+          "avgPrice": 30250,
+          "changePercent": -0.32
+        }
+      ],
+      "propertyStatus": [
+        {
+          "status": "Ready To Move",
+          "units": 347,
+          "avgPrice": 24625,
+          "changePercent": -2.65
+        },
+        {
+          "status": "Well Occupied",
+          "units": 131,
+          "avgPrice": 23843,
+          "changePercent": -2.39
+        },
+        {
+          "status": "Advanced Stage",
+          "units": 2,
+          "avgPrice": 23420,
+          "changePercent": 0.84
+        },
+        {
+          "status": "Partially Ready To Move",
+          "units": 1,
+          "avgPrice": 20000,
+          "changePercent": -10.45
+        },
+        {
+          "status": "Mid Stage",
+          "units": 2,
+          "avgPrice": 23036,
+          "changePercent": -0.25
+        },
+        {
+          "status": "Under Construction",
+          "units": 54,
+          "avgPrice": 25205,
+          "changePercent": 0.66
+        },
+        {
+          "status": "New Launch",
+          "units": 13,
+          "avgPrice": 23495,
+          "changePercent": -3.36
+        }
+      ]
+    },
+    "narrative_inputs": {},
+    "computed": {
+      "narratives": {
+        "narrative": "Apartments have an average price of ₹29,396 per sq.ft. with a slight increase of 0.58%. Shops recorded the highest price rise at nearly 32%, while office spaces saw a decrease of 7.25%. Ready to move properties are the most common, with 347 units averaging ₹24,625 and a small decline in price. Under construction units show a minor price increase, and new launches have experienced a slight price drop."
+      }
+    }
+  },
+  "page10_top_projects": {
+    "data": {
+      "topProjects": {
+        "byTransactions": {
+          "projects": [
+            {
+              "changePercentage": 0.0,
+              "changeValue": 0.0,
+              "currentRate": 29760,
+              "location": "Malad East",
+              "locality": "Laxman Nagar",
+              "noOfTransactions": 16,
+              "productUrl": "https://www.squareyards.com/property-rates/omkar-alta-monte-laxman-nagar-malad-east-mumbai",
+              "projectName": "Omkar Alta Monte",
+              "priority": 1,
+              "saleRentValue": 538100000.0
+            },
+            {
+              "changePercentage": 17.865516495557454,
+              "changeValue": 5377.290000000001,
+              "currentRate": 35476,
+              "location": "Malad East",
+              "locality": "Pushpa Park",
+              "noOfTransactions": 8,
+              "productUrl": "https://www.squareyards.com/property-rates/ajanta-chs-pushpa-park-malad-east-mumbai",
+              "projectName": "Ajanta CHS",
+              "priority": 2,
+              "saleRentValue": 78500000.0
+            },
+            {
+              "changePercentage": -3.593967768042309,
+              "changeValue": -1217.6600000000035,
+              "currentRate": 32663,
+              "location": "Malad East",
+              "locality": "Sankalp Colony",
+              "noOfTransactions": 6,
+              "productUrl": "https://www.squareyards.com/property-rates/k-raheja-heights-sankalp-colony-malad-east-mumbai",
+              "projectName": "K Raheja Heights",
+              "priority": 3,
+              "saleRentValue": 106900000.0
+            },
+            {
+              "changePercentage": 0.0,
+              "changeValue": 0.0,
+              "currentRate": 29059,
+              "location": "Malad East",
+              "locality": "Kasam Baug",
+              "noOfTransactions": 6,
+              "productUrl": "https://www.squareyards.com/property-rates/raheja-tipco-heights-kasam-baug-malad-east-mumbai",
+              "projectName": "Raheja Tipco Heights",
+              "priority": 4,
+              "saleRentValue": 114490000.0
+            },
+            {
+              "changePercentage": null,
+              "changeValue": null,
+              "currentRate": 28565,
+              "location": "Malad East",
+              "locality": "Sankalp Colony",
+              "noOfTransactions": 6,
+              "productUrl": "https://www.squareyards.com/property-rates/k-raheja-residency-sankalp-colony-malad-east-mumbai",
+              "projectName": "K Raheja Residency",
+              "priority": 5,
+              "saleRentValue": 92500000.0
+            },
+            {
+              "changePercentage": -2.170573278385343,
+              "changeValue": -633.6699999999983,
+              "currentRate": 28560,
+              "location": "Malad East",
+              "locality": "Riddhi Gardens",
+              "noOfTransactions": 5,
+              "productUrl": "https://www.squareyards.com/property-rates/lalani-valentine-apartment-riddhi-gardens-malad-east-mumbai",
+              "projectName": "Lalani Valentine Apartment",
+              "priority": 6,
+              "saleRentValue": 57251001
+            },
+            {
+              "changePercentage": -5.381056348574536,
+              "changeValue": -1706.75,
+              "currentRate": 30011,
+              "location": "Malad East",
+              "locality": "Laxman Nagar",
+              "noOfTransactions": 4,
+              "productUrl": "https://www.squareyards.com/property-rates/omkar-signet-laxman-nagar-malad-east-mumbai",
+              "projectName": "Omkar Signet",
+              "priority": 7,
+              "saleRentValue": 42700000.0
+            },
+            {
+              "changePercentage": -13.464918738150262,
+              "changeValue": -4481.300000000003,
+              "currentRate": 28800,
+              "location": "Malad East",
+              "locality": "Dindoshi",
+              "noOfTransactions": 4,
+              "productUrl": "https://www.squareyards.com/property-rates/vasant-valley-complex-dindoshi-malad-east-mumbai",
+              "projectName": "Vasant Valley Complex",
+              "priority": 8,
+              "saleRentValue": 56000000.0
+            },
+            {
+              "changePercentage": 26.68110013242756,
+              "changeValue": 5153.779999999999,
+              "currentRate": 24470,
+              "location": "Malad East",
+              "locality": "Kasam Baug",
+              "noOfTransactions": 4,
+              "productUrl": "https://www.squareyards.com/property-rates/shah-arcade-ii-kasam-baug-malad-east-mumbai",
+              "projectName": "Shah Arcade II",
+              "priority": 9,
+              "saleRentValue": 62450000.0
+            },
+            {
+              "changePercentage": 5.826862906369334,
+              "changeValue": 1222.7799999999988,
+              "currentRate": 22208,
+              "location": "Malad East",
+              "locality": "Matanpur Nagar",
+              "noOfTransactions": 4,
+              "productUrl": "https://www.squareyards.com/property-rates/kaydee-solitaire-matanpur-nagar-malad-east-mumbai",
+              "projectName": "Kaydee Solitaire",
+              "priority": 10,
+              "saleRentValue": 26600000.0
+            }
+          ]
+        },
+        "byListingRates": {
+          "projects": [
+            {
+              "changePercentage": 5.58,
+              "changeValue": null,
+              "currentRate": 42788,
+              "location": "Mumbai Western Suburbs",
+              "locality": "Malad East",
+              "noOfTransactions": null,
+              "productUrl": null,
+              "projectName": "Ram Niwas",
+              "priority": null,
+              "saleRentValue": null
+            },
+            {
+              "changePercentage": -3.57,
+              "changeValue": null,
+              "currentRate": 40109,
+              "location": "Mumbai Western Suburbs",
+              "locality": "Malad East",
+              "noOfTransactions": null,
+              "productUrl": null,
+              "projectName": "kanakia spaces levels",
+              "priority": null,
+              "saleRentValue": null
+            },
+            {
+              "changePercentage": -3.57,
+              "changeValue": null,
+              "currentRate": 40109,
+              "location": "Mumbai Western Suburbs",
+              "locality": "Malad East",
+              "noOfTransactions": null,
+              "productUrl": null,
+              "projectName": "kanakia spaces platino",
+              "priority": null,
+              "saleRentValue": null
+            },
+            {
+              "changePercentage": -3.57,
+              "changeValue": null,
+              "currentRate": 40109,
+              "location": "Mumbai Western Suburbs",
+              "locality": "Malad East",
+              "noOfTransactions": null,
+              "productUrl": null,
+              "projectName": "kanakia levels",
+              "priority": null,
+              "saleRentValue": null
+            },
+            {
+              "changePercentage": 0.0,
+              "changeValue": null,
+              "currentRate": 37692,
+              "location": "Mumbai Western Suburbs",
+              "locality": "Malad East",
+              "noOfTransactions": null,
+              "productUrl": null,
+              "projectName": "ajanta shopping centre",
+              "priority": null,
+              "saleRentValue": null
+            },
+            {
+              "changePercentage": 16.16,
+              "changeValue": null,
+              "currentRate": 37500,
+              "location": "Mumbai Western Suburbs",
+              "locality": "Malad East",
+              "noOfTransactions": null,
+              "productUrl": null,
+              "projectName": "vasundhara paradise",
+              "priority": null,
+              "saleRentValue": null
+            },
+            {
+              "changePercentage": -9.98,
+              "changeValue": null,
+              "currentRate": 35634,
+              "location": "Mumbai Western Suburbs",
+              "locality": "Malad East",
+              "noOfTransactions": null,
+              "productUrl": null,
+              "projectName": "db sahyadri",
+              "priority": null,
+              "saleRentValue": null
+            },
+            {
+              "changePercentage": -9.98,
+              "changeValue": null,
+              "currentRate": 35634,
+              "location": "Mumbai Western Suburbs",
+              "locality": "Malad East",
+              "noOfTransactions": null,
+              "productUrl": null,
+              "projectName": "ashish sahyadri",
+              "priority": null,
+              "saleRentValue": null
+            },
+            {
+              "changePercentage": 6.09,
+              "changeValue": null,
+              "currentRate": 35526,
+              "location": "Mumbai Western Suburbs",
+              "locality": "Malad East",
+              "noOfTransactions": null,
+              "productUrl": null,
+              "projectName": "dynamix astrum",
+              "priority": null,
+              "saleRentValue": null
+            },
+            {
+              "changePercentage": -0.18,
+              "changeValue": null,
+              "currentRate": 35476,
+              "location": "Mumbai Western Suburbs",
+              "locality": "Malad East",
+              "noOfTransactions": null,
+              "productUrl": null,
+              "projectName": "ajanta chs",
+              "priority": null,
+              "saleRentValue": null
+            }
+          ]
+        },
+        "byValue": {
+          "projects": [
+            {
+              "changePercentage": 0.0,
+              "changeValue": 0.0,
+              "currentRate": 29760,
+              "location": "Malad East",
+              "locality": "Laxman Nagar",
+              "noOfTransactions": 16,
+              "productUrl": "https://www.squareyards.com/property-rates/omkar-alta-monte-laxman-nagar-malad-east-mumbai",
+              "projectName": "Omkar Alta Monte",
+              "priority": 1,
+              "saleRentValue": 538100000.0
+            },
+            {
+              "changePercentage": 0.0,
+              "changeValue": 0.0,
+              "currentRate": 29059,
+              "location": "Malad East",
+              "locality": "Kasam Baug",
+              "noOfTransactions": 6,
+              "productUrl": "https://www.squareyards.com/property-rates/raheja-tipco-heights-kasam-baug-malad-east-mumbai",
+              "projectName": "Raheja Tipco Heights",
+              "priority": 2,
+              "saleRentValue": 114490000.0
+            },
+            {
+              "changePercentage": -3.593967768042309,
+              "changeValue": -1217.6600000000035,
+              "currentRate": 32663,
+              "location": "Malad East",
+              "locality": "Sankalp Colony",
+              "noOfTransactions": 6,
+              "productUrl": "https://www.squareyards.com/property-rates/k-raheja-heights-sankalp-colony-malad-east-mumbai",
+              "projectName": "K Raheja Heights",
+              "priority": 3,
+              "saleRentValue": 106900000.0
+            },
+            {
+              "changePercentage": null,
+              "changeValue": null,
+              "currentRate": 28565,
+              "location": "Malad East",
+              "locality": "Sankalp Colony",
+              "noOfTransactions": 6,
+              "productUrl": "https://www.squareyards.com/property-rates/k-raheja-residency-sankalp-colony-malad-east-mumbai",
+              "projectName": "K Raheja Residency",
+              "priority": 4,
+              "saleRentValue": 92500000.0
+            },
+            {
+              "changePercentage": 0.0,
+              "changeValue": 0.0,
+              "currentRate": 30623,
+              "location": "Malad East",
+              "locality": "Mira Nagar",
+              "noOfTransactions": 3,
+              "productUrl": "https://www.squareyards.com/property-rates/jp-decks-mira-nagar-malad-east-mumbai",
+              "projectName": "JP Decks",
+              "priority": 5,
+              "saleRentValue": 80500000.0
+            },
+            {
+              "changePercentage": 17.865516495557454,
+              "changeValue": 5377.290000000001,
+              "currentRate": 35476,
+              "location": "Malad East",
+              "locality": "Pushpa Park",
+              "noOfTransactions": 8,
+              "productUrl": "https://www.squareyards.com/property-rates/ajanta-chs-pushpa-park-malad-east-mumbai",
+              "projectName": "Ajanta CHS",
+              "priority": 6,
+              "saleRentValue": 78500000.0
+            },
+            {
+              "changePercentage": 26.68110013242756,
+              "changeValue": 5153.779999999999,
+              "currentRate": 24470,
+              "location": "Malad East",
+              "locality": "Kasam Baug",
+              "noOfTransactions": 4,
+              "productUrl": "https://www.squareyards.com/property-rates/shah-arcade-ii-kasam-baug-malad-east-mumbai",
+              "projectName": "Shah Arcade II",
+              "priority": 7,
+              "saleRentValue": 62450000.0
+            },
+            {
+              "changePercentage": -2.170573278385343,
+              "changeValue": -633.6699999999983,
+              "currentRate": 28560,
+              "location": "Malad East",
+              "locality": "Riddhi Gardens",
+              "noOfTransactions": 5,
+              "productUrl": "https://www.squareyards.com/property-rates/lalani-valentine-apartment-riddhi-gardens-malad-east-mumbai",
+              "projectName": "Lalani Valentine Apartment",
+              "priority": 8,
+              "saleRentValue": 57251001
+            },
+            {
+              "changePercentage": -13.464918738150262,
+              "changeValue": -4481.300000000003,
+              "currentRate": 28800,
+              "location": "Malad East",
+              "locality": "Dindoshi",
+              "noOfTransactions": 4,
+              "productUrl": "https://www.squareyards.com/property-rates/vasant-valley-complex-dindoshi-malad-east-mumbai",
+              "projectName": "Vasant Valley Complex",
+              "priority": 9,
+              "saleRentValue": 56000000.0
+            },
+            {
+              "changePercentage": -5.381056348574536,
+              "changeValue": -1706.75,
+              "currentRate": 30011,
+              "location": "Malad East",
+              "locality": "Laxman Nagar",
+              "noOfTransactions": 4,
+              "productUrl": "https://www.squareyards.com/property-rates/omkar-signet-laxman-nagar-malad-east-mumbai",
+              "projectName": "Omkar Signet",
+              "priority": 10,
+              "saleRentValue": 42700000.0
+            }
+          ]
+        }
+      }
+    },
+    "narrative_inputs": {},
+    "computed": {
+      "narratives": {
+        "highlights": "Top projects by transactions include Omkar Alta Monte in Laxman Nagar with 16 sales at ₹29,760 per sq.ft. Ajanta CHS in Pushpa Park reported an 18% price increase to ₹35,476. K Raheja Heights in Sankalp Colony saw a slight price decline to ₹32,663. Other notable projects are Raheja Tipco Heights and K Raheja Residency in Sasankalp Colony. Projects like Shah Arcade II recorded over 26% price growth, highlighting active areas within Malad East."
+      }
+    }
+  },
+  "page11_registrations_developers": {
+    "data": {
+      "govtRegistration_json1": {
+        "transactionCount": 2033,
+        "grossValue": "₹ 2,128 Cr",
+        "dateRange": "Mar 25 to Feb 26",
+        "registeredRate": 17750,
+        "description": "2,033 Sales Transactions Registered in Malad East From Mar 25 to Feb 26 at Avg. Price ₹ 17.8 K/Sq.Ft."
+      },
+      "govtRegistration_json2": {
+        "transactionCount": 2014,
+        "grossValue": "₹ 2,103 Cr",
+        "dateRange": "Mar 25 to Feb 26",
+        "registeredRate": 17750,
+        "description": ""
+      },
+      "topDevelopers": {
+        "byTransactions": {
+          "developers": [
+            {
+              "developerName": "Omkar",
+              "noOfTransactions": 20,
+              "priority": 2
+            },
+            {
+              "developerName": "DGS Group",
+              "noOfTransactions": 10,
+              "priority": 3
+            },
+            {
+              "developerName": "Raheja Universal",
+              "noOfTransactions": 8,
+              "priority": 4
+            },
+            {
+              "developerName": "Nareshbhai Vallabhbhai Patel",
+              "noOfTransactions": 8,
+              "priority": 5
+            },
+            {
+              "developerName": "K Raheja Realty",
+              "noOfTransactions": 6,
+              "priority": 6
+            },
+            {
+              "developerName": "K Raheja Constructions",
+              "noOfTransactions": 6,
+              "priority": 7
+            },
+            {
+              "developerName": "Lalani",
+              "noOfTransactions": 6,
+              "priority": 8
+            },
+            {
+              "developerName": "Shah Housecon Pvt Ltd",
+              "noOfTransactions": 4,
+              "priority": 9
+            },
+            {
+              "developerName": "Je and Vee Developer",
+              "noOfTransactions": 4,
+              "priority": 10
+            }
+          ]
+        }
+      },
+      "recentTransactions": [
+        {
+          "area": "407",
+          "wingNumber": "",
+          "sellerDetails": "",
+          "locality": "",
+          "unitNumber": "801",
+          "assetType": "Residential",
+          "buildingId": "",
+          "transactionType": "Sale",
+          "recordId": "IGRMLY15FK",
+          "propertyName": "Sukoon CHS",
+          "ratePerSqft": "🔒",
+          "lenderName": "",
+          "registrationDate": "2026-02-11",
+          "floorNumber": "8",
+          "location": "Malad East",
+          "towerName": "",
+          "saleRentValue": "🔒"
+        },
+        {
+          "area": "269",
+          "wingNumber": "",
+          "sellerDetails": "",
+          "locality": "",
+          "unitNumber": "502",
+          "assetType": "Residential",
+          "buildingId": "",
+          "transactionType": "Sale",
+          "recordId": "IGRMMUZV26",
+          "propertyName": "Ganesh Prasad CHS",
+          "ratePerSqft": "🔒",
+          "lenderName": "",
+          "registrationDate": "2026-02-11",
+          "floorNumber": "5",
+          "location": "Malad East",
+          "towerName": "1",
+          "saleRentValue": "🔒"
+        },
+        {
+          "area": "441",
+          "wingNumber": "",
+          "sellerDetails": "",
+          "locality": "",
+          "unitNumber": "1903",
+          "assetType": "Residential",
+          "buildingId": "",
+          "transactionType": "Sale",
+          "recordId": "IGRMFGCRMG",
+          "propertyName": "Orchid Heights",
+          "ratePerSqft": "🔒",
+          "lenderName": "",
+          "registrationDate": "2026-02-10",
+          "floorNumber": "19",
+          "location": "Malad East",
+          "towerName": "",
+          "saleRentValue": "🔒"
+        },
+        {
+          "area": "468",
+          "wingNumber": "B",
+          "sellerDetails": "",
+          "locality": "",
+          "unitNumber": "106",
+          "assetType": "Residential",
+          "buildingId": "",
+          "transactionType": "Sale",
+          "recordId": "IGRMMIJH3G",
+          "propertyName": "Ritu Park Building",
+          "ratePerSqft": "🔒",
+          "lenderName": "",
+          "registrationDate": "2026-02-10",
+          "floorNumber": "1",
+          "location": "Malad East",
+          "towerName": "1",
+          "saleRentValue": "🔒"
+        },
+        {
+          "area": "441",
+          "wingNumber": "",
+          "sellerDetails": "",
+          "locality": "",
+          "unitNumber": "1503",
+          "assetType": "Residential",
+          "buildingId": "",
+          "transactionType": "Sale",
+          "recordId": "IGRMZ7BQ5T",
+          "propertyName": "Orchid Heights",
+          "ratePerSqft": "🔒",
+          "lenderName": "",
+          "registrationDate": "2026-02-10",
+          "floorNumber": "15",
+          "location": "Malad East",
+          "towerName": "",
+          "saleRentValue": "🔒"
+        },
+        {
+          "area": "554",
+          "wingNumber": "",
+          "sellerDetails": "",
+          "locality": "",
+          "unitNumber": "91",
+          "assetType": "Residential",
+          "buildingId": "",
+          "transactionType": "Sale",
+          "recordId": "IGRM8C8S71",
+          "propertyName": "The Malad CHS",
+          "ratePerSqft": "🔒",
+          "lenderName": "",
+          "registrationDate": "2026-02-09",
+          "floorNumber": "G",
+          "location": "Malad East",
+          "towerName": "4",
+          "saleRentValue": "🔒"
+        },
+        {
+          "area": "323",
+          "wingNumber": "B",
+          "sellerDetails": "",
+          "locality": "",
+          "unitNumber": "1913",
+          "assetType": "Residential",
+          "buildingId": "",
+          "transactionType": "Sale",
+          "recordId": "IGRMGCLJ16",
+          "propertyName": "Omkareshwar CHS",
+          "ratePerSqft": "🔒",
+          "lenderName": "",
+          "registrationDate": "2026-02-09",
+          "floorNumber": "19",
+          "location": "Malad East",
+          "towerName": "1",
+          "saleRentValue": "🔒"
+        },
+        {
+          "area": "430",
+          "wingNumber": "",
+          "sellerDetails": "",
+          "locality": "",
+          "unitNumber": "1302",
+          "assetType": "Residential",
+          "buildingId": "",
+          "transactionType": "Sale",
+          "recordId": "IGRMZQN53E",
+          "propertyName": "Vastunemi Goodluck Apartment",
+          "ratePerSqft": "🔒",
+          "lenderName": "",
+          "registrationDate": "2026-02-07",
+          "floorNumber": "13",
+          "location": "Malad East",
+          "towerName": "",
+          "saleRentValue": "🔒"
+        },
+        {
+          "area": "323",
+          "wingNumber": "C",
+          "sellerDetails": "",
+          "locality": "",
+          "unitNumber": "410",
+          "assetType": "Residential",
+          "buildingId": "",
+          "transactionType": "Sale",
+          "recordId": "IGRMAXW6RI",
+          "propertyName": "Janu Bhoye Nagar CHS",
+          "ratePerSqft": "🔒",
+          "lenderName": "",
+          "registrationDate": "2026-02-07",
+          "floorNumber": "4",
+          "location": "Malad East",
+          "towerName": "1",
+          "saleRentValue": "🔒"
+        },
+        {
+          "area": "1633",
+          "wingNumber": "",
+          "sellerDetails": "",
+          "locality": "",
+          "unitNumber": "3602",
+          "assetType": "Residential",
+          "buildingId": "",
+          "transactionType": "Sale",
+          "recordId": "IGRMTAYC8L",
+          "propertyName": "Divam Building",
+          "ratePerSqft": "🔒",
+          "lenderName": "",
+          "registrationDate": "2026-02-06",
+          "floorNumber": "36",
+          "location": "Malad East",
+          "towerName": "",
+          "saleRentValue": "🔒"
+        }
+      ]
+    },
+    "narrative_inputs": {},
+    "computed": {
+      "narratives": {
+        "narrative": "Between March 2025 and February 2026, 2,033 sales transactions were registered in Malad East, totaling approximately ₹2,128 crore with an average registered rate of ₹17,750 per sq.ft. Leading developers active in the area include Omkar with 20 transactions, followed by DGS Group and Raheja Universal. The presence of multiple developers indicates ongoing and diverse construction activity in the locality."
+      }
+    }
+  },
+  "page12_reviews_conclusion": {
+    "data": {
+      "ratingReviewData": {
+        "AvgRating": 5,
+        "RatingCount": 3,
+        "ReviewCount": 3,
+        "RefferenceId": 65169
+      },
+      "ratingReview": {
+        "ratingOverview": [
+          {
+            "RefferenceId": 65169,
+            "AvgRating": 4.22222,
+            "RatingCount": 54,
+            "ReviewCount": 54,
+            "MinimumRating": 3,
+            "MaximimRating": 5
+          }
+        ],
+        "ratingStarCount": [
+          {
+            "Rating": 5,
+            "Count": 21
+          },
+          {
+            "Rating": 4,
+            "Count": 24
+          },
+          {
+            "Rating": 3,
+            "Count": 9
+          }
+        ],
+        "Image": {
+          "page": 0,
+          "size": 0,
+          "count": 0,
+          "data": []
+        },
+        "Video": {
+          "page": 0,
+          "size": 0,
+          "count": 0,
+          "data": []
+        },
+        "topReviews": [
+          {
+            "Name": "Nitish",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "Malad East is my residence; I find great pleasure here. My daily life seems cozy since I lately relocated. Walking about feels safe and everyone is amicable. Local train and Metro make my simplest travel path, hence heading to work in Goregaon or Andheri seems easy. Knowing that Sai Kripa Hospital and Suchak Hospital are nearby eases my mind. Around for families, too, are excellent institutions like VIBGYOR High. I often wander around Sanctuary and park areas or head to Inorbit, Oberoi, and Infinity Mall for amusement. For improved neighborhood living, I think pedestrian walkways need attention and more calm parks should soon be incorporated.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-12-15T20:00:16.000Z",
+            "rating_user_persona": {
+              "Name": "tenant"
+            }
+          },
+          {
+            "Name": "Mushkan",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "Malad East strikes me as among the busiest and most connected areas in Mumbai. From my personal observation as an agent, people from all walks of life are picking this area for its excellent transit choices. Daily travel is simple thanks to Malad Railway Station and the Western Express Highway; the Metro Line 2A and Line 7 provide even more flexibility. I observe good rental yield as tenants remain long owing to the presence of offices in Goregaon, Andheri, and Mindspace nearby. I also like the nearby schools, hospitals, and shopping centers like Inorbit and Infinity. One truthful thing I tell clients is peak hour traffic; some small interior roads might soon have maintenance requirements.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-12-15T19:59:18.000Z",
+            "rating_user_persona": {
+              "Name": "real estate agent"
+            }
+          },
+          {
+            "Name": "Digvijay",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "Living in Malad East as a renter, I am quite happy here since I value the ambiance and simplicity. Walking about this area makes me feel secure, and I believe rents here are reasonable in relation to other communities nearby Mumbai. Thanks to the train and the newly finished metro routes, my favourite aspect is how simple my daily travel is to work and school. For weekend plans, I like close malls like Infinity Mall. With additional green areas and parks available for strolling, I believe there is great room for future development. More tranquil outdoor locations and improved traffic control on major highways are what I believe are really lacking here.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-12-13T15:15:24.000Z",
+            "rating_user_persona": {
+              "Name": "tenant"
+            }
+          },
+          {
+            "Name": "Rajeev",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "I am rather glad to live in Malad East and believe this area has an excellent future for long-term residency. Easy transportation appeals to me since local trains, buses, and the subway make it easy for me to reach my job anytime, day or evening. I believe the security here is great, and I feel confident walking in the evening. The green around Sanjay Gandhi National Park appeals to me; the nearby hospitals and schools like Sharada Gyan Peeth and Suchak Hospital provide comfort to my day. Given that property demand is always growing, I believe my investment here is totally justified. I believe, meanwhile, that quick repairs on drainage issues and road congestion are required. Soon, I also want better public lighting on some roads.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-12-13T15:13:32.000Z",
+            "rating_user_persona": {
+              "Name": "owner"
+            }
+          },
+          {
+            "Name": "Abhinav",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "Malad East appeals to my clients since I find it to be a quiet place with excellent amenities for a better quality of life. I enjoy how secure I feel walking about here; therefore, I frequently advise customers about the large stores nearby, such as Infiniti Mall and Growel's 101 Mall, for pleasure and shopping. For me and my customers in all regions of Mumbai, the Malad Railway Station and the future Metro Lines 2/7 make travel simple. Real benefits are provided by hospitals like Lifeline Hospital and schools like VIBGYOR High. Here, too, I see good rental yields as opposed to those in many suburban areas. In my view, this area requires more public parks.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-12-13T15:10:56.000Z",
+            "rating_user_persona": {
+              "Name": "real estate agent"
+            }
+          },
+          {
+            "Name": "Raj",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "Malad East is among Mumbai's most unusual areas in my view. The metro Dindoshi and other future connections, the Western Express Highway, and the Western Railway via Malad station all link it. Good schools like St. Francis English High School abound. Also, dependable hospitals such Sai Kripa Hospital and large shopping malls such as Inorbit Mall and Infinity Mall abound. For many consumers, this makes Malad East a cost-effective but value-rich alternative to more core areas. Because of this infrastructure, demand and rental returns are constant. From where I stand, the neighbourhood works both for working professionals and for families. I support improved upkeep of internal roads and sidewalks and more committed green public parks or open-space features for inhabitants to rest. All in all, this place is strongly recommended.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-12-01T12:40:51.000Z",
+            "rating_user_persona": {
+              "Name": "real estate agent"
+            }
+          },
+          {
+            "Name": "Sai",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "I believe the area is rather central and not too far from several parts of the city. I think connectivity is beneficial. Daily commuting calls for the metro, local train, or road via the Western Express Highway. What fascinates me most is the number of everyday needs that are met, includes respectable hospitals like Sai Kripa Hospital, kind school choices, and large malls nearby for entertainment or shopping, like Inorbit Mall. The green fields and some quiet also make life simpler than they would be in densely populated urban districts. For friends seeking cozy city living, I advise Malad East. I can see better drainage and sewage, and more open public parks would have a great effect.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-12-01T12:39:59.000Z",
+            "rating_user_persona": {
+              "Name": "tenant"
+            }
+          },
+          {
+            "Name": "Karthik",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "I am glad I invest money into Malad East. I think the region is very well linked. From Malad railway station, I may readily take the local train or catch the metro in close proximity at Dindoshi Metro Station. Furthermore, near is the Western Express Highway, which makes travel easy for my family and me. Daily necessities are close by, with notable schools such as St. Francis English High School and respectable hospitals such as Sai Kripa Hospital. I appreciate the small green pockets and peaceful setting surrounding my house. Weekend planning is kept simple thanks to shopping and leisure choices in malls like Inorbit Mall. I am nevertheless concerned about traffic congestion during peak hours. For all inhabitants like us, it is still a worry.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-12-01T12:37:56.000Z",
+            "rating_user_persona": {
+              "Name": "owner"
+            }
+          },
+          {
+            "Name": "Tabbu",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "I really loved my Malad East life. It felt like the ideal, safe suburban corner just beside the pulse of the city. The setting really appealed to me for its refined, upscale feel. The Malad railway station on the Western Line and the new metro line that provided quick access made getting around really simple. We had great schools like St. Francis English High School and essential medical care from hospitals like Sai Kripa nearby; the area abounded in amenities. Thanks to Inorbit Mall and Infinity Mall, entertainment was also limitless. The traffic was my one regret. As the region became so sought after, the primary roadways became extremely clogged.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-11-24T08:14:15.000Z",
+            "rating_user_persona": {
+              "Name": "former resident"
+            }
+          },
+          {
+            "Name": "Zoya",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "I selected Malad East for its affordability but also good connections. My Mindspace IT Park office is only a quick drive away. One can travel easily by train, road, or subway. The area appears to be balanced: a number of shopping centers like Inorbit and Infinity right around as well as excellent schools and large hospitals. The local market feels friendly and practical, and I like the little parks and green. Especially for daily travels, having Metro Line 7 close by aids greatly. Though that's more of a city-wide problem, traffic during peak times and infrequent road noise late at night both cause me a bit of concern. All things taken together, living here is really great. It is cozy, convenient, and simply feels like home.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-11-23T08:53:31.000Z",
+            "rating_user_persona": {
+              "Name": "tenant"
+            }
+          },
+          {
+            "Name": "Pavan",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "Living in this area really suits me. I feel as though I belong in a lively but tranquil suburban existence. Because I have great transportation choices, like the Western Express Highway, Malad railway station, and the adjacent Metro Line 7, commuting is really simple, and my daily schedule is smooth. For my family's needs, there are top schools like St. Francis English High School and Sharada Gyan Peeth, and great hospitals such as Suchak and Sai Kripa nearby. Infinity and Inorbit stores are where we relax on weekends. Good social infrastructure and green pockets help the site feel hospitable. Should I choose something to improve, I would state the interior roads require more frequent maintenance. I still consider myself fortunate to reside in Malad East.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-11-23T08:52:44.000Z",
+            "rating_user_persona": {
+              "Name": "owner"
+            }
+          },
+          {
+            "Name": "Ankush",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "I strongly advise Malad East as a place of residency. Western Express Highway, local train, and adjacent subway provide great connectivity, therefore simplifying travel. Oberoi Mall and other retail centers abound in the area, which also features large shopping. Good institutions of medicine and clinics are accessible; schools and colleges are well used by families. Retail, healthcare, and nearby corporate parks have consistent local employment. Prices are more reasonable than those in central Mumbai, hence making it ideal for investors and consumers. There are restaurants and some green portions around here. Traffic flow during peak hours and speedier conclusion of civic projects are two areas needing improvement. I often suggest it daily to customers.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-11-18T16:15:06.000Z",
+            "rating_user_persona": {
+              "Name": "real estate agent"
+            }
+          },
+          {
+            "Name": "Neel",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "Malad East was a great investment option Due of its fast growth and remarkable safety record. It helps property values to rise. A strong foundation underpins a lovely residential and commercial mix. The Malad Railway Station and the newly operational Dahisar-Gundavali Metro Line 7 are simple to access, which was absolutely vital for my investment choice. Connectivity is perfect. Right here are respectable establishments like Nanavati Hospital and top schools like St. Francis D'Assisi High School. Given its good location and amenities, the region is really inexpensive. The only recommendation I have for enhancement is the upkeep regularity of older public playgrounds. This energetic area provides an almost total Mumbai living experience.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-11-13T11:32:59.000Z",
+            "rating_user_persona": {
+              "Name": "owner"
+            }
+          },
+          {
+            "Name": "Pragya",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "I felt I had arrived in a well-connected, energetic suburban area when I moved into Malad East last. For employment, I easily reach the metro at Dindoshi. The train station is only a quick travel from home. Modern stores, schools, and hospitals are all around me. The access to greater open terrain and adjacent parks, along with the hint of green, also appeals me. For a renter, living here has felt easy and sensible. Compared to more expensive neighborhoods, the flat rental market is more sensible. That is an advantage. More dedicated waterfront or big park spaces right in the neighborhood for weekend relaxation is one thing I would like to see enhanced.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-11-11T20:37:00.000Z",
+            "rating_user_persona": {
+              "Name": "tenant"
+            }
+          },
+          {
+            "Name": "Kriti",
+            "Rating": 5,
+            "Description": "",
+            "PositiveDesc": "Among the many Mumbai sites I have seen, Malad East stands out as a wise pick. Strong connection between the neighbourhood and the Western Railway line at Malad station and the close Dindoshi metro station on Line 7 provides additional comfort. Access by the Western Express Highway is great. Near are local hospitals including Sai Kripa Hospital &amp; ICU as well as others. Shopping malls, schools, and business centers are all reachable. Along with the expansion of IT parks and planned infrastructure including the metro and link roads. Further green open areas in line with new construction is one aspect requiring development. This area is worthy of your consideration if you are searching for a solid home or investment opportunity.",
+            "NegativeDesc": "",
+            "CreatedOn": "2025-11-11T20:36:11.000Z",
+            "rating_user_persona": {
+              "Name": "real estate agent"
+            }
+          }
+        ],
+        "good": [
+          {
+            "Id": 30,
+            "Name": "Reputed Schools or Hospitals in the Vicinity",
+            "Percentage": 98.14814814814815
+          },
+          {
+            "Id": 29,
+            "Name": "Near Metro or Good Public Transport",
+            "Percentage": 88.88888888888889
+          },
+          {
+            "Id": 31,
+            "Name": "Plenty of Shopping & Entertainment Options Nearby",
+            "Percentage": 77.77777777777779
+          },
+          {
+            "Id": 36,
+            "Name": "Affordable Location with Good Upside Potential",
+            "Percentage": 48.148148148148145
+          }
+        ],
+        "bad": [
+          {
+            "Id": 45,
+            "Name": "Decaying or Broken Roads",
+            "Percentage": 55.55555555555556
+          },
+          {
+            "Id": 39,
+            "Name": "Remote or Far Flung from City Centre",
+            "Percentage": 35.18518518518518
+          },
+          {
+            "Id": 47,
+            "Name": "Water Logging & Sewage Disposal Problems",
+            "Percentage": 27.77777777777778
+          },
+          {
+            "Id": 44,
+            "Name": "Limited or no Green Areas & Parks",
+            "Percentage": 16.666666666666664
+          }
+        ]
+      },
+      "insights_inputs_json2": {
+        "marketOverview": {
+          "askingPrice": 29396,
+          "registrationRate": 17732,
+          "avgRentalRate": null
+        },
+        "priceTrend": [
+          {
+            "quarterName": "Dec 2025",
+            "locationRate": 29396,
+            "micromarketRate": 21180
+          },
+          {
+            "quarterName": "Sep 2025",
+            "locationRate": 29227,
+            "micromarketRate": 21139
+          },
+          {
+            "quarterName": "Jun 2025",
+            "locationRate": 27503,
+            "micromarketRate": 21028
+          },
+          {
+            "quarterName": "Mar 2025",
+            "locationRate": 29037,
+            "micromarketRate": 19695
+          }
+        ],
+        "locationRates": [
+          {
+            "name": "Kandivali East",
+            "avgRate": 30294,
+            "changePercentage": 4.96
+          },
+          {
+            "name": "Lokhandwala",
+            "avgRate": 28638,
+            "changePercentage": -9.45
+          },
+          {
+            "name": "Malad West",
+            "avgRate": 28366,
+            "changePercentage": 2.55
+          },
+          {
+            "name": "Goregaon East",
+            "avgRate": 36103,
+            "changePercentage": 18.34
+          },
+          {
+            "name": "Goregaon West",
+            "avgRate": 33246,
+            "changePercentage": 1.94
+          },
+          {
+            "name": "Aarey Colony",
+            "avgRate": 8569,
+            "changePercentage": 0.0
+          },
+          {
+            "name": "Kandivali West",
+            "avgRate": 25537,
+            "changePercentage": -4.35
+          }
+        ],
+        "propertyTypes": [
+          {
+            "propertyType": "shop",
+            "avgPrice": 74344,
+            "changePercent": 31.99
+          },
+          {
+            "propertyType": "office space",
+            "avgPrice": 35208,
+            "changePercent": -7.25
+          },
+          {
+            "propertyType": "apartment",
+            "avgPrice": 29396,
+            "changePercent": 0.58
+          },
+          {
+            "propertyType": "co-working space",
+            "avgPrice": 30250,
+            "changePercent": -0.32
+          }
+        ],
+        "propertyStatus": [
+          {
+            "status": "Ready To Move",
+            "units": 347,
+            "avgPrice": 24625,
+            "changePercent": -2.65
+          },
+          {
+            "status": "Well Occupied",
+            "units": 131,
+            "avgPrice": 23843,
+            "changePercent": -2.39
+          },
+          {
+            "status": "Advanced Stage",
+            "units": 2,
+            "avgPrice": 23420,
+            "changePercent": 0.84
+          },
+          {
+            "status": "Partially Ready To Move",
+            "units": 1,
+            "avgPrice": 20000,
+            "changePercent": -10.45
+          },
+          {
+            "status": "Mid Stage",
+            "units": 2,
+            "avgPrice": 23036,
+            "changePercent": -0.25
+          },
+          {
+            "status": "Under Construction",
+            "units": 54,
+            "avgPrice": 25205,
+            "changePercent": 0.66
+          },
+          {
+            "status": "New Launch",
+            "units": 13,
+            "avgPrice": 23495,
+            "changePercent": -3.36
+          }
+        ],
+        "topProjects": {
+          "byTransactions": {
+            "projects": [
+              {
+                "changePercentage": 0.0,
+                "changeValue": 0.0,
+                "currentRate": 29760,
+                "location": "Malad East",
+                "locality": "Laxman Nagar",
+                "noOfTransactions": 16,
+                "productUrl": "https://www.squareyards.com/property-rates/omkar-alta-monte-laxman-nagar-malad-east-mumbai",
+                "projectName": "Omkar Alta Monte",
+                "priority": 1,
+                "saleRentValue": 538100000.0
+              },
+              {
+                "changePercentage": 17.865516495557454,
+                "changeValue": 5377.290000000001,
+                "currentRate": 35476,
+                "location": "Malad East",
+                "locality": "Pushpa Park",
+                "noOfTransactions": 8,
+                "productUrl": "https://www.squareyards.com/property-rates/ajanta-chs-pushpa-park-malad-east-mumbai",
+                "projectName": "Ajanta CHS",
+                "priority": 2,
+                "saleRentValue": 78500000.0
+              },
+              {
+                "changePercentage": -3.593967768042309,
+                "changeValue": -1217.6600000000035,
+                "currentRate": 32663,
+                "location": "Malad East",
+                "locality": "Sankalp Colony",
+                "noOfTransactions": 6,
+                "productUrl": "https://www.squareyards.com/property-rates/k-raheja-heights-sankalp-colony-malad-east-mumbai",
+                "projectName": "K Raheja Heights",
+                "priority": 3,
+                "saleRentValue": 106900000.0
+              },
+              {
+                "changePercentage": 0.0,
+                "changeValue": 0.0,
+                "currentRate": 29059,
+                "location": "Malad East",
+                "locality": "Kasam Baug",
+                "noOfTransactions": 6,
+                "productUrl": "https://www.squareyards.com/property-rates/raheja-tipco-heights-kasam-baug-malad-east-mumbai",
+                "projectName": "Raheja Tipco Heights",
+                "priority": 4,
+                "saleRentValue": 114490000.0
+              },
+              {
+                "changePercentage": null,
+                "changeValue": null,
+                "currentRate": 28565,
+                "location": "Malad East",
+                "locality": "Sankalp Colony",
+                "noOfTransactions": 6,
+                "productUrl": "https://www.squareyards.com/property-rates/k-raheja-residency-sankalp-colony-malad-east-mumbai",
+                "projectName": "K Raheja Residency",
+                "priority": 5,
+                "saleRentValue": 92500000.0
+              },
+              {
+                "changePercentage": -2.170573278385343,
+                "changeValue": -633.6699999999983,
+                "currentRate": 28560,
+                "location": "Malad East",
+                "locality": "Riddhi Gardens",
+                "noOfTransactions": 5,
+                "productUrl": "https://www.squareyards.com/property-rates/lalani-valentine-apartment-riddhi-gardens-malad-east-mumbai",
+                "projectName": "Lalani Valentine Apartment",
+                "priority": 6,
+                "saleRentValue": 57251001
+              },
+              {
+                "changePercentage": -5.381056348574536,
+                "changeValue": -1706.75,
+                "currentRate": 30011,
+                "location": "Malad East",
+                "locality": "Laxman Nagar",
+                "noOfTransactions": 4,
+                "productUrl": "https://www.squareyards.com/property-rates/omkar-signet-laxman-nagar-malad-east-mumbai",
+                "projectName": "Omkar Signet",
+                "priority": 7,
+                "saleRentValue": 42700000.0
+              },
+              {
+                "changePercentage": -13.464918738150262,
+                "changeValue": -4481.300000000003,
+                "currentRate": 28800,
+                "location": "Malad East",
+                "locality": "Dindoshi",
+                "noOfTransactions": 4,
+                "productUrl": "https://www.squareyards.com/property-rates/vasant-valley-complex-dindoshi-malad-east-mumbai",
+                "projectName": "Vasant Valley Complex",
+                "priority": 8,
+                "saleRentValue": 56000000.0
+              },
+              {
+                "changePercentage": 26.68110013242756,
+                "changeValue": 5153.779999999999,
+                "currentRate": 24470,
+                "location": "Malad East",
+                "locality": "Kasam Baug",
+                "noOfTransactions": 4,
+                "productUrl": "https://www.squareyards.com/property-rates/shah-arcade-ii-kasam-baug-malad-east-mumbai",
+                "projectName": "Shah Arcade II",
+                "priority": 9,
+                "saleRentValue": 62450000.0
+              },
+              {
+                "changePercentage": 5.826862906369334,
+                "changeValue": 1222.7799999999988,
+                "currentRate": 22208,
+                "location": "Malad East",
+                "locality": "Matanpur Nagar",
+                "noOfTransactions": 4,
+                "productUrl": "https://www.squareyards.com/property-rates/kaydee-solitaire-matanpur-nagar-malad-east-mumbai",
+                "projectName": "Kaydee Solitaire",
+                "priority": 10,
+                "saleRentValue": 26600000.0
+              }
+            ]
+          },
+          "byListingRates": {
+            "projects": [
+              {
+                "changePercentage": 5.58,
+                "changeValue": null,
+                "currentRate": 42788,
+                "location": "Mumbai Western Suburbs",
+                "locality": "Malad East",
+                "noOfTransactions": null,
+                "productUrl": null,
+                "projectName": "Ram Niwas",
+                "priority": null,
+                "saleRentValue": null
+              },
+              {
+                "changePercentage": -3.57,
+                "changeValue": null,
+                "currentRate": 40109,
+                "location": "Mumbai Western Suburbs",
+                "locality": "Malad East",
+                "noOfTransactions": null,
+                "productUrl": null,
+                "projectName": "kanakia spaces levels",
+                "priority": null,
+                "saleRentValue": null
+              },
+              {
+                "changePercentage": -3.57,
+                "changeValue": null,
+                "currentRate": 40109,
+                "location": "Mumbai Western Suburbs",
+                "locality": "Malad East",
+                "noOfTransactions": null,
+                "productUrl": null,
+                "projectName": "kanakia spaces platino",
+                "priority": null,
+                "saleRentValue": null
+              },
+              {
+                "changePercentage": -3.57,
+                "changeValue": null,
+                "currentRate": 40109,
+                "location": "Mumbai Western Suburbs",
+                "locality": "Malad East",
+                "noOfTransactions": null,
+                "productUrl": null,
+                "projectName": "kanakia levels",
+                "priority": null,
+                "saleRentValue": null
+              },
+              {
+                "changePercentage": 0.0,
+                "changeValue": null,
+                "currentRate": 37692,
+                "location": "Mumbai Western Suburbs",
+                "locality": "Malad East",
+                "noOfTransactions": null,
+                "productUrl": null,
+                "projectName": "ajanta shopping centre",
+                "priority": null,
+                "saleRentValue": null
+              },
+              {
+                "changePercentage": 16.16,
+                "changeValue": null,
+                "currentRate": 37500,
+                "location": "Mumbai Western Suburbs",
+                "locality": "Malad East",
+                "noOfTransactions": null,
+                "productUrl": null,
+                "projectName": "vasundhara paradise",
+                "priority": null,
+                "saleRentValue": null
+              },
+              {
+                "changePercentage": -9.98,
+                "changeValue": null,
+                "currentRate": 35634,
+                "location": "Mumbai Western Suburbs",
+                "locality": "Malad East",
+                "noOfTransactions": null,
+                "productUrl": null,
+                "projectName": "db sahyadri",
+                "priority": null,
+                "saleRentValue": null
+              },
+              {
+                "changePercentage": -9.98,
+                "changeValue": null,
+                "currentRate": 35634,
+                "location": "Mumbai Western Suburbs",
+                "locality": "Malad East",
+                "noOfTransactions": null,
+                "productUrl": null,
+                "projectName": "ashish sahyadri",
+                "priority": null,
+                "saleRentValue": null
+              },
+              {
+                "changePercentage": 6.09,
+                "changeValue": null,
+                "currentRate": 35526,
+                "location": "Mumbai Western Suburbs",
+                "locality": "Malad East",
+                "noOfTransactions": null,
+                "productUrl": null,
+                "projectName": "dynamix astrum",
+                "priority": null,
+                "saleRentValue": null
+              },
+              {
+                "changePercentage": -0.18,
+                "changeValue": null,
+                "currentRate": 35476,
+                "location": "Mumbai Western Suburbs",
+                "locality": "Malad East",
+                "noOfTransactions": null,
+                "productUrl": null,
+                "projectName": "ajanta chs",
+                "priority": null,
+                "saleRentValue": null
+              }
+            ]
+          },
+          "byValue": {
+            "projects": [
+              {
+                "changePercentage": 0.0,
+                "changeValue": 0.0,
+                "currentRate": 29760,
+                "location": "Malad East",
+                "locality": "Laxman Nagar",
+                "noOfTransactions": 16,
+                "productUrl": "https://www.squareyards.com/property-rates/omkar-alta-monte-laxman-nagar-malad-east-mumbai",
+                "projectName": "Omkar Alta Monte",
+                "priority": 1,
+                "saleRentValue": 538100000.0
+              },
+              {
+                "changePercentage": 0.0,
+                "changeValue": 0.0,
+                "currentRate": 29059,
+                "location": "Malad East",
+                "locality": "Kasam Baug",
+                "noOfTransactions": 6,
+                "productUrl": "https://www.squareyards.com/property-rates/raheja-tipco-heights-kasam-baug-malad-east-mumbai",
+                "projectName": "Raheja Tipco Heights",
+                "priority": 2,
+                "saleRentValue": 114490000.0
+              },
+              {
+                "changePercentage": -3.593967768042309,
+                "changeValue": -1217.6600000000035,
+                "currentRate": 32663,
+                "location": "Malad East",
+                "locality": "Sankalp Colony",
+                "noOfTransactions": 6,
+                "productUrl": "https://www.squareyards.com/property-rates/k-raheja-heights-sankalp-colony-malad-east-mumbai",
+                "projectName": "K Raheja Heights",
+                "priority": 3,
+                "saleRentValue": 106900000.0
+              },
+              {
+                "changePercentage": null,
+                "changeValue": null,
+                "currentRate": 28565,
+                "location": "Malad East",
+                "locality": "Sankalp Colony",
+                "noOfTransactions": 6,
+                "productUrl": "https://www.squareyards.com/property-rates/k-raheja-residency-sankalp-colony-malad-east-mumbai",
+                "projectName": "K Raheja Residency",
+                "priority": 4,
+                "saleRentValue": 92500000.0
+              },
+              {
+                "changePercentage": 0.0,
+                "changeValue": 0.0,
+                "currentRate": 30623,
+                "location": "Malad East",
+                "locality": "Mira Nagar",
+                "noOfTransactions": 3,
+                "productUrl": "https://www.squareyards.com/property-rates/jp-decks-mira-nagar-malad-east-mumbai",
+                "projectName": "JP Decks",
+                "priority": 5,
+                "saleRentValue": 80500000.0
+              },
+              {
+                "changePercentage": 17.865516495557454,
+                "changeValue": 5377.290000000001,
+                "currentRate": 35476,
+                "location": "Malad East",
+                "locality": "Pushpa Park",
+                "noOfTransactions": 8,
+                "productUrl": "https://www.squareyards.com/property-rates/ajanta-chs-pushpa-park-malad-east-mumbai",
+                "projectName": "Ajanta CHS",
+                "priority": 6,
+                "saleRentValue": 78500000.0
+              },
+              {
+                "changePercentage": 26.68110013242756,
+                "changeValue": 5153.779999999999,
+                "currentRate": 24470,
+                "location": "Malad East",
+                "locality": "Kasam Baug",
+                "noOfTransactions": 4,
+                "productUrl": "https://www.squareyards.com/property-rates/shah-arcade-ii-kasam-baug-malad-east-mumbai",
+                "projectName": "Shah Arcade II",
+                "priority": 7,
+                "saleRentValue": 62450000.0
+              },
+              {
+                "changePercentage": -2.170573278385343,
+                "changeValue": -633.6699999999983,
+                "currentRate": 28560,
+                "location": "Malad East",
+                "locality": "Riddhi Gardens",
+                "noOfTransactions": 5,
+                "productUrl": "https://www.squareyards.com/property-rates/lalani-valentine-apartment-riddhi-gardens-malad-east-mumbai",
+                "projectName": "Lalani Valentine Apartment",
+                "priority": 8,
+                "saleRentValue": 57251001
+              },
+              {
+                "changePercentage": -13.464918738150262,
+                "changeValue": -4481.300000000003,
+                "currentRate": 28800,
+                "location": "Malad East",
+                "locality": "Dindoshi",
+                "noOfTransactions": 4,
+                "productUrl": "https://www.squareyards.com/property-rates/vasant-valley-complex-dindoshi-malad-east-mumbai",
+                "projectName": "Vasant Valley Complex",
+                "priority": 9,
+                "saleRentValue": 56000000.0
+              },
+              {
+                "changePercentage": -5.381056348574536,
+                "changeValue": -1706.75,
+                "currentRate": 30011,
+                "location": "Malad East",
+                "locality": "Laxman Nagar",
+                "noOfTransactions": 4,
+                "productUrl": "https://www.squareyards.com/property-rates/omkar-signet-laxman-nagar-malad-east-mumbai",
+                "projectName": "Omkar Signet",
+                "priority": 10,
+                "saleRentValue": 42700000.0
+              }
+            ]
+          }
+        },
+        "govtRegistration": {
+          "transactionCount": 2014,
+          "grossValue": "₹ 2,103 Cr",
+          "dateRange": "Mar 25 to Feb 26",
+          "registeredRate": 17750,
+          "description": ""
+        },
+        "topDevelopers": {
+          "byTransactions": {
+            "developers": [
+              {
+                "developerName": "Omkar",
+                "noOfTransactions": 20,
+                "priority": 2
+              },
+              {
+                "developerName": "DGS Group",
+                "noOfTransactions": 10,
+                "priority": 3
+              },
+              {
+                "developerName": "Raheja Universal",
+                "noOfTransactions": 8,
+                "priority": 4
+              },
+              {
+                "developerName": "Nareshbhai Vallabhbhai Patel",
+                "noOfTransactions": 8,
+                "priority": 5
+              },
+              {
+                "developerName": "K Raheja Realty",
+                "noOfTransactions": 6,
+                "priority": 6
+              },
+              {
+                "developerName": "K Raheja Constructions",
+                "noOfTransactions": 6,
+                "priority": 7
+              },
+              {
+                "developerName": "Lalani",
+                "noOfTransactions": 6,
+                "priority": 8
+              },
+              {
+                "developerName": "Shah Housecon Pvt Ltd",
+                "noOfTransactions": 4,
+                "priority": 9
+              },
+              {
+                "developerName": "Je and Vee Developer",
+                "noOfTransactions": 4,
+                "priority": 10
+              }
+            ]
+          }
+        }
+      }
+    },
+    "narrative_inputs": {},
+    "computed": {
+      "narratives": {
+        "conclusion": "Malad East receives positive ratings averaging 5 from 3 recent reviews, noting its good connectivity via local train, metro lines, and highways. Residents appreciate access to reputed hospitals and schools, shopping malls such as Inorbit and Infinity, and feel safe walking in the area. Concerns include traffic congestion, limited green spaces, and road maintenance. The locality is seen as affordable with good upside potential and suitable for families and working professionals."
+      }
+    }
+  },
+  "charts": {
+    "p4_supply_hist": "out/charts/p4_supply_hist.png",
+    "p4_rent_bhk": "out/charts/p4_rent_bhk.png",
+    "p5_price_trend": "out/charts/p5_price_trend.png",
+    "p6_nearby_bar": "out/charts/p6_nearby_bar.png",
+    "p7_ds_unit": "out/charts/p7_ds_unit.png",
+    "p7_ds_ptype": "out/charts/p7_ds_ptype.png",
+    "p7_ds_band": "out/charts/p7_ds_band.png",
+    "p8_ds_unit": "out/charts/p8_ds_unit.png",
+    "p8_ds_ptype": "out/charts/p8_ds_ptype.png",
+    "p8_ds_band": "out/charts/p8_ds_band.png",
+    "p9_property_types": "out/charts/p9_property_types.png",
+    "p9_property_status": "out/charts/p9_property_status.png",
+    "p11_devs_txn": "out/charts/p11_devs_txn.png"
+  },
+  "narratives": {
+    "page2_exec_snapshot": {
+      "takeaways": "<ul><li>Average asking price is ₹29,396 per sq.ft.</li><li>Over 2,000 sales transactions registered in the past year.</li><li>Rental options range from ₹24.1K for studio to ₹2.6L for 5 BHK apartments.</li><li>High demand for 1 BHK and 2 BHK units in sales listings.</li></ul>"
+    },
+    "page3_liveability": {
+      "summary": "Malad East offers good connectivity with airport and railway networks, and proximity to major roads like Western Express Highway. The area has decent social infrastructure including hospitals, schools, and multiple ongoing infrastructure projects. It faces issues such as traffic congestion in some stretches and high population density. The locality ranks 27 in the city and has a strong presence of apartments with multiple rental and sale listings."
+    },
+    "page5_price_trend": {
+      "narrative": "Property prices in Malad East have shown a gradual increase from ₹27,503 per sq.ft. in June 2025 to ₹29,396 in December 2025. Prices have remained consistently above the Mumbai Western Suburbs micromarket average, which was ₹21,180 per sq.ft. in December 2025. The steady rise indicates a stable price trend over recent quarters."
+    },
+    "page6_nearby_comparison": {
+      "narrative": "Compared to nearby localities, Malad East's average price of ₹29,396 per sq.ft. in December 2025 is lower than Goregaon East (₹36,103) and Goregaon West (₹33,246) but higher than Kandivali West (₹25,537) and Aarey Colony (₹8,569). Kandivali East shows a slight price growth of 4.96% while Malad East maintains a relatively stable price. Lokhandwala and Kandivali West have experienced price declines in this period."
+    },
+    "page7_demand_supply_sale": {
+      "narrative": "In the sales market, 2 BHK units have the highest supply share at 49% but demand is lower at 36%. 1 BHK units show strong demand at 33% compared to 24% supply. Apartments dominate the sales listings with 89% supply and 90% demand. The majority of sales are in the price range of ₹50 L to ₹2 Cr, making up 45% of supply and 62% of demand. There is less demand for high-end units above ₹5 Cr."
+    },
+    "page8_demand_supply_rent": {
+      "narrative": "For rentals, 1 BHK units are in high demand at 53% with supply at 34%. 2 BHK units have more supply (43%) than demand (19%). Apartments account for 91% of rental supply and 90% of demand. Rental listings above ₹50,000 make up 61% of supply but only 25% of demand. The ₹30,000 to ₹50,000 range shows balanced demand and supply."
+    },
+    "page9_propertytype_status": {
+      "narrative": "Apartments have an average price of ₹29,396 per sq.ft. with a slight increase of 0.58%. Shops recorded the highest price rise at nearly 32%, while office spaces saw a decrease of 7.25%. Ready to move properties are the most common, with 347 units averaging ₹24,625 and a small decline in price. Under construction units show a minor price increase, and new launches have experienced a slight price drop."
+    },
+    "page10_top_projects": {
+      "highlights": "Top projects by transactions include Omkar Alta Monte in Laxman Nagar with 16 sales at ₹29,760 per sq.ft. Ajanta CHS in Pushpa Park reported an 18% price increase to ₹35,476. K Raheja Heights in Sankalp Colony saw a slight price decline to ₹32,663. Other notable projects are Raheja Tipco Heights and K Raheja Residency in Sasankalp Colony. Projects like Shah Arcade II recorded over 26% price growth, highlighting active areas within Malad East."
+    },
+    "page11_registrations_developers": {
+      "narrative": "Between March 2025 and February 2026, 2,033 sales transactions were registered in Malad East, totaling approximately ₹2,128 crore with an average registered rate of ₹17,750 per sq.ft. Leading developers active in the area include Omkar with 20 transactions, followed by DGS Group and Raheja Universal. The presence of multiple developers indicates ongoing and diverse construction activity in the locality."
+    },
+    "page12_reviews_conclusion": {
+      "conclusion": "Malad East receives positive ratings averaging 5 from 3 recent reviews, noting its good connectivity via local train, metro lines, and highways. Residents appreciate access to reputed hospitals and schools, shopping malls such as Inorbit and Infinity, and feel safe walking in the area. Concerns include traffic congestion, limited green spaces, and road maintenance. The locality is seen as affordable with good upside potential and suitable for families and working professionals."
+    }
+  }
+}

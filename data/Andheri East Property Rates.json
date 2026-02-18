@@ -1,0 +1,592 @@
+{
+  "code": 200,
+  "status": "OK",
+  "result": {
+    "details": {
+      "id": "65171",
+      "name": "Andheri East",
+      "locationId": null,
+      "microMarketId": "129",
+      "microMarketName": "Mumbai Western Suburbs",
+      "cityId": "3",
+      "cityName": "Mumbai",
+      "diUrl": "/property-rates/andheri-east-mumbai",
+      "type": "LOCALITY"
+    },
+    "marketOverview": {
+      "askingPrice": 30108,
+      "registrationRate": 20140,
+      "avgRentalRate": null
+    },
+    "priceTrend": [
+      {
+        "quarterName": "Dec 2025",
+        "locationRate": 30108,
+        "micromarketRate": 21180
+      },
+      {
+        "quarterName": "Sep 2025",
+        "locationRate": 29226,
+        "micromarketRate": 21139
+      },
+      {
+        "quarterName": "Jun 2025",
+        "locationRate": 29055,
+        "micromarketRate": 21028
+      },
+      {
+        "quarterName": "Mar 2025",
+        "locationRate": 30488,
+        "micromarketRate": 19695
+      }
+    ],
+    "locationRates": [
+      {
+        "name": "Vile Parle East",
+        "avgRate": 42469,
+        "changePercentage": 3.33
+      },
+      {
+        "name": "Chandivali",
+        "avgRate": 33039,
+        "changePercentage": 4.49
+      },
+      {
+        "name": "Sakinaka",
+        "avgRate": 26079,
+        "changePercentage": 2.54
+      },
+      {
+        "name": "Jogeshwari East",
+        "avgRate": 27078,
+        "changePercentage": 2.28
+      },
+      {
+        "name": "Vile Parle West",
+        "avgRate": 48142,
+        "changePercentage": 7.75
+      },
+      {
+        "name": "Powai",
+        "avgRate": 42345,
+        "changePercentage": 5.79
+      },
+      {
+        "name": "Gulmohar Road",
+        "avgRate": 57726,
+        "changePercentage": 0.18
+      }
+    ],
+    "propertyTypes": [
+      {
+        "propertyType": "shop",
+        "avgPrice": 63753,
+        "changePercent": 40.6
+      },
+      {
+        "propertyType": "office space",
+        "avgPrice": 34370,
+        "changePercent": -0.37
+      },
+      {
+        "propertyType": "villa",
+        "avgPrice": 22680,
+        "changePercent": 57.58
+      },
+      {
+        "propertyType": "apartment",
+        "avgPrice": 30108,
+        "changePercent": 3.02
+      }
+    ],
+    "propertyStatus": [
+      {
+        "status": "Ready To Move",
+        "units": 594,
+        "avgPrice": 26277,
+        "changePercent": -3.13
+      },
+      {
+        "status": "Well Occupied",
+        "units": 276,
+        "avgPrice": 24754,
+        "changePercent": -1.95
+      },
+      {
+        "status": "Advanced Stage",
+        "units": 0,
+        "avgPrice": 0,
+        "changePercent": 0.0
+      },
+      {
+        "status": "Partially Ready To Move",
+        "units": 6,
+        "avgPrice": 30902,
+        "changePercent": 12.93
+      },
+      {
+        "status": "Mid Stage",
+        "units": 19,
+        "avgPrice": 28987,
+        "changePercent": 0.09
+      },
+      {
+        "status": "Under Construction",
+        "units": 63,
+        "avgPrice": 27128,
+        "changePercent": -3.5
+      },
+      {
+        "status": "New Launch",
+        "units": 16,
+        "avgPrice": 25519,
+        "changePercent": 2.2
+      },
+      {
+        "status": "Near Possession",
+        "units": 3,
+        "avgPrice": 40775,
+        "changePercent": 14.35
+      },
+      {
+        "status": "Early Stage",
+        "units": 2,
+        "avgPrice": 23507,
+        "changePercent": -2.31
+      }
+    ],
+    "topProjects": {
+      "byTransactions": {
+        "projects": [
+          {
+            "changePercentage": 7.484691135926329,
+            "changeValue": 2302.41,
+            "currentRate": 33064,
+            "location": "Andheri East",
+            "locality": "Marol",
+            "noOfTransactions": 13,
+            "productUrl": "https://www.squareyards.com/property-rates/sheth-vasant-oasis-marol-andheri-east-mumbai",
+            "projectName": "Sheth Vasant Oasis",
+            "priority": 1,
+            "saleRentValue": 2.7129E+8
+          },
+          {
+            "changePercentage": 1.2598771184193525,
+            "changeValue": 332.59999999999854,
+            "currentRate": 26732,
+            "location": "Andheri East",
+            "locality": "Marol",
+            "noOfTransactions": 9,
+            "productUrl": "https://www.squareyards.com/property-rates/kanakia-sevens-marol-andheri-east-mumbai",
+            "projectName": "Kanakia Spaces Sevens",
+            "priority": 2,
+            "saleRentValue": 1.42E+8
+          },
+          {
+            "changePercentage": -10.417349758770897,
+            "changeValue": -2757.7599999999984,
+            "currentRate": 23715,
+            "location": "Andheri East",
+            "locality": "Marol",
+            "noOfTransactions": 4,
+            "productUrl": "https://www.squareyards.com/property-rates/blossom-chs-marol-andheri-east-mumbai",
+            "projectName": "Blossom CHS",
+            "priority": 3,
+            "saleRentValue": 5.55E+7
+          },
+          {
+            "changePercentage": -9.473508071812574,
+            "changeValue": -2434.4500000000007,
+            "currentRate": 23263,
+            "location": "Andheri East",
+            "locality": "Gundavali",
+            "noOfTransactions": 4,
+            "productUrl": "https://www.squareyards.com/property-rates/prakashwadi-chs-gundavali-andheri-east-mumbai",
+            "projectName": "Prakashwadi CHS",
+            "priority": 4,
+            "saleRentValue": 1.97407E+7
+          },
+          {
+            "changePercentage": 3.7305656325106016,
+            "changeValue": 833.0699999999997,
+            "currentRate": 23164,
+            "location": "Andheri East",
+            "locality": "Jijamata Colony",
+            "noOfTransactions": 4,
+            "productUrl": "https://www.squareyards.com/property-rates/sakar-swapna-chs-jijamata-colony-andheri-east-mumbai",
+            "projectName": "Sakar Swapna CHS",
+            "priority": 5,
+            "saleRentValue": 70906316
+          },
+          {
+            "changePercentage": 2.370242399386538,
+            "changeValue": 1153.5599999999977,
+            "currentRate": 49822,
+            "location": "Andheri East",
+            "locality": "Marol",
+            "noOfTransactions": 3,
+            "productUrl": "https://www.squareyards.com/property-rates/ashok-towers-marol-andheri-east-mumbai",
+            "projectName": "Ashok Towers",
+            "priority": 6,
+            "saleRentValue": 4.2E+7
+          },
+          {
+            "changePercentage": -7.109358812353901,
+            "changeValue": -3166.9300000000003,
+            "currentRate": 41379,
+            "location": "Andheri East",
+            "locality": "JB Nagar",
+            "noOfTransactions": 3,
+            "productUrl": "https://www.squareyards.com/property-rates/manish-darshan-jb-nagar-andheri-east-mumbai",
+            "projectName": "Manish Darshan",
+            "priority": 7,
+            "saleRentValue": 3.315E+7
+          },
+          {
+            "changePercentage": -7.693984115350891,
+            "changeValue": -2626.6200000000026,
+            "currentRate": 31512,
+            "location": "Andheri East",
+            "locality": "Marol",
+            "noOfTransactions": 3,
+            "productUrl": "https://www.squareyards.com/property-rates/kanakia-rainforest-marol-andheri-east-mumbai",
+            "projectName": "Kanakia Rainforest",
+            "priority": 8,
+            "saleRentValue": 3.95E+7
+          },
+          {
+            "changePercentage": null,
+            "changeValue": null,
+            "currentRate": 30769,
+            "location": "Andheri East",
+            "locality": "Chakala",
+            "noOfTransactions": 3,
+            "productUrl": "https://www.squareyards.com/property-rates/vijay-khetan-krishna-residences-chakala-andheri-east-mumbai",
+            "projectName": "Vijay Khetan Krishna Residences",
+            "priority": 9,
+            "saleRentValue": 6.85E+7
+          },
+          {
+            "changePercentage": 2.316967244692126,
+            "changeValue": 580.9799999999996,
+            "currentRate": 25656,
+            "location": "Andheri East",
+            "locality": "Koldongri",
+            "noOfTransactions": 3,
+            "productUrl": "https://www.squareyards.com/property-rates/sai-charan-chs-koldongri-andheri-east-mumbai",
+            "projectName": "Sai Charan CHS",
+            "priority": 10,
+            "saleRentValue": 1546000.0
+          }
+        ]
+      },
+      "byListingRates": {
+        "projects": [
+          {
+            "changePercentage": 3.75,
+            "changeValue": null,
+            "currentRate": 49404,
+            "location": "Mumbai Western Suburbs",
+            "locality": "Andheri East",
+            "noOfTransactions": null,
+            "productUrl": null,
+            "projectName": "Rustomjee Elements Wing SC",
+            "priority": null,
+            "saleRentValue": null
+          },
+          {
+            "changePercentage": 3.75,
+            "changeValue": null,
+            "currentRate": 49404,
+            "location": "Mumbai Western Suburbs",
+            "locality": "Andheri East",
+            "noOfTransactions": null,
+            "productUrl": null,
+            "projectName": "rustomjee elements wing sc",
+            "priority": null,
+            "saleRentValue": null
+          },
+          {
+            "changePercentage": -16.81,
+            "changeValue": null,
+            "currentRate": 43000,
+            "location": "Mumbai Western Suburbs",
+            "locality": "Andheri East",
+            "noOfTransactions": null,
+            "productUrl": null,
+            "projectName": "oberoi realty splendor",
+            "priority": null,
+            "saleRentValue": null
+          },
+          {
+            "changePercentage": 0.0,
+            "changeValue": null,
+            "currentRate": 42857,
+            "location": "Mumbai Western Suburbs",
+            "locality": "Andheri East",
+            "noOfTransactions": null,
+            "productUrl": null,
+            "projectName": "siddhant complex",
+            "priority": null,
+            "saleRentValue": null
+          },
+          {
+            "changePercentage": 2.24,
+            "changeValue": null,
+            "currentRate": 42472,
+            "location": "Mumbai Western Suburbs",
+            "locality": "Andheri East",
+            "noOfTransactions": null,
+            "productUrl": null,
+            "projectName": "Nirman Apartment CHS LTD",
+            "priority": null,
+            "saleRentValue": null
+          },
+          {
+            "changePercentage": -0.65,
+            "changeValue": null,
+            "currentRate": 42000,
+            "location": "Mumbai Western Suburbs",
+            "locality": "Andheri East",
+            "noOfTransactions": null,
+            "productUrl": null,
+            "projectName": "atharv aaradhyam",
+            "priority": null,
+            "saleRentValue": null
+          },
+          {
+            "changePercentage": -0.54,
+            "changeValue": null,
+            "currentRate": 41991,
+            "location": "Mumbai Western Suburbs",
+            "locality": "Andheri East",
+            "noOfTransactions": null,
+            "productUrl": null,
+            "projectName": "Kumar Urban KUL Palladio",
+            "priority": null,
+            "saleRentValue": null
+          },
+          {
+            "changePercentage": -0.54,
+            "changeValue": null,
+            "currentRate": 41991,
+            "location": "Mumbai Western Suburbs",
+            "locality": "Andheri East",
+            "noOfTransactions": null,
+            "productUrl": null,
+            "projectName": "Kul Palladio",
+            "priority": null,
+            "saleRentValue": null
+          },
+          {
+            "changePercentage": -0.54,
+            "changeValue": null,
+            "currentRate": 41991,
+            "location": "Mumbai Western Suburbs",
+            "locality": "Andheri East",
+            "noOfTransactions": null,
+            "productUrl": null,
+            "projectName": "kul palladio",
+            "priority": null,
+            "saleRentValue": null
+          },
+          {
+            "changePercentage": 0.0,
+            "changeValue": null,
+            "currentRate": 41666,
+            "location": "Mumbai Western Suburbs",
+            "locality": "Andheri East",
+            "noOfTransactions": null,
+            "productUrl": null,
+            "projectName": "padma nagar chs",
+            "priority": null,
+            "saleRentValue": null
+          }
+        ]
+      },
+      "byValue": {
+        "projects": [
+          {
+            "changePercentage": 7.484691135926329,
+            "changeValue": 2302.41,
+            "currentRate": 33064,
+            "location": "Andheri East",
+            "locality": "Marol",
+            "noOfTransactions": 13,
+            "productUrl": "https://www.squareyards.com/property-rates/sheth-vasant-oasis-marol-andheri-east-mumbai",
+            "projectName": "Sheth Vasant Oasis",
+            "priority": 1,
+            "saleRentValue": 2.7129E+8
+          },
+          {
+            "changePercentage": 1.2598771184193525,
+            "changeValue": 332.59999999999854,
+            "currentRate": 26732,
+            "location": "Andheri East",
+            "locality": "Marol",
+            "noOfTransactions": 9,
+            "productUrl": "https://www.squareyards.com/property-rates/kanakia-sevens-marol-andheri-east-mumbai",
+            "projectName": "Kanakia Spaces Sevens",
+            "priority": 2,
+            "saleRentValue": 1.42E+8
+          },
+          {
+            "changePercentage": 3.7305656325106016,
+            "changeValue": 833.0699999999997,
+            "currentRate": 23164,
+            "location": "Andheri East",
+            "locality": "Jijamata Colony",
+            "noOfTransactions": 4,
+            "productUrl": "https://www.squareyards.com/property-rates/sakar-swapna-chs-jijamata-colony-andheri-east-mumbai",
+            "projectName": "Sakar Swapna CHS",
+            "priority": 3,
+            "saleRentValue": 70906316
+          },
+          {
+            "changePercentage": null,
+            "changeValue": null,
+            "currentRate": 30769,
+            "location": "Andheri East",
+            "locality": "Chakala",
+            "noOfTransactions": 3,
+            "productUrl": "https://www.squareyards.com/property-rates/vijay-khetan-krishna-residences-chakala-andheri-east-mumbai",
+            "projectName": "Vijay Khetan Krishna Residences",
+            "priority": 4,
+            "saleRentValue": 6.85E+7
+          },
+          {
+            "changePercentage": -10.417349758770897,
+            "changeValue": -2757.7599999999984,
+            "currentRate": 23715,
+            "location": "Andheri East",
+            "locality": "Marol",
+            "noOfTransactions": 4,
+            "productUrl": "https://www.squareyards.com/property-rates/blossom-chs-marol-andheri-east-mumbai",
+            "projectName": "Blossom CHS",
+            "priority": 5,
+            "saleRentValue": 5.55E+7
+          },
+          {
+            "changePercentage": null,
+            "changeValue": null,
+            "currentRate": 22076,
+            "location": "Andheri East",
+            "locality": "New Azad Nagar",
+            "noOfTransactions": 3,
+            "productUrl": "https://www.squareyards.com/property-rates/laxmi-estate-chs-new-azad-nagar-andheri-east-mumbai",
+            "projectName": "Laxmi Estate CHS",
+            "priority": 6,
+            "saleRentValue": 4.98E+7
+          },
+          {
+            "changePercentage": -3.6987013570622134,
+            "changeValue": -1185.2200000000012,
+            "currentRate": 30859,
+            "location": "Andheri East",
+            "locality": "Jijamata Colony",
+            "noOfTransactions": 2,
+            "productUrl": "https://www.squareyards.com/property-rates/hem-ratan-apartment-jijamata-colony-andheri-east-mumbai",
+            "projectName": "Hem Ratan Apartment",
+            "priority": 7,
+            "saleRentValue": 4.85E+7
+          },
+          {
+            "changePercentage": 14.174581637268204,
+            "changeValue": 3917.5,
+            "currentRate": 31555,
+            "location": "Andheri East",
+            "locality": "Bima Nagar",
+            "noOfTransactions": 2,
+            "productUrl": "https://www.squareyards.com/property-rates/bajaj-emerald-bima-nagar-andheri-east-mumbai",
+            "projectName": "Bajaj Emerald",
+            "priority": 8,
+            "saleRentValue": 4.68E+7
+          },
+          {
+            "changePercentage": -4.350686770817935,
+            "changeValue": -974.6699999999983,
+            "currentRate": 21428,
+            "location": "Andheri East",
+            "locality": "Sher E Punjab Colony",
+            "noOfTransactions": 3,
+            "productUrl": "https://www.squareyards.com/property-rates/takshila-chs-sher-e-punjab-colony-andheri-east-mumbai",
+            "projectName": "Takshila CHS",
+            "priority": 9,
+            "saleRentValue": 4.5E+7
+          },
+          {
+            "changePercentage": null,
+            "changeValue": null,
+            "currentRate": 24328,
+            "location": "Andheri East",
+            "locality": "Subhash Nagar",
+            "noOfTransactions": 2,
+            "productUrl": "https://www.squareyards.com/property-rates/starwing-katyayni-residency-subhash-nagar-andheri-east-mumbai",
+            "projectName": "Starwing Katyayni Residency",
+            "priority": 10,
+            "saleRentValue": 4.5E+7
+          }
+        ]
+      }
+    },
+    "govtRegistration": {
+      "transactionCount": 2968,
+      "grossValue": "₹ 5,083 Cr",
+      "dateRange": "Mar 25 to Feb 26",
+      "registeredRate": 20150,
+      "description": ""
+    },
+    "topDevelopers": {
+      "byTransactions": {
+        "developers": [
+          {
+            "developerName": "Sheth Creators",
+            "noOfTransactions": 13,
+            "priority": 2
+          },
+          {
+            "developerName": "Kanakia Spaces",
+            "noOfTransactions": 12,
+            "priority": 3
+          },
+          {
+            "developerName": "Sakar Swapna CHSL",
+            "noOfTransactions": 4,
+            "priority": 4
+          },
+          {
+            "developerName": "CGHS Group",
+            "noOfTransactions": 4,
+            "priority": 5
+          },
+          {
+            "developerName": "Peninsula Land",
+            "noOfTransactions": 3,
+            "priority": 6
+          },
+          {
+            "developerName": "Suparshwa Group",
+            "noOfTransactions": 3,
+            "priority": 7
+          },
+          {
+            "developerName": "Heena Builders",
+            "noOfTransactions": 3,
+            "priority": 8
+          },
+          {
+            "developerName": "Starwing Developers Pvt Ltd",
+            "noOfTransactions": 3,
+            "priority": 9
+          },
+          {
+            "developerName": "Srishti Groups",
+            "noOfTransactions": 3,
+            "priority": 10
+          }
+        ]
+      }
+    }
+  },
+  "data": null
+}

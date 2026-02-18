@@ -1,0 +1,580 @@
+{
+  "code": 200,
+  "status": "OK",
+  "result": {
+    "details": {
+      "id": "65169",
+      "name": "Malad East",
+      "locationId": null,
+      "microMarketId": "129",
+      "microMarketName": "Mumbai Western Suburbs",
+      "cityId": "3",
+      "cityName": "Mumbai",
+      "diUrl": "/property-rates/malad-east-mumbai",
+      "type": "LOCALITY"
+    },
+    "marketOverview": {
+      "askingPrice": 29396,
+      "registrationRate": 17732,
+      "avgRentalRate": null
+    },
+    "priceTrend": [
+      {
+        "quarterName": "Dec 2025",
+        "locationRate": 29396,
+        "micromarketRate": 21180
+      },
+      {
+        "quarterName": "Sep 2025",
+        "locationRate": 29227,
+        "micromarketRate": 21139
+      },
+      {
+        "quarterName": "Jun 2025",
+        "locationRate": 27503,
+        "micromarketRate": 21028
+      },
+      {
+        "quarterName": "Mar 2025",
+        "locationRate": 29037,
+        "micromarketRate": 19695
+      }
+    ],
+    "locationRates": [
+      {
+        "name": "Kandivali East",
+        "avgRate": 30294,
+        "changePercentage": 4.96
+      },
+      {
+        "name": "Lokhandwala",
+        "avgRate": 28638,
+        "changePercentage": -9.45
+      },
+      {
+        "name": "Malad West",
+        "avgRate": 28366,
+        "changePercentage": 2.55
+      },
+      {
+        "name": "Goregaon East",
+        "avgRate": 36103,
+        "changePercentage": 18.34
+      },
+      {
+        "name": "Goregaon West",
+        "avgRate": 33246,
+        "changePercentage": 1.94
+      },
+      {
+        "name": "Aarey Colony",
+        "avgRate": 8569,
+        "changePercentage": 0.0
+      },
+      {
+        "name": "Kandivali West",
+        "avgRate": 25537,
+        "changePercentage": -4.35
+      }
+    ],
+    "propertyTypes": [
+      {
+        "propertyType": "shop",
+        "avgPrice": 74344,
+        "changePercent": 31.99
+      },
+      {
+        "propertyType": "office space",
+        "avgPrice": 35208,
+        "changePercent": -7.25
+      },
+      {
+        "propertyType": "apartment",
+        "avgPrice": 29396,
+        "changePercent": 0.58
+      },
+      {
+        "propertyType": "co-working space",
+        "avgPrice": 30250,
+        "changePercent": -0.32
+      }
+    ],
+    "propertyStatus": [
+      {
+        "status": "Ready To Move",
+        "units": 347,
+        "avgPrice": 24625,
+        "changePercent": -2.65
+      },
+      {
+        "status": "Well Occupied",
+        "units": 131,
+        "avgPrice": 23843,
+        "changePercent": -2.39
+      },
+      {
+        "status": "Advanced Stage",
+        "units": 2,
+        "avgPrice": 23420,
+        "changePercent": 0.84
+      },
+      {
+        "status": "Partially Ready To Move",
+        "units": 1,
+        "avgPrice": 20000,
+        "changePercent": -10.45
+      },
+      {
+        "status": "Mid Stage",
+        "units": 2,
+        "avgPrice": 23036,
+        "changePercent": -0.25
+      },
+      {
+        "status": "Under Construction",
+        "units": 54,
+        "avgPrice": 25205,
+        "changePercent": 0.66
+      },
+      {
+        "status": "New Launch",
+        "units": 13,
+        "avgPrice": 23495,
+        "changePercent": -3.36
+      }
+    ],
+    "topProjects": {
+      "byTransactions": {
+        "projects": [
+          {
+            "changePercentage": 0.0,
+            "changeValue": 0.0,
+            "currentRate": 29760,
+            "location": "Malad East",
+            "locality": "Laxman Nagar",
+            "noOfTransactions": 16,
+            "productUrl": "https://www.squareyards.com/property-rates/omkar-alta-monte-laxman-nagar-malad-east-mumbai",
+            "projectName": "Omkar Alta Monte",
+            "priority": 1,
+            "saleRentValue": 5.381E+8
+          },
+          {
+            "changePercentage": 17.865516495557454,
+            "changeValue": 5377.290000000001,
+            "currentRate": 35476,
+            "location": "Malad East",
+            "locality": "Pushpa Park",
+            "noOfTransactions": 8,
+            "productUrl": "https://www.squareyards.com/property-rates/ajanta-chs-pushpa-park-malad-east-mumbai",
+            "projectName": "Ajanta CHS",
+            "priority": 2,
+            "saleRentValue": 7.85E+7
+          },
+          {
+            "changePercentage": -3.593967768042309,
+            "changeValue": -1217.6600000000035,
+            "currentRate": 32663,
+            "location": "Malad East",
+            "locality": "Sankalp Colony",
+            "noOfTransactions": 6,
+            "productUrl": "https://www.squareyards.com/property-rates/k-raheja-heights-sankalp-colony-malad-east-mumbai",
+            "projectName": "K Raheja Heights",
+            "priority": 3,
+            "saleRentValue": 1.069E+8
+          },
+          {
+            "changePercentage": 0.0,
+            "changeValue": 0.0,
+            "currentRate": 29059,
+            "location": "Malad East",
+            "locality": "Kasam Baug",
+            "noOfTransactions": 6,
+            "productUrl": "https://www.squareyards.com/property-rates/raheja-tipco-heights-kasam-baug-malad-east-mumbai",
+            "projectName": "Raheja Tipco Heights",
+            "priority": 4,
+            "saleRentValue": 1.1449E+8
+          },
+          {
+            "changePercentage": null,
+            "changeValue": null,
+            "currentRate": 28565,
+            "location": "Malad East",
+            "locality": "Sankalp Colony",
+            "noOfTransactions": 6,
+            "productUrl": "https://www.squareyards.com/property-rates/k-raheja-residency-sankalp-colony-malad-east-mumbai",
+            "projectName": "K Raheja Residency",
+            "priority": 5,
+            "saleRentValue": 9.25E+7
+          },
+          {
+            "changePercentage": -2.170573278385343,
+            "changeValue": -633.6699999999983,
+            "currentRate": 28560,
+            "location": "Malad East",
+            "locality": "Riddhi Gardens",
+            "noOfTransactions": 5,
+            "productUrl": "https://www.squareyards.com/property-rates/lalani-valentine-apartment-riddhi-gardens-malad-east-mumbai",
+            "projectName": "Lalani Valentine Apartment",
+            "priority": 6,
+            "saleRentValue": 57251001
+          },
+          {
+            "changePercentage": -5.381056348574536,
+            "changeValue": -1706.75,
+            "currentRate": 30011,
+            "location": "Malad East",
+            "locality": "Laxman Nagar",
+            "noOfTransactions": 4,
+            "productUrl": "https://www.squareyards.com/property-rates/omkar-signet-laxman-nagar-malad-east-mumbai",
+            "projectName": "Omkar Signet",
+            "priority": 7,
+            "saleRentValue": 4.27E+7
+          },
+          {
+            "changePercentage": -13.464918738150262,
+            "changeValue": -4481.300000000003,
+            "currentRate": 28800,
+            "location": "Malad East",
+            "locality": "Dindoshi",
+            "noOfTransactions": 4,
+            "productUrl": "https://www.squareyards.com/property-rates/vasant-valley-complex-dindoshi-malad-east-mumbai",
+            "projectName": "Vasant Valley Complex",
+            "priority": 8,
+            "saleRentValue": 5.6E+7
+          },
+          {
+            "changePercentage": 26.68110013242756,
+            "changeValue": 5153.779999999999,
+            "currentRate": 24470,
+            "location": "Malad East",
+            "locality": "Kasam Baug",
+            "noOfTransactions": 4,
+            "productUrl": "https://www.squareyards.com/property-rates/shah-arcade-ii-kasam-baug-malad-east-mumbai",
+            "projectName": "Shah Arcade II",
+            "priority": 9,
+            "saleRentValue": 6.245E+7
+          },
+          {
+            "changePercentage": 5.826862906369334,
+            "changeValue": 1222.7799999999988,
+            "currentRate": 22208,
+            "location": "Malad East",
+            "locality": "Matanpur Nagar",
+            "noOfTransactions": 4,
+            "productUrl": "https://www.squareyards.com/property-rates/kaydee-solitaire-matanpur-nagar-malad-east-mumbai",
+            "projectName": "Kaydee Solitaire",
+            "priority": 10,
+            "saleRentValue": 2.66E+7
+          }
+        ]
+      },
+      "byListingRates": {
+        "projects": [
+          {
+            "changePercentage": 5.58,
+            "changeValue": null,
+            "currentRate": 42788,
+            "location": "Mumbai Western Suburbs",
+            "locality": "Malad East",
+            "noOfTransactions": null,
+            "productUrl": null,
+            "projectName": "Ram Niwas",
+            "priority": null,
+            "saleRentValue": null
+          },
+          {
+            "changePercentage": -3.57,
+            "changeValue": null,
+            "currentRate": 40109,
+            "location": "Mumbai Western Suburbs",
+            "locality": "Malad East",
+            "noOfTransactions": null,
+            "productUrl": null,
+            "projectName": "kanakia spaces levels",
+            "priority": null,
+            "saleRentValue": null
+          },
+          {
+            "changePercentage": -3.57,
+            "changeValue": null,
+            "currentRate": 40109,
+            "location": "Mumbai Western Suburbs",
+            "locality": "Malad East",
+            "noOfTransactions": null,
+            "productUrl": null,
+            "projectName": "kanakia spaces platino",
+            "priority": null,
+            "saleRentValue": null
+          },
+          {
+            "changePercentage": -3.57,
+            "changeValue": null,
+            "currentRate": 40109,
+            "location": "Mumbai Western Suburbs",
+            "locality": "Malad East",
+            "noOfTransactions": null,
+            "productUrl": null,
+            "projectName": "kanakia levels",
+            "priority": null,
+            "saleRentValue": null
+          },
+          {
+            "changePercentage": 0.0,
+            "changeValue": null,
+            "currentRate": 37692,
+            "location": "Mumbai Western Suburbs",
+            "locality": "Malad East",
+            "noOfTransactions": null,
+            "productUrl": null,
+            "projectName": "ajanta shopping centre",
+            "priority": null,
+            "saleRentValue": null
+          },
+          {
+            "changePercentage": 16.16,
+            "changeValue": null,
+            "currentRate": 37500,
+            "location": "Mumbai Western Suburbs",
+            "locality": "Malad East",
+            "noOfTransactions": null,
+            "productUrl": null,
+            "projectName": "vasundhara paradise",
+            "priority": null,
+            "saleRentValue": null
+          },
+          {
+            "changePercentage": -9.98,
+            "changeValue": null,
+            "currentRate": 35634,
+            "location": "Mumbai Western Suburbs",
+            "locality": "Malad East",
+            "noOfTransactions": null,
+            "productUrl": null,
+            "projectName": "db sahyadri",
+            "priority": null,
+            "saleRentValue": null
+          },
+          {
+            "changePercentage": -9.98,
+            "changeValue": null,
+            "currentRate": 35634,
+            "location": "Mumbai Western Suburbs",
+            "locality": "Malad East",
+            "noOfTransactions": null,
+            "productUrl": null,
+            "projectName": "ashish sahyadri",
+            "priority": null,
+            "saleRentValue": null
+          },
+          {
+            "changePercentage": 6.09,
+            "changeValue": null,
+            "currentRate": 35526,
+            "location": "Mumbai Western Suburbs",
+            "locality": "Malad East",
+            "noOfTransactions": null,
+            "productUrl": null,
+            "projectName": "dynamix astrum",
+            "priority": null,
+            "saleRentValue": null
+          },
+          {
+            "changePercentage": -0.18,
+            "changeValue": null,
+            "currentRate": 35476,
+            "location": "Mumbai Western Suburbs",
+            "locality": "Malad East",
+            "noOfTransactions": null,
+            "productUrl": null,
+            "projectName": "ajanta chs",
+            "priority": null,
+            "saleRentValue": null
+          }
+        ]
+      },
+      "byValue": {
+        "projects": [
+          {
+            "changePercentage": 0.0,
+            "changeValue": 0.0,
+            "currentRate": 29760,
+            "location": "Malad East",
+            "locality": "Laxman Nagar",
+            "noOfTransactions": 16,
+            "productUrl": "https://www.squareyards.com/property-rates/omkar-alta-monte-laxman-nagar-malad-east-mumbai",
+            "projectName": "Omkar Alta Monte",
+            "priority": 1,
+            "saleRentValue": 5.381E+8
+          },
+          {
+            "changePercentage": 0.0,
+            "changeValue": 0.0,
+            "currentRate": 29059,
+            "location": "Malad East",
+            "locality": "Kasam Baug",
+            "noOfTransactions": 6,
+            "productUrl": "https://www.squareyards.com/property-rates/raheja-tipco-heights-kasam-baug-malad-east-mumbai",
+            "projectName": "Raheja Tipco Heights",
+            "priority": 2,
+            "saleRentValue": 1.1449E+8
+          },
+          {
+            "changePercentage": -3.593967768042309,
+            "changeValue": -1217.6600000000035,
+            "currentRate": 32663,
+            "location": "Malad East",
+            "locality": "Sankalp Colony",
+            "noOfTransactions": 6,
+            "productUrl": "https://www.squareyards.com/property-rates/k-raheja-heights-sankalp-colony-malad-east-mumbai",
+            "projectName": "K Raheja Heights",
+            "priority": 3,
+            "saleRentValue": 1.069E+8
+          },
+          {
+            "changePercentage": null,
+            "changeValue": null,
+            "currentRate": 28565,
+            "location": "Malad East",
+            "locality": "Sankalp Colony",
+            "noOfTransactions": 6,
+            "productUrl": "https://www.squareyards.com/property-rates/k-raheja-residency-sankalp-colony-malad-east-mumbai",
+            "projectName": "K Raheja Residency",
+            "priority": 4,
+            "saleRentValue": 9.25E+7
+          },
+          {
+            "changePercentage": 0.0,
+            "changeValue": 0.0,
+            "currentRate": 30623,
+            "location": "Malad East",
+            "locality": "Mira Nagar",
+            "noOfTransactions": 3,
+            "productUrl": "https://www.squareyards.com/property-rates/jp-decks-mira-nagar-malad-east-mumbai",
+            "projectName": "JP Decks",
+            "priority": 5,
+            "saleRentValue": 8.05E+7
+          },
+          {
+            "changePercentage": 17.865516495557454,
+            "changeValue": 5377.290000000001,
+            "currentRate": 35476,
+            "location": "Malad East",
+            "locality": "Pushpa Park",
+            "noOfTransactions": 8,
+            "productUrl": "https://www.squareyards.com/property-rates/ajanta-chs-pushpa-park-malad-east-mumbai",
+            "projectName": "Ajanta CHS",
+            "priority": 6,
+            "saleRentValue": 7.85E+7
+          },
+          {
+            "changePercentage": 26.68110013242756,
+            "changeValue": 5153.779999999999,
+            "currentRate": 24470,
+            "location": "Malad East",
+            "locality": "Kasam Baug",
+            "noOfTransactions": 4,
+            "productUrl": "https://www.squareyards.com/property-rates/shah-arcade-ii-kasam-baug-malad-east-mumbai",
+            "projectName": "Shah Arcade II",
+            "priority": 7,
+            "saleRentValue": 6.245E+7
+          },
+          {
+            "changePercentage": -2.170573278385343,
+            "changeValue": -633.6699999999983,
+            "currentRate": 28560,
+            "location": "Malad East",
+            "locality": "Riddhi Gardens",
+            "noOfTransactions": 5,
+            "productUrl": "https://www.squareyards.com/property-rates/lalani-valentine-apartment-riddhi-gardens-malad-east-mumbai",
+            "projectName": "Lalani Valentine Apartment",
+            "priority": 8,
+            "saleRentValue": 57251001
+          },
+          {
+            "changePercentage": -13.464918738150262,
+            "changeValue": -4481.300000000003,
+            "currentRate": 28800,
+            "location": "Malad East",
+            "locality": "Dindoshi",
+            "noOfTransactions": 4,
+            "productUrl": "https://www.squareyards.com/property-rates/vasant-valley-complex-dindoshi-malad-east-mumbai",
+            "projectName": "Vasant Valley Complex",
+            "priority": 9,
+            "saleRentValue": 5.6E+7
+          },
+          {
+            "changePercentage": -5.381056348574536,
+            "changeValue": -1706.75,
+            "currentRate": 30011,
+            "location": "Malad East",
+            "locality": "Laxman Nagar",
+            "noOfTransactions": 4,
+            "productUrl": "https://www.squareyards.com/property-rates/omkar-signet-laxman-nagar-malad-east-mumbai",
+            "projectName": "Omkar Signet",
+            "priority": 10,
+            "saleRentValue": 4.27E+7
+          }
+        ]
+      }
+    },
+    "govtRegistration": {
+      "transactionCount": 2014,
+      "grossValue": "₹ 2,103 Cr",
+      "dateRange": "Mar 25 to Feb 26",
+      "registeredRate": 17750,
+      "description": ""
+    },
+    "topDevelopers": {
+      "byTransactions": {
+        "developers": [
+          {
+            "developerName": "Omkar",
+            "noOfTransactions": 20,
+            "priority": 2
+          },
+          {
+            "developerName": "DGS Group",
+            "noOfTransactions": 10,
+            "priority": 3
+          },
+          {
+            "developerName": "Raheja Universal",
+            "noOfTransactions": 8,
+            "priority": 4
+          },
+          {
+            "developerName": "Nareshbhai Vallabhbhai Patel",
+            "noOfTransactions": 8,
+            "priority": 5
+          },
+          {
+            "developerName": "K Raheja Realty",
+            "noOfTransactions": 6,
+            "priority": 6
+          },
+          {
+            "developerName": "K Raheja Constructions",
+            "noOfTransactions": 6,
+            "priority": 7
+          },
+          {
+            "developerName": "Lalani",
+            "noOfTransactions": 6,
+            "priority": 8
+          },
+          {
+            "developerName": "Shah Housecon Pvt Ltd",
+            "noOfTransactions": 4,
+            "priority": 9
+          },
+          {
+            "developerName": "Je and Vee Developer",
+            "noOfTransactions": 4,
+            "priority": 10
+          }
+        ]
+      }
+    }
+  },
+  "data": null
+}
