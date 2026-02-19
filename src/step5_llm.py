@@ -38,6 +38,7 @@ def build_llm_input(payload: Dict[str, Any]) -> str:
         "meta": meta,
         "page2_exec_snapshot": pick("page2_exec_snapshot"),
         "page3_liveability": pick("page3_liveability"),
+        "page4_market_snapshot": pick("page4_market_snapshot"),
         "page5_price_trend": pick("page5_price_trend"),
         "page6_nearby_comparison": pick("page6_nearby_comparison"),
         "page7_demand_supply_sale": pick("page7_demand_supply_sale"),
@@ -59,10 +60,17 @@ Hard rules:
 - Keep sentences short and factual.
 - Avoid absolute language (e.g., 'best', 'always').
 
+Missing-data rule:
+- If the JSON does not contain enough evidence to write meaningful copy for a field, return an empty string "" for that field.
+
 Output rules:
 - Return JSON matching the provided schema exactly.
-- For page2_exec_snapshot.takeaways: prefer a short HTML list (<ul><li>..</li></ul>) with up to 4 bullets.
-- For other fields: 2–5 short sentences, plain text is fine (HTML allowed but optional).
+- page2_exec_snapshot.takeaways: prefer a short HTML list (<ul><li>..</li></ul>) with up to 4 bullets.
+- page4_market_snapshot.narrative: 2–4 short sentences summarizing:
+  (a) buy-side supply distribution description (marketSupply.description / graphData if present)
+  (b) rent-side avg rent by unit type (rentalStats / rentalBHKStats if present)
+  (c) avoid numbers unless they are present in JSON.
+- Other narrative fields: 2–5 short sentences, plain text is fine (HTML allowed but optional).
 """
 
 

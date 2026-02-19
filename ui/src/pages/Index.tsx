@@ -19,11 +19,9 @@ import { isPrintMode } from "@/lib/print";
 const Index = () => {
   const printMode = useMemo(() => isPrintMode(), []);
 
-  // If in printMode, auto-trigger print (user will "Save as PDF")
   useEffect(() => {
     if (!printMode) return;
 
-    // Give charts/fonts a moment to render before printing
     const t = window.setTimeout(() => {
       try {
         document.title = `${localityName} - Locality Report`;
@@ -38,10 +36,8 @@ const Index = () => {
 
   return (
     <div className={`min-h-screen ${printMode ? "bg-white" : "bg-background"}`}>
-      {/* Hide navigation completely in print mode */}
       {!printMode ? <ReportNav /> : null}
 
-      {/* Main content */}
       <div className={printMode ? "" : "lg:ml-52 pt-24 lg:pt-0"}>
         <div
           className={
@@ -73,20 +69,21 @@ const Index = () => {
             <MarketSnapshot />
           </div>
 
-          <div id="nearby" className={printMode ? "" : "scroll-mt-28 lg:scroll-mt-8"}>
-            <NearbyLocalities />
-          </div>
-
-          <div id="demand-supply" className={printMode ? "" : "scroll-mt-28 lg:scroll-mt-8"}>
-            <DemandSupply />
-          </div>
-
+          {/* NEW ORDER: Rates + Projects before Nearby */}
           <div id="property-rates" className={printMode ? "" : "scroll-mt-28 lg:scroll-mt-8"}>
             <PropertyRates />
           </div>
 
           <div id="top-projects" className={printMode ? "" : "scroll-mt-28 lg:scroll-mt-8"}>
             <TopProjects />
+          </div>
+
+          <div id="nearby" className={printMode ? "" : "scroll-mt-28 lg:scroll-mt-8"}>
+            <NearbyLocalities />
+          </div>
+
+          <div id="demand-supply" className={printMode ? "" : "scroll-mt-28 lg:scroll-mt-8"}>
+            <DemandSupply />
           </div>
 
           <div id="registration" className={printMode ? "" : "scroll-mt-28 lg:scroll-mt-8"}>

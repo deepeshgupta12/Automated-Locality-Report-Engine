@@ -2,7 +2,6 @@ import { FileText, TrendingUp } from "lucide-react";
 import { govtRegistration, topDevelopersByTxn, narratives } from "@/lib/reportData";
 
 const RegistrationOverview = () => {
-  // govtRegistration (JSON1) uses: transactionCount, grossValue, dateRange, registeredRate
   const txn =
     (govtRegistration as any)?.transactionCount ??
     (govtRegistration as any)?.totalTransactions ??
@@ -23,11 +22,9 @@ const RegistrationOverview = () => {
     (govtRegistration as any)?.avgRegisteredRate ??
     null;
 
-  // Ensure slice never crashes
   const devs = Array.isArray(topDevelopersByTxn) ? topDevelopersByTxn : [];
   const topDevs = devs.slice(0, 10);
 
-  // Narrative (HTML) from payload.narratives only (Option A)
   const narrativeHtml =
     narratives?.page11_registrations_developers?.narrative || "";
 
@@ -35,7 +32,6 @@ const RegistrationOverview = () => {
     <section className="space-y-4">
       <h2 className="sy-section-title text-foreground">Registrations & Developers</h2>
 
-      {/* Narrative block (below title, above content) */}
       {narrativeHtml ? (
         <div
           className="rounded-xl bg-card p-5 sy-card-shadow text-sm text-muted-foreground

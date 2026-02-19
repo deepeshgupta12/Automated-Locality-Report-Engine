@@ -10,10 +10,14 @@ const sections = [
   { id: "liveability", label: "Liveability", icon: Heart },
   { id: "highlights", label: "Highlights", icon: CheckCircle2 },
   { id: "market", label: "Market", icon: ShoppingCart },
-  { id: "nearby", label: "Nearby", icon: MapPin },
-  { id: "demand-supply", label: "Demand/Supply", icon: ArrowLeftRight },
+
+  // NEW ORDER:
   { id: "property-rates", label: "Rates", icon: Building },
   { id: "top-projects", label: "Projects", icon: Trophy },
+
+  { id: "nearby", label: "Nearby", icon: MapPin },
+  { id: "demand-supply", label: "Demand/Supply", icon: ArrowLeftRight },
+
   { id: "registration", label: "Registration", icon: FileCheck },
   { id: "reviews", label: "Reviews", icon: Star },
 ];
@@ -54,7 +58,6 @@ const ReportNav = () => {
 
   return (
     <>
-      {/* Desktop sidebar nav */}
       <nav className="hidden lg:block fixed left-0 top-0 h-screen w-52 bg-card border-r border-border z-40 overflow-y-auto">
         <div className="p-4 border-b border-border">
           <div className="sy-gradient rounded-lg px-3 py-2">
@@ -79,7 +82,6 @@ const ReportNav = () => {
         </div>
       </nav>
 
-      {/* Mobile top bar */}
       <nav className="lg:hidden fixed top-0 left-0 right-0 z-40 bg-card/95 backdrop-blur-md border-b border-border">
         <div className="flex items-center justify-between px-4 h-12">
           <div className="sy-gradient rounded-md px-2.5 py-1">
@@ -93,7 +95,6 @@ const ReportNav = () => {
           </button>
         </div>
 
-        {/* Horizontal scroll nav (always visible) */}
         <div className="flex overflow-x-auto gap-1 px-3 pb-2 scrollbar-hide">
           {sections.map(({ id, label, icon: Icon }) => (
             <button
@@ -111,7 +112,6 @@ const ReportNav = () => {
           ))}
         </div>
 
-        {/* Full menu dropdown */}
         {mobileOpen && (
           <div className="absolute top-full left-0 right-0 bg-card border-b border-border shadow-lg py-2 px-3 grid grid-cols-2 gap-1 max-h-[60vh] overflow-y-auto">
             {sections.map(({ id, label, icon: Icon }) => (

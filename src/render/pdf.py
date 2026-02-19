@@ -354,12 +354,19 @@ def render_pdf(payload: Dict[str, Any], out_pdf: Path) -> None:
         (2, "page2_exec_snapshot", _render_page2_exec),
         (3, "page3_liveability", _render_page3_liveability),
         (4, "page4_market_snapshot", _render_page4_market),
-        (5, "page5_price_trend", _render_page5_trend),
-        (6, "page6_nearby_comparison", _render_page6_nearby),
-        (7, "page7_demand_supply_sale", lambda cc, pp, px, pn: _render_page7_ds(cc, pp, px, pn, "sale")),
-        (8, "page8_demand_supply_rent", lambda cc, pp, px, pn: _render_page7_ds(cc, pp, px, pn, "rent")),
-        (9, "page9_propertytype_status", _render_page9_type_status),
-        (10, "page10_top_projects", _render_page10_projects),
+
+        # Re-ordered blocks:
+        (5, "page9_propertytype_status", _render_page9_type_status),
+        (6, "page10_top_projects", _render_page10_projects),
+        (7, "page6_nearby_comparison", _render_page6_nearby),
+
+        # Demand supply after nearby
+        (8, "page7_demand_supply_sale", lambda cc, pp, px, pn: _render_page7_ds(cc, pp, px, pn, "sale")),
+        (9, "page8_demand_supply_rent", lambda cc, pp, px, pn: _render_page7_ds(cc, pp, px, pn, "rent")),
+
+        # Keep price trend later if you want, or move earlier. I’m keeping it after DS:
+        (10, "page5_price_trend", _render_page5_trend),
+
         (11, "page11_registrations_developers", _render_page11_regs_devs),
         (12, "page12_reviews_conclusion", _render_page12_reviews),
     ]:
@@ -460,6 +467,7 @@ def _render_page3_liveability(c: canvas.Canvas, payload: Dict[str, Any], p3: Dic
 
     loc = d.get("localityOverviewData", {}) or {}
     indices = d.get("indices", {}) or {}
+    landmarks = d.get("landmarks") or {}
 
     c.setFont(FONT_BODY, 11)
     c.setFillColor(colors.HexColor("#111827"))
@@ -493,15 +501,70 @@ def _render_page3_liveability(c: canvas.Canvas, payload: Dict[str, Any], p3: Dic
         c.setFont(FONT_BOLD, 24)
         c.drawString(cx + 12, cy + 22, f"{score if score is not None else 'NA'} / 5")
 
-    live = _get_narrative(payload, "page3_liveability", "liveability_summary") or _get_narrative(
-        payload, "page3_liveability", "summary"
-    )
+    # Narrative
+    live = _get_narrative(payload, "page3_liveability", "summary")
     c.setFont(FONT_BOLD, 12)
-    c.drawString(M, 330, "What living here feels like")
+    c.drawString(M, 360, "Summary")
     if live:
-        _draw_paragraph(c, M, 310, PAGE_W - 2 * M, _strip_html_to_text(live), 10, 14, max_lines=9)
+        _draw_paragraph(c, M, 342, PAGE_W - 2 * M, _strip_html_to_text(live), 10, 14, max_lines=6)
     else:
-        _draw_paragraph(c, M, 310, PAGE_W - 2 * M, "Liveability narrative is not available for this report.", 10, 14)
+        _draw_paragraph(c, M, 342, PAGE_W - 2 * M, "Liveability summary is not available for this report.", 10, 14)
+
+    # Landmarks block (3 per category if available)
+    def _pick3(obj: Any) -> List[str]:
+        if isinstance(obj, list):
+            out = []
+            for it in obj:
+                if isinstance(it, str) and it.strip():
+                    out.append(it.strip())
+                elif isinstance(it, dict):
+                    name = it.get("name") or it.get("Name") or it.get("title") or it.get("label")
+                    if isinstance(name, str) and name.strip():
+                        out.append(name.strip())
+                if len(out) == 3:
+                    break
+            return out
+        return []
+
+    def _get_landmarks_for(keys: List[str]) -> List[str]:
+        if not isinstance(landmarks, dict):
+            return []
+        for k in keys:
+            if k in landmarks:
+                items = _pick3(landmarks.get(k))
+                if items:
+                    return items
+        return []
+
+    lm_connect = _get_landmarks_for(["connectivity", "transport", "transportation", "transit"])
+    lm_life = _get_landmarks_for(["lifestyle", "shopping", "dailyNeeds", "markets", "malls"])
+    lm_edu = _get_landmarks_for(["educationhealth", "education_health", "education", "health", "schools", "hospitals", "colleges"])
+    lm_live = _get_landmarks_for(["livability", "parks", "green", "environment"])
+
+    c.setFont(FONT_BOLD, 12)
+    c.setFillColor(colors.HexColor("#111827"))
+    c.drawString(M, 250, "Key Landmarks (Top 3)")
+
+    start_y = 232
+    col_w = (PAGE_W - 2 * M - 30) / 2
+
+    def draw_lm_block(x: float, y: float, title: str, items: List[str]) -> float:
+        c.setFont(FONT_BOLD, 10)
+        c.setFillColor(colors.HexColor("#111827"))
+        c.drawString(x, y, title)
+        if items:
+            return _draw_bullets(c, x, y - 14, col_w, items, font_size=9, leading=12, max_items=3)
+        c.setFont(FONT_BODY, 9)
+        c.setFillColor(colors.HexColor("#6B7280"))
+        c.drawString(x, y - 14, "Not available")
+        return y - 28
+
+    y_left = draw_lm_block(M, start_y, "Connectivity", lm_connect)
+    y_right = draw_lm_block(M + col_w + 30, start_y, "Lifestyle", lm_life)
+
+    y2 = min(y_left, y_right) - 10
+    y_left2 = draw_lm_block(M, y2, "Education & Health", lm_edu)
+    y_right2 = draw_lm_block(M + col_w + 30, y2, "Livability", lm_live)
 
     _draw_footer(c, "Indices are computed from nearby POIs and connectivity signals.")
 
@@ -582,6 +645,19 @@ def _render_page7_ds(c: canvas.Canvas, payload: Dict[str, Any], pX: Dict[str, An
     title = f"Demand vs Supply ({'Buy' if mode == 'sale' else 'Rent'}) Segmentation"
     _draw_header(c, title, page_no)
 
+    # Narrative from Step-5
+    narrative_key = "page7_demand_supply_sale" if mode == "sale" else "page8_demand_supply_rent"
+    narrative = _get_narrative(payload, narrative_key, "narrative")
+
+    if narrative:
+        c.setFont(FONT_BOLD, 11)
+        c.setFillColor(colors.HexColor("#111827"))
+        c.drawString(M, PAGE_H - M - 52, "Summary")
+        _draw_paragraph(c, M, PAGE_H - M - 70, PAGE_W - 2 * M, _strip_html_to_text(narrative), 10, 14, max_lines=3)
+        top_y = PAGE_H - M - 120
+    else:
+        top_y = PAGE_H - M - 80
+
     charts = (payload.get("charts", {}) or {})
     unit = charts.get(f"p{page_no}_ds_unit")
     ptype = charts.get(f"p{page_no}_ds_ptype")
@@ -589,12 +665,12 @@ def _render_page7_ds(c: canvas.Canvas, payload: Dict[str, Any], pX: Dict[str, An
 
     c.setFont(FONT_BOLD, 11)
     c.setFillColor(colors.HexColor("#111827"))
-    c.drawString(M, PAGE_H - M - 50, "By Unit Type")
-    _draw_image_box(c, M, PAGE_H - 300, PAGE_W - 2 * M, 220, unit)
+    c.drawString(M, top_y, "By Unit Type")
+    _draw_image_box(c, M, top_y - 250, PAGE_W - 2 * M, 220, unit)
 
     c.setFont(FONT_BOLD, 11)
-    c.drawString(M, PAGE_H - 330, "By Property Type")
-    _draw_image_box(c, M, PAGE_H - 580, PAGE_W - 2 * M, 220, ptype)
+    c.drawString(M, top_y - 280, "By Property Type")
+    _draw_image_box(c, M, top_y - 530, PAGE_W - 2 * M, 220, ptype)
 
     c.setFont(FONT_BOLD, 11)
     c.drawString(M, 230, "By Price Band")
@@ -609,10 +685,19 @@ def _render_page9_type_status(c: canvas.Canvas, payload: Dict[str, Any], p9: Dic
     pt = charts.get("p9_property_types")
     st = charts.get("p9_property_status")
 
+    narrative = _get_narrative(payload, "page9_propertytype_status", "narrative")
+
     c.setFont(FONT_BOLD, 12)
     c.setFillColor(colors.HexColor("#111827"))
     c.drawString(M, PAGE_H - M - 50, "Rates by Property Type")
     _draw_image_box(c, M, PAGE_H - 380, PAGE_W - 2 * M, 300, pt)
+
+    c.setFont(FONT_BOLD, 11)
+    c.drawString(M, 440, "Summary")
+    if narrative:
+        _draw_paragraph(c, M, 422, PAGE_W - 2 * M, _strip_html_to_text(narrative), 10, 14, max_lines=3)
+    else:
+        _draw_paragraph(c, M, 422, PAGE_W - 2 * M, "Narrative not available for this section.", 10, 14, max_lines=2)
 
     c.setFont(FONT_BOLD, 12)
     c.drawString(M, 320, "Rates by Project Status")
@@ -698,6 +783,7 @@ def _render_page11_regs_devs(c: canvas.Canvas, payload: Dict[str, Any], p11: Dic
 
     d = p11.get("data", {}) or {}
     g1 = d.get("govtRegistration_json1", {}) or {}
+    recent_txns = d.get("recentTransactions") or []
 
     txn = g1.get("transactionCount")
     gross = g1.get("grossValue")
@@ -720,18 +806,55 @@ def _render_page11_regs_devs(c: canvas.Canvas, payload: Dict[str, Any], p11: Dic
 
     c.setFont(FONT_BOLD, 12)
     c.drawString(M, PAGE_H - 160, "Top Developers by Transactions")
-    _draw_image_box(c, M, 300, PAGE_W - 2 * M, 280, dev_txn)
+    _draw_image_box(c, M, 360, PAGE_W - 2 * M, 220, dev_txn)
 
-    bullets = _get_narrative_list(payload, "page11_registrations_developers", "bullets")
     narrative = _get_narrative(payload, "page11_registrations_developers", "narrative")
+    recent_summary = _get_narrative(payload, "page11_registrations_developers", "recent_transactions_summary")
+
     c.setFont(FONT_BOLD, 12)
-    c.drawString(M, 270, "Interpretation")
-    if bullets:
-        _draw_bullets(c, M, 252, PAGE_W - 2 * M, bullets, font_size=10, leading=14, max_items=5)
-    elif narrative:
-        _draw_paragraph(c, M, 252, PAGE_W - 2 * M, _strip_html_to_text(narrative), 10, 14, max_lines=6)
+    c.drawString(M, 335, "Interpretation")
+    if narrative:
+        _draw_paragraph(c, M, 317, PAGE_W - 2 * M, _strip_html_to_text(narrative), 10, 14, max_lines=3)
+        y_cursor = 270
     else:
-        _draw_paragraph(c, M, 252, PAGE_W - 2 * M, "Interpretation narrative is not available for this report.", 10, 14, max_lines=6)
+        _draw_paragraph(c, M, 317, PAGE_W - 2 * M, "Interpretation narrative is not available for this report.", 10, 14, max_lines=2)
+        y_cursor = 280
+
+    # Recent Transactions block (dedicated)
+    c.setFont(FONT_BOLD, 12)
+    c.setFillColor(colors.HexColor("#111827"))
+    c.drawString(M, y_cursor, "Recent Transactions")
+    y_cursor -= 14
+
+    if recent_summary:
+        y_cursor = _draw_paragraph(c, M, y_cursor, PAGE_W - 2 * M, _strip_html_to_text(recent_summary), 9, 12, max_lines=2) - 4
+
+    # Render a table (top N rows)
+    if isinstance(recent_txns, list) and recent_txns:
+        table_w = PAGE_W - 2 * M
+        spec = TableSpec(
+            headers=["#", "Project/Building", "Type", "Area", "Rate", "Date"],
+            col_widths=[24, 230, 70, 60, 70, table_w - (24 + 230 + 70 + 60 + 70)],
+            row_h=16,
+            font_size=8,
+        )
+
+        rows = []
+        for i, r in enumerate(recent_txns[:10]):
+            if not isinstance(r, dict):
+                continue
+            name = r.get("projectName") or r.get("buildingName") or r.get("Project") or r.get("Name") or "—"
+            typ = r.get("assetType") or r.get("type") or "—"
+            area = r.get("area") or r.get("Area") or "—"
+            rate = r.get("rate") or r.get("registeredRate") or r.get("Rate") or "—"
+            dt = r.get("date") or r.get("registeredDate") or r.get("Date") or "—"
+            rows.append([str(i + 1), _s(name), _s(typ), _s(area), _s(rate), _s(dt)])
+
+        _draw_table(c, M, y_cursor, table_w, rows, spec, max_rows=10)
+    else:
+        c.setFont(FONT_BODY, 9)
+        c.setFillColor(colors.HexColor("#6B7280"))
+        c.drawString(M, y_cursor - 6, "Recent transactions data not available in the current source feed.")
 
     _draw_footer(c, "Registrations are government-recorded; marketplace listings are separate supply signals.")
 

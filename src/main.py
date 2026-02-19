@@ -56,6 +56,7 @@ def build_report_payload(sources: Dict[str, Any]) -> Dict[str, Any]:
                 "rentalStats": j1.get("rentalStats"),
                 "recentTransactions": j1.get("recentTransactions"),
                 "indices": j1.get("indices"),
+                "landmarks": j1.get("landmarks"),
                 "ratingReview": j1.get("ratingReview"),
             },
             "json2_rates": {
@@ -104,6 +105,7 @@ def build_report_payload(sources: Dict[str, Any]) -> Dict[str, Any]:
             "data": {
                 "localityOverviewData": j1.get("localityOverviewData"),
                 "indices": j1.get("indices"),
+                "landmarks": j1.get("landmarks"),
             },
             "narrative_inputs": {},
         },
@@ -119,9 +121,20 @@ def build_report_payload(sources: Dict[str, Any]) -> Dict[str, Any]:
 
         "page5_price_trend": {"data": {"priceTrend": j2.get("priceTrend")}, "narrative_inputs": {}},
         "page6_nearby_comparison": {"data": {"locationRates": j2.get("locationRates")}, "narrative_inputs": {}},
-        "page7_demand_supply_sale": {"data": {"sale": (j1.get("demandSupply") or {}).get("sale")}, "computed": {}, "narrative_inputs": {}},
-        "page8_demand_supply_rent": {"data": {"rent": (j1.get("demandSupply") or {}).get("rent")}, "computed": {}, "narrative_inputs": {}},
-        "page9_propertytype_status": {"data": {"propertyTypes": j2.get("propertyTypes"), "propertyStatus": j2.get("propertyStatus")}, "narrative_inputs": {}},
+        "page7_demand_supply_sale": {
+            "data": {"sale": (j1.get("demandSupply") or {}).get("sale")},
+            "computed": {},
+            "narrative_inputs": {},
+        },
+        "page8_demand_supply_rent": {
+            "data": {"rent": (j1.get("demandSupply") or {}).get("rent")},
+            "computed": {},
+            "narrative_inputs": {},
+        },
+        "page9_propertytype_status": {
+            "data": {"propertyTypes": j2.get("propertyTypes"), "propertyStatus": j2.get("propertyStatus")},
+            "narrative_inputs": {},
+        },
         "page10_top_projects": {"data": {"topProjects": j2.get("topProjects")}, "narrative_inputs": {}},
         "page11_registrations_developers": {
             "data": {
@@ -156,8 +169,8 @@ def build_report_payload(sources: Dict[str, Any]) -> Dict[str, Any]:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--json1", required=True, help="Path to Andheri East Locality.json")
-    ap.add_argument("--json2", required=True, help="Path to Andheri East Property Rates.json")
+    ap.add_argument("--json1", required=True, help="Path to Locality.json")
+    ap.add_argument("--json2", required=True, help="Path to Property Rates.json")
     ap.add_argument("--out", default="out", help="Output folder")
     args = ap.parse_args()
 

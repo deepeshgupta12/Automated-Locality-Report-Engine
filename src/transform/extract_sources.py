@@ -76,6 +76,9 @@ def extract_sources(json1: Dict[str, Any], json2: Dict[str, Any]) -> Dict[str, A
     demandSupply = _get(j1, "demandSupply")
     indices = _get(j1, "indices")
 
+    # NEW: landmarks (used in Liveability Indices section)
+    landmarks = _get(j1, "landmarks")
+
     # insightsData contains govtRegistration/marketSupply/rentalStats/recentTransactions/nearByLocations/priceTrend
     insightsData = _get(j1, "insightsData") or {}
     govtRegistration_1 = _get(insightsData, "govtRegistration")
@@ -109,6 +112,7 @@ def extract_sources(json1: Dict[str, Any], json2: Dict[str, Any]) -> Dict[str, A
             "rentalStats": rentalStats,
             "recentTransactions": recentTransactions,
             "indices": indices,
+            "landmarks": landmarks,
             "ratingReview": ratingReview,
         },
         "json2_rates": {
